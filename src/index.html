@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+            .container > div {
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+            }
+            .nav {
+                cursor: pointer;
+            }
+            .container > div > div:hover,.nav:hover,.choice {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+<body>
+    <div id="root"></div>
+</body>
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+    const NavBar = ({nav, goNav, goHome}) => {
+        return (
+        <nav>
+            <span onClick={goHome} className="nav">/ 0 </span>
+            {nav.map((data, index) => 
+                <span onClick={goNav} key={data} data-index={data} data-depth={index} className="nav">/ {index+1} </span>
+            )}
+        </nav>
+        );
+    }
+
+    const SubList = ({rowList, upDepth, depth, clickSub}) => {
+        const subList = rowList.filter(row => row.depth === Number(depth) && row.upDepth === Number(upDepth));
+        const target = rowList.filter(row => row.index === Number(upDepth));
+        return (
+            <div>
+                {subList.length !== 0 ? subList.map(row => 
+                    <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub}>{row.content}</div>
+                ) : upDepth ? (
+                        <div>{target[0].content}</div>
+                    ) : null}
+            </div>
+            )
+    }
+
+    const MainList = ({rowList, clickMain, nav}) => {
+        const mainList = rowList.filter(row => row.depth === 0);
+        const choice = nav.length > 0 ? nav[0] : -1;
+        return(
+            <div>
+                {mainList.map(row => 
+                    <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{row.content}</div>
+                )}
+            </div>
+        );
+    }
+
+    const App = () => {
+        const [rowList, setRowList] = React.useState([]);
+        const [nav, setNav] = React.useState([]);
+
+        const goHome = () => {
+            setNav([]);
+        }
+
+        const goNav = (event) => {
+            const index = Number(event.target.dataset.index);
+            const depth = Number(event.target.dataset.depth);
+            const newNav = nav.slice(0,depth);
+            setNav([...newNav,index]);
+        }
+
+        const clickMain = (event) => {
+            const index = event.target.id;
+            setNav([index]);
+        }
+
+        const clickSub = (event) => {
+            const index = Number(event.target.id);
+            const depth = Number(event.target.dataset.depth);
+            const newNav = nav.slice(0,depth);
+            setNav([...newNav,index]);
+        }
+
+        function addUpDepth(list, upList){
+            for(let i = 0;i<upList.length; i++){
+                if(i>0){
+                    list.map(row => row.index < upList[i].index && row.index > upList[i-1].index ? row.upDepth = upList[i-1].index : row.upDepth)
+                }
+                if(i === upList.length - 1){
+                    list.map(row => row.index > upList[i].index ? row.upDepth = upList[i].index : row.upDepth)
+                }
+            }
+            return list;
+        }
+
+        React.useEffect( async () => {
+                const data = await (await fetch('https://url.kr/gq7l2z')).json();
+                const oldRowList = data.text.text.split("\n");
+                const rowList = oldRowList.map((rowText, index) => {
+                    let depth = 0;
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    if(rowText.includes("\t")){
+                        rowText = rowText.replace("\t","");
+                        depth++;
+                    }
+                    const row = {
+                        index,
+                        upDepth:null,
+                        depth,
+                        content:rowText.trim()
+                    }
+                    return row;
+                });
+                let depth0List = rowList.filter(data => data.depth === 0);
+                let depth1List = rowList.filter(data => data.depth === 1);
+                let depth2List = rowList.filter(data => data.depth === 2);
+                let depth3List = rowList.filter(data => data.depth === 3);
+                let depth4List = rowList.filter(data => data.depth === 4);
+                let depth5List = rowList.filter(data => data.depth === 5);
+                let depth6List = rowList.filter(data => data.depth === 6);
+                let depth7List = rowList.filter(data => data.depth === 7);
+                let depth8List = rowList.filter(data => data.depth === 8);
+                let depth9List = rowList.filter(data => data.depth === 9);
+                depth1List = addUpDepth(depth1List, depth0List);
+                depth2List = addUpDepth(depth2List, depth1List);
+                depth3List = addUpDepth(depth3List, depth2List);
+                depth4List = addUpDepth(depth4List, depth3List);
+                depth5List = addUpDepth(depth5List, depth4List);
+                depth6List = addUpDepth(depth6List, depth5List);
+                depth7List = addUpDepth(depth7List, depth6List);
+                depth8List = addUpDepth(depth8List, depth7List);
+                depth9List = addUpDepth(depth9List, depth8List);
+                setRowList([...depth0List, ...depth1List, ...depth2List, ...depth3List, ...depth4List, ...depth5List, ...depth6List, ...depth7List, ...depth8List, ...depth9List]);
+            },[]);
+        return (
+        <div>
+        <NavBar nav={nav} goNav={goNav} goHome={goHome} />
+            <div className="container">
+                <MainList clickMain={clickMain} rowList={rowList} nav={nav}/>
+                <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub}/>
+            </div>
+        </div>
+        );
+    }
+    const root = document.getElementById('root');
+    ReactDOM.render(<App />, root);
+</script>
+</html>

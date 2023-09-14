@@ -1,0 +1,3887 @@
+셀프 — 명령어: t self
+	움직임
+		공중 부양
+			공중 부양 — 명령어: levitate [on/off]
+			움직임 속도 (0.01 에(서) 10000.00) — 명령어: levitatespeed [0.01 에(서) 10000.00]
+			빠른 자유 시점 (0.01 에(서) 10000.00) — 빠른 자유 시점 키: [Space] — 명령어: levitatesprintmultiplier [0.01 에(서) 10000.00]
+			움직임이 높이 차이를 무시함 — 보는 시점에 따라 높이에 영향을 미치는 전방이나 후방의 이동을 비활성화합니다. — 명령어: levitateignorepitch [on/off]
+			버튼 사용 설명서 표시 — 명령어: levitatebuttoninstructions [on/off]
+			지상에서의 거리: 최소 (-10000.00 에(서) 10000.00) — 명령어: levitatepassivemin [-10000.00 에(서) 10000.00]
+			지상에서의 거리: 최대 (-10000.00 에(서) 10000.00) — 명령어: levitatepassivemax [-10000.00 에(서) 10000.00]
+			속도 (0 에(서) 1000000) — 명령어: levitatepassivespeed [0 에(서) 1000000]
+			업워드 포스 (0.00 에(서) 10000.00) — 명령어: levitateassistup [0.00 에(서) 10000.00]
+			다운워드 포스 (0.00 에(서) 10000.00) — 명령어: levitateassistdown [0.00 에(서) 10000.00]
+			다운워드 데드존 (0 에(서) 100000) — 조수석의 플레이어가 자신을 끌어내리려 하기 전에 자신이 얼마나 땅으로부터 떨어져야 하는지를 뜻합니다. — 명령어: levitateassistdeadzone [0 에(서) 100000]
+			스냅핑 (0.00 에(서) 10000.00) — 명령어: levitateassistsnap [0.00 에(서) 10000.00]
+		달리기 속도 (-10000.00 에(서) 10000.00) — 명령어: walkspeed [-10000.00 에(서) 10000.00]
+		마찰 증가 — 빠른 속도의 걷기/달리기 상태일 때 미끄러움을 줄여주니다. — 명령어: friction [on/off]
+		우아한 착지 — 명령어: gracefullanding [on/off]
+		슈퍼 점프 — 명령어: superjump [on/off]
+		슈퍼 플라이트
+			슈퍼 플라이트 (-10000.00 에(서) 10000.00) — 명령어: superflight [-10000.00 에(서) 10000.00]
+			버튼 설명서: 슈퍼 점프 - 비행 (켜기/끄기)
+			버튼 설명서: 컨트롤 (켜기/끄기)
+		물 속 걷기  — 명령어: walkunderwater [on/off]
+		수영 속도 (-10000.00 에(서) 10000.00) — 명령어: swimspeed [-10000.00 에(서) 10000.00]
+		슈퍼 런 (-10000.00 에(서) 10000.00) — 명령어: superrun [-10000.00 에(서) 10000.00]
+		무기 자유롭게 사용 — 실내에서 전력 질주, 은신, 점프할 수 있게 해줍니다. — 명령어: movefreedom [on/off]
+		하늘 걷기 — 명령어: walkonair [on/off]
+		공중 수영 — 명령어: swiminair [on/off]
+		음주 모드 — 명령어: drunkmode [on/off]
+		테니스 모드 — 명령어: tennismode [on/off]
+		플로피 모드
+			플로피 모드 — 명령어: floppy [on/off]
+			움직임 속도 (0.01 에(서) 10000.00) — 명령어: floppyspeed [0.01 에(서) 10000.00]
+			빠른 자유 시점 (0.01 에(서) 5.00) — 빠른 자유 시점 키: [Space] — 명령어: floppysprint [0.01 에(서) 5.00]
+			버튼 사용 설명서 표시 — 명령어: floppyinstructions [on/off]
+			우선 연동 — 속도를 늘리고 연동을 확실시 하기 위해서 속도 올림, 내림 및 전력 질주를 비활성화합니다 — 명령어: floppysynch [on/off]
+		충돌 감소 — 차량 및 벽을 통과할 수 있습니다. — 명령어: reducedcollision [on/off]
+		충돌 없음 — 명령어: nocollision [on/off]
+		얼리기 (켜기/끄기)
+	외모
+		모델 변경
+			검색 — 모델의 이름으로 변신할 모델을 검색할 수 있습니다. — 명령어: findmodel [관련된 단어]
+			플레이할 수 있는 캐릭터
+				<5 개의 옵션>
+			지상 동물
+				<31 개의 옵션>
+			해양 동물
+				<7 개의 옵션>
+			조류
+				<5 개의 옵션>
+			NPC
+				<981 개의 옵션>
+		아웃핏 수정/변경 — 명령어: outfit
+			의상 목록 — 명령어: wardrobe
+				아웃핏 저장
+					아웃핏 저장 — 명령어: saveoutfit [이름]
+					<41 개 외의 더 많은 옵션>
+				아웃핏 조합
+					현재 모델: 기본 — 현재 모델의 락스타 기본 아웃핏으로 변경하였습니다. — 명령어: defaultoutfit
+					현재 모델: 랜덤 — 명령어: randomoutfit
+					온라인 여성 모델: 상반신 노출 — 명령어: toplessfemale
+					온라인 남성 모델: 경찰 — 명령어: copmale
+					온라인 여성 모델: 경찰 — 명령어: copfemale
+				폴더 열기
+			아웃핏 제한 비활성화 — 더플 백 등의 아웃핏을 저장할 수 있도록 해줍니다. — 명령어: nooutfitrestrictions [on/off]
+			차량 내부에서 머리카락 스케일링 비활성화 — 명령어: nohairscaling [on/off]
+			아웃핏 잠금 — 카지노 습격과 다른 미션 등에서 Stand를 제외하고는 의상 변경을 할 수 없게 합니다. — 명령어: lockoutfit [on/off]
+			<36 개 외의 더 많은 옵션>
+		애니메이션
+			취소 — 명령어: cancelanim
+			시나리오 — 명령어: scenarios
+				<34 개의 옵션>
+			애니메이션 — 명령어: animations
+				댄스 — 명령어: dances
+					<20 개의 옵션>
+				<78 개 외의 더 많은 옵션>
+			움직임 허용 (켜기/끄기) — 애니메이션이 진행 중임에도 움직일 수 있게 해줍니다.
+			애니메이션 반복 (켜기/끄기) — 시나리오에 적용되지 않습니다.
+			자동 취소 (켜기/끄기) — 움직이려고 할 시 현재 진행 중인 애니메이션을 자동으로 취소시킵니다.
+		PTFX 자국
+			입자 효과
+				<503 개의 옵션>
+			채팅 쿨타임 (ms) (0 에(서) 1000) — 명령어: trailinterval [0 에(서) 1000]
+			크기 (0.10 에(서) 10.00) — 명령어: trailscale [0.10 에(서) 10.00]
+			수평 오프셋 (-10.00 에(서) 10.00) — 명령어: trailoffset [-10.00 에(서) 10.00]
+			머리 (켜기/끄기)
+			목 (켜기/끄기)
+			오른쪽 팔꿈치 (켜기/끄기)
+			왼쪽 팔꿈치 (켜기/끄기)
+			오른쪽 손 (켜기/끄기)
+			왼쪽 손 (켜기/끄기)
+			골반 (켜기/끄기)
+			오른쪽 종아리 (켜기/끄기)
+			왼쪽 종아리 (켜기/끄기)
+			오른쪽 발 (켜기/끄기)
+			왼쪽 발 (켜기/끄기)
+		걷기 스타일 — 명령어: walkstyle
+			<56 개의 옵션>
+		전투 중일 때도 걷기 스타일 유지 — 폭력이 자신의 근처에서 일어나도 캐릭터가 "전투 모드" 로 변경 되는 것을 항상 막습니다.  — 명령어: preservewalkstyle [on/off]
+		크기 (-10000.00 에(서) 10000.00) — 캐릭터의 높이, 너비 및 깊이를 변경합니다. (자신만 적용) — 명령어: scale [-10000.00 에(서) 10000.00]
+		캐릭터의 크기가 카메라 시점에 영향을 주는지 여부 — 명령어: scalecam [on/off]
+		크기가 속도에 영향을 주는지 — 명령어: scalespeed [on/off]
+		캐릭터 높이 수정 (-10000.00 에(서) 10000.00) — 캐릭터의 높이를 수정합니다. — 명령어: visualz [-10000.00 에(서) 10000.00]
+		피를 흘리지 않음 — 캐릭터가 피를 흘리지 않습니다. — 명령어: noblood [on/off]
+		젖음 (0 에(서) 1000) — 명령어: wetness [0 에(서) 1000]
+		젖음 상태 잠금 — 명령어: lockwetness [on/off]
+		투명 — 명령어: invisibility
+			비활성화 — 명령어: invisibility off
+			나에게만 보임 — 명령어: invisibility remote
+			활성화 — 명령어: invisibility on
+		죽음 효과
+			<503 개의 옵션>
+		리스폰 효과
+			<503 개의 옵션>
+	무기
+		무기 얻기 — 명령어: getgun
+			모든 무기 — 명령어: allguns — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			<8 개 외의 더 많은 옵션>
+		무기 제거 — 명령어: removeguns
+			모든 무기 — 명령어: noguns — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			<8 개 외의 더 많은 옵션>
+		총을 발사 할 때...
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			운전 — 명령어: drivegun [on/off]
+			부활 — 명령어: revivegun [on/off]
+			레그돌 (켜기/끄기)
+			삭제 — 명령어: deletegun [on/off]
+			AR 마커 (켜기/끄기)
+		조준할 때...
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			운전 (켜기/끄기)
+			부활 (켜기/끄기)
+			레그돌 (켜기/끄기)
+			삭제 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		중력 총
+			중력 총 — 명령어: gravitygun [on/off]
+			부자연스러운 중력 — 명령어: gravityguncontrivedphysics [on/off]
+			중력 강도 (0.01 에(서) 10.00) — 명령어: gravitygunforce [0.01 에(서) 10.00]
+			충돌 — 명령어: gravityguncollision [on/off]
+		차량 총
+			차량 총 — 자신의 총으로 차량을 쏠 수 있도록 만듭니다. — 명령어: vehiclegun [on/off]
+			차량
+				랜덤
+				슈퍼카
+					<55 개의 옵션>
+				서비스
+					<13 개의 옵션>
+				다목적
+					<44 개의 옵션>
+				헬리콥터
+					<29 개의 옵션>
+				오토바이
+					<58 개의 옵션>
+				비행기
+					<44 개의 옵션>
+				스포츠카
+					<104 개의 옵션>
+				긴급
+					<19 개의 옵션>
+				군용
+					<17 개의 옵션>
+				스포츠 클래식
+					<45 개의 옵션>
+				콤팩트
+					<18 개의 옵션>
+				세단
+					<38 개의 옵션>
+				SUV
+					<40 개의 옵션>
+				보트
+					<26 개의 옵션>
+				상업용
+					<21 개의 옵션>
+				오프로드
+					<65 개의 옵션>
+				밴
+					<39 개의 옵션>
+				머슬카
+					<85 개의 옵션>
+				자전거
+					<9 개의 옵션>
+				산업용
+					<11 개의 옵션>
+				기차
+					<9 개의 옵션>
+				쿠페
+					<17 개의 옵션>
+				오픈 휠
+					<4 개의 옵션>
+			속도 (20 에(서) 200) — 명령어: vehiclegunspeed [20 에(서) 200]
+			거리 (5 에(서) 100) — 명령어: vehiclegundist [5 에(서) 100]
+		무기 파츠 — 자신이 선택한 무기가 가지고 있는 파츠를 확인하고 수정할 수 있도록 해줍니다.
+		무기 잠금
+			무기 잠금 — 명령어: lockweapons [on/off]
+			로드 아웃 — 명령어: lockweaponpresets
+				로드 아웃 저장 — 명령어: lockweaponpresetssave [이름]
+			선택된 무기만 제거 — 선택된 무기만 제거되도록 "무기 잠금" 을 "블랙리스트 무기" 로 바꿉니다. — 명령어: invertlockweapons [on/off]
+			<8 개 외의 더 많은 옵션>
+		현재 무기: 틴트 — 명령어: weapontint
+		현재 무기: 틴트: 무지개 모드 (0 에(서) 1000) — 명령어: weapontintrainbow [0 에(서) 1000]
+		에임봇
+			에임봇 — 명령어: aimbot [on/off]
+			목표 선택
+				친구 제외 — 명령어: aimbotexcludefriends [on/off]
+				플레이어 — 명령어: aimbotplayers [on/off]
+				NPC — 명령어: aimbotpeds [on/off]
+				차량 — 명령어: aimbotvehicles [on/off]
+				거리 (0 에(서) 30000) — 명령어: aimbotrange [0 에(서) 30000]
+			상자 표시 — 명령어: aimbotbox [on/off]
+			재 조준 시간 (ms) (0 에(서) 10000) — 카메라가 움직인 뒤 얼마 동안 비활성화될지를 정합니다. — 명령어: aimbotlockout [0 에(서) 10000]
+			부드러움 (0 에(서) 1000) — 명령어: aimbotsmoothing [0 에(서) 1000]
+			시선 기반 선 확인 — 명령어: aimbotloscheck [on/off]
+			매직 총알 — 명령어: aimbotmagicbullets [on/off]
+			뼈 목표 — 명령어: aimbotbone
+				머리
+				목
+				오른쪽 팔꿈치
+				왼쪽 팔꿈치
+				오른쪽 손
+				왼쪽 손
+				골반
+				오른쪽 종아리
+				왼쪽 종아리
+				오른쪽 발
+				왼쪽 발
+		트리거 봇
+			트리거 봇 — 명령어: triggerbot [on/off]
+			매직 총알 — 트리거 봇이 항상 빗나가지 않도록 만듭니다. — 명령어: magicbullets [on/off]
+			친구 제외 — 명령어: triggerbotexcludefriends [on/off]
+			플레이어 — 명령어: triggerbotplayers [on/off]
+			NPC — 명령어: triggerbotpeds [on/off]
+			차량 — 명령어: triggerbotvehicles [on/off]
+			거리 (0 에(서) 30000) — 명령어: triggerbotrange [0 에(서) 30000]
+		근접 로켓
+			근접 로켓 — 근접 로켓은 오직 다른 플레이어에게만 작동합니다. — 명령어: proxyrockets [on/off]
+			범위 (0.50 에(서) 5.00) — 명령어: proxyrange [0.50 에(서) 5.00]
+		모든 탄약 채우기 — 명령어: fillammo
+		모든 탄약 지우기 — 명령어: removeammo
+		탄약 무제한 — 명령어: bottomless [on/off]
+		재장전 없음 — 명령어: noreload [on/off]
+		퍼짐 없음 — 명령어: nospread [on/off]
+		반동 없음 — 명령어: norecoil [on/off]
+		지연 시간 없음 — 적용 가능한 총이면 발사 전 지연 시간을 없앱니다. — 명령어: nospooling [on/off]
+		빠른 무기 발사 — 명령어: rapidfire [on/off]
+		빠른 차량 무기 발사 — 명령어: vehiclerapidfire [on/off]
+		데미지 수정 (0.00 에(서) 10000.00) — 주먹과 총으로 줄 데미지가 증가하거나 하락하는 값을 지정합니다. — 명령어: damagemultiplier [0.00 에(서) 10000.00]
+		범위 수정 (0.00 에(서) 1.50) — 명령어: rangemultiplier [0.00 에(서) 1.50]
+		로켓 속도 증가 (0.00 에(서) 30.00) — 명령어: rocketspeedmultiplier [0.00 에(서) 30.00]
+		즉시 락온 — 명령어: instantlockon [on/off]
+		즉시 근접 폭탄 폭파 — 명령어: instantproxy [on/off]
+		폭발 적용 — 명령어: explosivehits [on/off]
+		폭발 종류 — 무기 발사 시 폭발시킬 폭발의 종류를 선택합니다. — 명령어: exptype
+			<84 개의 옵션>
+		폭발 효과 — 명령어: impactparticles [on/off]
+		입자 효과 — 폭발 효과를 위한 파티클 종류를 선택할 수 있게 해줍니다.
+			<502 개의 옵션>
+		무기 자유롭게 사용 — 건물 내부와 패시브 모드에서도 무기 사용이 가능합니다. — 명령어: gunfreedom [on/off]
+		증가한 점착 폭탄 개수 제한 (켜기/끄기) — 이 기능은 월드에 부착할 수 있는 양이 증가한다는 것을 뜻하는 것이며, 자신의 인벤토리에 저장 가능한 양이 증가한다는 것을 뜻하는 것이 아닙니다.
+		증가한 플레어 개수 제한 (켜기/끄기) — 이 기능은 월드에 부착할 수 있는 양이 증가한다는 것을 뜻하는 것이며, 자신의 인벤토리에 저장 가능한 양이 증가한다는 것을 뜻하는 것이 아닙니다.
+		순간 이동 총 — 명령어: tpgun [on/off]
+		레이저 사이트 — 명령어: lasersights [on/off]
+	보디 가드
+		소환
+			소환 — 명령어: spawnbodyguards
+			수 (1 에(서) 7) — 명령어: bodyguardcount [1 에(서) 7]
+			모델 — 명령어: bodyguardmodel
+				플레이할 수 있는 캐릭터
+					<6 개의 옵션>
+				지상 동물
+					<31 개의 옵션>
+				해양 동물
+					<7 개의 옵션>
+				조류
+					<5 개의 옵션>
+				NPC
+					<981 개의 옵션>
+			주요 무기 — 보디 가드는 가능하다면 주요 무기를 사용하겠지만, 불가능하다면 보조 무기를 사용하려고 노력할 것입니다. — 명령어: bodyguardprimary
+				근접 무기
+					<19 개의 옵션>
+				피스톨
+					<21 개의 옵션>
+				머신건
+					<13 개의 옵션>
+				라이플
+					<13 개의 옵션>
+				샷건
+					<10 개의 옵션>
+				스나이퍼 라이플
+					<6 개의 옵션>
+				중화기
+					<10 개의 옵션>
+			보조 무기 — 보디 가드는 가능하다면 주요 무기를 사용하겠지만, 불가능하다면 보조 무기를 사용하려고 노력할 것입니다. — 명령어: bodyguardsecondary
+				근접 무기
+					<19 개의 옵션>
+				피스톨
+					<21 개의 옵션>
+				머신건
+					<13 개의 옵션>
+				라이플
+					<13 개의 옵션>
+				샷건
+					<10 개의 옵션>
+				스나이퍼 라이플
+					<6 개의 옵션>
+				중화기
+					<10 개의 옵션>
+		설정된 설정값 — 명령어: bodyguardpresets
+			설정 값 저장 — 명령어: bodyguardpresetssave [이름]
+		행동
+			대열 모양 — 명령어: bodyguardformation
+				N/A — 명령어: bodyguardformation none
+				선 — 명령어: bodyguardformation line
+				원 — 명령어: bodyguardformation circle
+				대안 원 — 명령어: bodyguardformation altcircle
+			공격 — 명령어: bodyguardaggression
+				친절함 — 자신과 다른 플레이어를 AI 공격자로부터 보호합니다. 플레이어들을 공격하지 않을 것입니다. — 명령어: bodyguardaggression friendly
+				방어 — 적대적인 목표로부터 자신을 보호합니다. — 명령어: bodyguardaggression defensive
+				높음/공격적 — 적대적인 목표로부터 자신을 보호하며, 보통 적대적인 목표를 발견하자마자 사로 잡습니다. — 명령어: bodyguardaggression aggressive
+			플레이어 제외 — 보디 가드가 이 종류의 플레이어들을 공격하는 것을 방지합니다. — 명령어: bodyguardsignoreplayers [on/off]
+			친구 제외 — 보디 가드가 이 종류의 플레이어들을 공격하는 것을 방지합니다. — 명령어: bodyguardsignorefriends [on/off]
+			높은 플레이어 제외 — 보디 가드가 이 종류의 플레이어들을 공격하는 것을 방지합니다. — 명령어: bodyguardsignoreauthorities [on/off]
+			조직 멤버 제외 — 보디 가드가 이 종류의 플레이어들을 공격하는 것을 방지합니다. — 명령어: bodyguardsignorecrewmembers [on/off]
+			조직 멤버 제외 — 보디 가드가 이 종류의 플레이어들을 공격하는 것을 방지합니다. — 명령어: bodyguardsignoreorganisationmembers [on/off]
+		무적 — 명령어: bodyguardimmortality [on/off]
+		자신에게 순간 이동 — 명령어: tpbodyguards
+		멀 때 순간 이동 — 명령어: bodyguardsteleportwhenfar [on/off]
+		모든 보디 가드 제거 — 명령어: delbodyguards
+	무적 — 캐릭터를 죽지 않게 만듭니다. — 명령어: godmode [on/off]
+	자동 체력 회복 — 자신 캐릭터의 방탄복과 체력을 최대로 유지합니다. — 명령어: demigodmode [on/off]
+	우아함 — 캐릭터를 넘어뜨릴 수 없게 만듭니다. — 명령어: grace [on/off]
+	안전 벨트 — 캐릭터가 오토바이에서 떨어질 수 없도록 설정합니다. — 명령어: seatbelt [on/off]
+	지명 수배 레벨 설정 (0 에(서) 5) — 명령어: wanted [0 에(서) 5] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+	지명 수배 레벨 잠금 — 명령어: lockwantedlevel [on/off]
+	가짜 지명 수배 레벨 (0 에(서) 6) — 오른쪽 위의 지명 수배 레벨을 가짜로 변경합니다. — 명령어: fakewantedlevel [0 에(서) 6]
+	기력 무제한  — 명령어: infstamina [on/off]
+	낙하산 잠금 — 명령어: paralock
+		비활성화 — 명령어: paralock off
+		착용 — 명령어: paralock full
+		착용 안함 — 명령어: paralock empty
+	투박함 — 캐릭터를 자주 넘어뜨립니다. — 명령어: clumsiness [on/off]
+	컴뱃 롤 쿨타임 없음 — 명령어: norollcooldown [on/off]
+	죽은 장소에 리스폰 — 명령어: respawnrecall [on/off]
+	리스폰 시간 (0.00 에(서) 5.00) — GTA 온라인에서 주어진 리스폰 시간을 변경합니다.  — 명령어: respawndelay [0.00 에(서) 5.00]
+	재 생성 비율 — 명령어: regenrate
+		체력 (0.00 에(서) 50.00) — 이 양을 조절해 초당 체력을 증가시키세요. — 명령어: healthrate [0.00 에(서) 50.00]
+		방탄복 (0.00 에(서) 50.00) — 이 양을 조절해 초당 방탄복을 증가시키세요. — 명령어: armourrate [0.00 에(서) 50.00]
+		겉에만 — 명령어: regenonlyincover [on/off]
+	체력 충전 — 명령어: refillhealth
+	방탄복 충전 — 명령어: refillarmour
+	자살 — 명령어: ewo
+차량 — 명령어: t vehicle
+	생성기 — 명령어: spawner
+		검색 — 명령어: findvehicle [관련된 단어]
+		DLC 목록
+			산 안드레아스 용병들
+				<17 개의 옵션>
+			마약 전쟁
+				<17 개의 옵션>
+			범죄 조직
+				<18 개의 옵션>
+			청부 계약
+				<17 개의 옵션>
+			LS 튜너
+				<18 개의 옵션>
+			카요 페리코 습격
+				<21 개의 옵션>
+			로스 산토스 여름 스페셜
+				<15 개의 옵션>
+			다이아몬드 습격 
+				<20 개의 옵션>
+			다이아몬드 카지노 & 리조트
+				<22 개의 옵션>
+			아레나 워
+				<46 개의 옵션>
+			심야 영업
+				<14 개의 옵션>
+			SA 슈퍼 스포츠 시리즈
+				<16 개의 옵션>
+			심판의 날 습격
+				<30 개의 옵션>
+			밀수 작전
+				<19 개의 옵션>
+			무기 밀매
+				<19 개의 옵션>
+			특수 차량 서킷
+				<4 개의 옵션>
+			반입/반출
+				<24 개의 옵션>
+			바이커
+				<21 개의 옵션>
+			교활한 스턴트
+				<15 개의 옵션>
+			부와 범죄의 심연
+				<14 개의 옵션>
+			로우라이더: 커스텀 스페셜
+				<7 개의 옵션>
+			마이 발렌타인
+				<1 개의 옵션>
+			2016년 1월 업데이트
+				<2 개의 옵션>
+			페스티벌 서프라이즈 2015
+				<1 개의 옵션>
+			VIP와 수행원
+				<25 개의 옵션>
+			할로윈 서프라이즈
+				<2 개의 옵션>
+			로우라이더
+				<8 개의 옵션>
+			부당 이득 업데이트 파트 2
+				<6 개의 옵션>
+			Ill-부당 이득 업데이트 파트 1
+				<6 개의 옵션>
+			습격 목록
+				<21 개의 옵션>
+			페스티벌 서프라이즈 2014
+				<4 개의 옵션>
+			다음 세대 출시
+				<13 개의 옵션>
+			라스트 팀 스탠딩
+				<3 개의 옵션>
+			산 안드레아스 비행 학교
+				<4 개의 옵션>
+			독립기념일
+				<2 개의 옵션>
+			난 힙스터가 아니야
+				<7 개의 옵션>
+			잘 나가는 인생 
+				<4 개의 옵션>
+			비즈니스
+				<4 개의 옵션>
+			발렌타인 데이 학살 스페셜
+				<1 개의 옵션>
+			해변 족
+				<4 개의 옵션>
+			게임 출시
+				<298 개의 옵션>
+		차량 종류
+			SUV
+				<40 개의 옵션>
+			군용
+				<17 개의 옵션>
+			기차
+				<9 개의 옵션>
+			긴급
+				<19 개의 옵션>
+			다목적
+				<44 개의 옵션>
+			머슬카
+				<85 개의 옵션>
+			밴
+				<39 개의 옵션>
+			보트
+				<26 개의 옵션>
+			비행기
+				<44 개의 옵션>
+			산업용
+				<11 개의 옵션>
+			상업용
+				<21 개의 옵션>
+			서비스
+				<13 개의 옵션>
+			세단
+				<38 개의 옵션>
+			슈퍼카
+				<55 개의 옵션>
+			스포츠 클래식
+				<45 개의 옵션>
+			스포츠카
+				<104 개의 옵션>
+			오토바이
+				<58 개의 옵션>
+			오프로드
+				<65 개의 옵션>
+			오픈 휠
+				<4 개의 옵션>
+			자전거
+				<9 개의 옵션>
+			콤팩트
+				<18 개의 옵션>
+			쿠페
+				<17 개의 옵션>
+			헬리콥터
+				<29 개의 옵션>
+		제조사 이름 (켜기/끄기)
+		소환된 차량에 맵 아이콘 표시
+			소환된 차량에 맵 아이콘 표시 — 명령어: blipsonspawnedvehicles [on/off]
+			색 — 명령어: spawnedvehiclesblipcolour
+			크기 (0.20 에(서) 2.00) — 명령어: spawnedvehiclesblipscale [0.20 에(서) 2.00]
+			가장 최근 차량만 (켜기/끄기)
+			맵 아이콘 지우기 — 명령어: clearspawnedblips
+		무적인 차량 소환 — 명령어: spawngod [on/off]
+		차량 소환 시 개조 — Stand를 통해 생성된 차량의 개조 상태를 설정 가능합니다. — 명령어: spawntune
+			기본 개조 — 명령어: spawntune stock
+			성능 개조 — 엔진, 브레이크, 트랜스미션, 내구력 및 터보만 개조합니다. — 명령어: spawntune performance
+			성능 개조, 스포일러 포함 — 명령어: spawntune perfwithspoiler
+			최대 개조 — 명령어: spawntune full
+		소환 차량 색상
+			소환 차량 색상 (켜기/끄기)
+			1차 색상 — 명령어: spawnprimarycolour
+			2차 색상 — 명령어: spawnsecondarycolour
+		소환된 차량 번호판 — 명령어: spawnplate [텍스트]
+		도보 상태에서 소환 시 액션
+			소환된 차량 바로 운전 — Stand로 소환한 차량의 운전석에 앉은 상태로 소환합니다. — 명령어: footspawndrive [on/off]
+			공중에 항공기 소환 — 명령어: footspawnair [on/off]
+			앞에 소환 — 차량을 자신 앞에 소환합니다. — 명령어: footspawnfront [on/off]
+			개인 차랑처럼 소환 — 명령어: footlikepv [on/off]
+			이전 차량 삭제 — 명령어: footspawndelete [on/off]
+		차량 소환 시 액션
+			소환된 차량 바로 운전 — Stand로 소환한 차량의 운전석에 앉은 상태로 소환합니다. — 명령어: vehspawndrive [on/off]
+			공중에 항공기 소환 — 명령어: vehspawnair [on/off]
+			앞에 소환 — 차량을 자신 앞에 소환합니다. — 명령어: vehspawnfront [on/off]
+			개인 차랑처럼 소환 — 명령어: vehlikepv [on/off]
+			이전 차량 삭제 — 명령어: vehspawndelete [on/off]
+			속도 유지 — 명령어: vehspawnvelocity [on/off]
+		모델 이름 입력 — 차량을 "전문가 모드" 로 소환합니다. — 명령어: spawn [모델 이름] — 소환 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+	차고
+		검색 — 명령어: findsaved [관련된 단어]
+		차량 저장 — 명령어: savevehicle [이름]
+		폴더 열기
+	개인 차량 — 명령어: pvs
+		검색 — 명령어: findpv [관련된 단어]
+		정렬
+			이름 / 닉네임
+			슬롯
+	현재 개인 차량 — 명령어: personalvehicle
+		나에게 순간 이동 & 운전 — 명령어: callpersonalvehicle
+		탑승 — 명령어: enterpersonalvehicle
+		이마니 테크 원격 조종
+		저장소로 돌려보내기 — 명령어: returnpv
+	마지막 차량 — 명령어: lastvehicle
+		나에게 순간 이동 & 운전 — 명령어: calllastvehicle
+		탑승 — 명령어: enterlastvehicle
+		원격 조종 — 명령어: rc [on/off]
+		자신 따라오기 — 명령어: vehfollow [on/off]
+	로스 산토스 커스텀 — 명령어: lsc
+		성능 개조
+			내구성 — 명령어: armour
+			브레이크 — 명령어: brakes
+			엔진 — 명령어: engine
+			스포일러 — 명령어: spoilers
+			트랜스미션 — 명령어: transmission
+			터보 — 명령어: turbo [on/off]
+		외모
+			1차 색상 — 명령어: vehprimary
+				무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: vehprimaryrainbow [0 에(서) 1000]
+				색상 그룹 — 명령어: vehprimaryfinish
+					클래식
+					메탈릭
+					펄 광택
+					무광
+					메탈
+					크롬
+					카멜레온
+			2차 색상 — 명령어: vehsecondary
+				무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: vehsecondaryrainbow [0 에(서) 1000]
+				색상 그룹 — 명령어: vehsecondaryfinish
+					클래식
+					메탈릭
+					펄 광택
+					무광
+					메탈
+					크롬
+					카멜레온
+				1차 색상 복사
+			네온 라이트
+				색 — 명령어: neoncolour
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: neoncolourrainbow [0 에(서) 1000]
+				모든 옵션 — 명령어: vehneonall [on/off]
+				전면 — 명령어: vehneonfront [on/off]
+				후면 — 명령어: vehneonback [on/off]
+				왼쪽 — 명령어: vehneonleft [on/off]
+				오른쪽 — 명령어: vehneonright [on/off]
+			휠
+				휠 카테고리 — 명령어: wheeltype
+				전면 휠 — 명령어: frontwheels
+				휠 색상 — 명령어: wheelcolour
+				타이어 연기 색 — 명령어: vehtire
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: vehtirerainbow [0 에(서) 1000]
+					독립 기념일 타이어 연기 — 명령어: independencetiresmoke [on/off]
+					1차 색상 복사
+				드리프트 타이어 — 명령어: drifttyres [on/off]
+				방탄 타이어 — 명령어: bulletprooftyres [on/off]
+			번호판
+				종류 — 명령어: platetype
+				텍스트 — 명령어: plate [텍스트]
+				무작위화 — 명령어: platerandomise
+				움직이는 번호판 글자
+					움직이는 번호판 글자 — 명령어: platescroll [on/off]
+					텍스트 — 명령어: scrollplatetext [값]
+					채팅 쿨타임 (ms) (0 에(서) 60000) — 명령어: platescrolldelay [0 에(서) 60000]
+				속도계 — 명령어: platespeedometer [on/off]
+				TPS — 초당 프레임 (FPS) — 명령어: platetps [on/off]
+			낙하산
+				낙하산 활성화 — 오토바이와 같은 차량에게는 불가능합니다.  — 명령어: vehparachute
+					기본값 — 명령어: vehparachute default
+					활성화 — 명령어: vehparachute on
+					비활성화 — 명령어: vehparachute off
+				외모 — 차량의 낙하산을 펼친 후에는 일부 변경 사항이 적용되지 않습니다.
+					일반 낙하산: 무지개색
+					일반 낙하산: 빨강색
+					일반 낙하산: 하얀색, 파랑색, 노랑색
+					일반 낙하산: 검은색, 빨강색, 하얀색
+					일반 낙하산: 빨강색, 하얀색, 파랑색
+					일반 낙하산: 파랑색
+					일반 낙하산: 검은색
+					일반 낙하산: 검은색, 노랑색
+					일반 낙하산: 노랑색, 파랑색, 하얀색
+					일반 낙하산: 주황색
+					일반 낙하산: 하얀색
+					시큐어 에이전시
+					부서진 낙하산
+			엑스트라
+				<15 개의 옵션>
+			그을림 — 명령어: scorched [on/off]
+			포탑 제거 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: tonk [on/off]
+			적용할 수 없는 옵션도 표시 (켜기/끄기)
+			헤드라이트 — 명령어: headlights
+			창문 틴트 — 명령어: windowtint
+			경적 — 명령어: horns
+			상징  — 명령어: livery
+			사이드 스커트 — 명령어: sideskirt
+			서스펜션 — 명령어: suspension
+			머플러 — 명령어: exhaust
+			프레임 — 명령어: frame
+			앞 범퍼  — 명령어: frontbumper
+			뒷 범퍼 — 명령어: rearbumper
+			후드 — 명령어: hood
+			지붕 / 무기 — 명령어: roof
+			휀더 — 명령어: fender
+			오른쪽 휀더 — 명령어: rightfender
+			그릴 — 명령어: grille
+			창문 플레이트 — 명령어: plateholders
+			베니즈 번호판 — 명령어: vanityplates
+			트림 디자인 — 명령어: trimdesign
+			장식품 — 명령어: ornaments
+			대시보드 — 명령어: dashboard
+			다이얼 디자인 — 명령어: dialdesign
+			좌석 — 명령어: seats
+			문 스피커 — 명령어: doorspeaker
+			스티어링 휠 — 명령어: steeringwheel
+			쉬프트 레버 — 명령어: shiftlever
+			플라크 — 명령어: plaques
+			스피커 — 명령어: speakers
+			트렁크 — 명령어: trunk
+			하이드롤릭스 — 명령어: hydraulics
+			엔진 덮개 — 명령어: engineblock
+			부스트 — 명령어: boostairfilter
+			지지대 — 명령어: struts
+			아치 덮개 — 명령어: archcover
+			에어리얼 — 명령어: aerials
+			트림 — 명령어: trim
+			탱크 — 명령어: tank
+			좌측 문 — 명령어: leftdoor
+			우측 문 — 명령어: rightdoor
+			라이트바 — 명령어: lightbar
+		업그레이드 — 현재 차량이나 마지막 차량이 최대로 업그레이드됩니다. — 명령어: tune
+		성능 개조 — 현재 차량이나 마지막 차량이 엔진, 브레이크, 트랜스미션, 내구력 및 터보만 업그레이드됩니다. — 명령어: performance
+		스포일러를 포함한 성능 업그레이드 — 명령어: perfwithspoiler
+		랜덤 업그레이드 — 명령어: randomtune
+		다운그레이드 — 현재 차량이나 마지막 차량이 기본 개조 상태로 바뀝니다. — 명령어: untune
+	움직임
+		경적 부스트
+			경적 부스트 — 명령어: hornboost [on/off]
+			중력 강도 (0.01 에(서) 2.00) — 명령어: hornboostforce [0.01 에(서) 2.00]
+		슈퍼 드라이브
+			슈퍼 드라이브 — 명령어: superdrive [on/off]
+			슈퍼 드라이브 카메라 사용 — 차량 전진 시 슈퍼 드라이브 카메라를 차량의 주행 위치가 아닌 원하는 위치로 변경합니다. — 명령어: superdrivecam [on/off]
+			속도 (-10000.00 에(서) 10000.00) — 명령어: superdrivespeed [-10000.00 에(서) 10000.00]
+			컨트롤러 버튼
+				<16 개의 옵션>
+		슈퍼 핸드 브레이크 — 명령어: superhandbrake [on/off]
+		수중 운전 — 명령어: waterwheels [on/off]
+		속도 제한 (KM/H) (0 에(서) 10000) — 운전하는 차량의 속도 제한을 설정합니다. (기본값: 540) — 명령어: speedlimit [0 에(서) 10000]
+		핸들링 수정기
+			베이스
+				<50 개의 옵션>
+			오토바이
+				<21 개의 옵션>
+			보트
+				<28 개의 옵션>
+			차
+				<12 개의 옵션>
+			트레일러
+				<9 개의 옵션>
+			항공기
+				<40 개의 옵션>
+			수직 상승 항공기
+				<40 개의 옵션>
+			특별 항공기
+				<25 개의 옵션>
+			수상 항공기
+				<11 개의 옵션>
+			잠수함
+				<8 개의 옵션>
+			적용할 수 없는 옵션도 표시 (켜기/끄기)
+			설정된 설정값 — 명령어: handlingpreset
+				설정 값 저장 — 명령어: handlingpresetsave [이름]
+		특별 항공기 — 디럭소를 제외한 나머지 차들에게 참고할 만한 정보는, "지붕" 입력 (H 또는 패드 오른쪽 누르기) 은 특별 비행을 켜고 끄기 위해 쓰입니다.
+			기본값
+			디럭소
+			오프레서 Mk II
+		점프 능력 — 점프와 로켓 부스트 능력을 동시에 가지고 있다면, 게임이 로켓 부스트를 보조 키로 이동합니다. — 명령어: vehjump
+			기본값 — 명령어: vehjump default
+			활성화 — 명령어: vehjump on
+			비활성화 — 명령어: vehjump off
+		활강 능력 — 명령어: vehglide
+			기본값 — 명령어: vehglide default
+			활성화 — 명령어: vehglide on
+			비활성화 — 명령어: vehglide off
+		난기류 없음 — 명령어: smoothflight [on/off]
+		중력 수정
+			중력 수정 (-100.00 에(서) 100.00) — 명령어: gravitymultiplier [-100.00 에(서) 100.00]
+			항공기에 있지 않음 — 명령어: gravitynotinaircraft [on/off]
+		엔진 파워 수정 (1.00 에(서) 20.00) — 명령어: enginepowermult [1.00 에(서) 20.00]
+		커스텀 날개 — 오프레서 날개를 커스터마이징할 수 있게 합니다.
+			커스텀 날개 — 오프레서 날개를 커스터마이징할 수 있게 합니다. — 명령어: wingsmod [on/off]
+			최소 위치 (-100000 에(서) 100000) — 명령어: wingsmin [-100000 에(서) 100000]
+			최대 위치 (-100000 에(서) 100000) — 명령어: wingsmax [-100000 에(서) 100000]
+			속도 (0 에(서) 1000000) — 명령어: wingsspeed [0 에(서) 1000000]
+			최대 위치를 기반으로 하여 속도 설정
+	로켓 부스트
+		부스트 변경 — 운전하고 있는 차량이 로켓 부스트를 가지고 있을 때 변경할 수 있도록 합니다. — 명령어: vehrocket
+			기본값 — 명령어: vehrocket default
+			활성화 — 명령어: vehrocket on
+			비활성화 — 명령어: vehrocket off
+		수직 로켓 부스트 — 명령어: verticalboost
+			기본값 — 명령어: verticalboost default
+			활성화 — 명령어: verticalboost on
+			비활성화 — 명령어: verticalboost off
+		로켓 부스트 액션 — 명령어: boostcharge
+			일반 — 명령어: boostcharge normal
+			무한 — 부스트가 끝나지 않게 설정할 경우 차량에 부딪칠 때까지 계속됩니다. — 명령어: boostcharge infinite
+			즉시 부스트 재충전 — 부스트를 다 사용하면 부스트를 즉시 재충전합니다. — 명령어: boostcharge instantrefill
+			재충전 시간 없음 — 조건이 충족되면 부스트를 즉시 재충전합니다. — 명령어: boostcharge norefilltime
+			부스트 충전이 항상 비어 있음 — 명령어: boostcharge empty
+		자동 로켓 부스트 — 로켓 부스트가 충전되면 자동으로 사용합니다. — 명령어: autoboost [on/off]
+	충돌
+		램프 — 명령어: vehramp
+			기본값 — 명령어: vehramp default
+			활성화 — 명령어: vehramp on
+			비활성화 — 명령어: vehramp off
+		충돌 시 들어올림 — 명령어: vehscoop
+			기본값 — 명령어: vehscoop default
+			활성화 — 명령어: vehscoop on
+			비활성화 — 명령어: vehscoop off
+		충돌 강도 증가 — 명령어: increasedrammingforce
+			기본값 — 명령어: increasedrammingforce default
+			활성화 — 명령어: increasedrammingforce on
+			비활성화 — 명령어: increasedrammingforce off
+		다른 차량과의 충돌 없음 — 명령어: ghostvehicles [on/off]
+		충돌 없음 — 차량이 충돌하지 않습니다. (공중 이동 수단이 아니면 추천 안함) — 명령어: vehiclenocollision [on/off]
+	문 열기/닫기
+		모든 문 — 명령어: openvehdoors [on/off]
+		앞의 왼쪽 문 (켜기/끄기)
+		앞의 오른쪽 문  (켜기/끄기)
+		뒤의 왼쪽 문 (켜기/끄기)
+		뒤의 오른쪽 문 (켜기/끄기)
+		후드 (켜기/끄기)
+		트렁크 (켜기/끄기)
+		후면 문 (켜기/끄기)
+		후면 문 2 (켜기/끄기)
+	문 잠금
+		문 잠금 — 명령어: lockdoors [on/off]
+		오직 비어있을 때만 — 명령어: lockwhenvacant [on/off]
+		친구 제외 (켜기/끄기)
+		조직 멤버 제외 (켜기/끄기)
+		Stand 유저 제외 (켜기/끄기)
+		조직 멤버 제외 (켜기/끄기)
+		미션 제외 (켜기/끄기)
+	AR 속도계 — 캐릭터 앞에 AR 속도계가 보이게 됩니다.
+		AR 속도계 — 캐릭터 앞에 AR 속도계가 보이게 됩니다. — 명령어: arspeedometer [on/off]
+		색 — 명령어: arspeedhex
+			무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: arspeedrainbow [0 에(서) 1000]
+		Native 렌더링 — 명령어: arspeednative [on/off]
+	공격 대항 — 명령어: countermeasures
+		자동 발사 — 명령어: autodeploy
+			비활성화
+			플레어
+			채프
+			둘 다
+		채프 발사 — 명령어: deploychaff
+		플레어 발사 — 명령어: deployflares
+		플레어 & 채프 발사 — 명령어: deployboth
+		수 (1 에(서) 10) — 명령어: cmcount [1 에(서) 10]
+		항공기만 — 명령어: onlyaircraft [on/off]
+		패턴 — 명령어: flarepattern
+			수평
+			수평, 아래로
+			수평, 위로
+			수직, 위로
+			수직, 위로
+			랜덤
+	자동 운전 — 명령어: autodrive
+		(으)로 운전... — 명령어: goto
+			N/A — 명령어: goto none
+			목적지 — 명령어: goto waypoint
+			카지노 — 명령어: goto casino
+			아뮤네이션 — 명령어: goto ammunation
+			의상점 — 명령어: goto clothesstore
+			타투샵 — 명령어: goto tattooparlor
+			이발소 — 명령어: goto barber
+			로스 산토스 커스텀 — 명령어: goto lossantoscustoms
+			영화 — 명령어: goto movies
+			상점 — 명령어: goto store
+			MC 갱 클럽하우스 — 명령어: goto mc
+			시설 — 명령어: goto facility
+			사무소 — 명령어: goto agency
+			오피스 — 명령어: goto office
+			격납고 — 명령어: goto hangar
+		취소 — 명령어: stopautodrive
+		크루즈 속도 (0.00 에(서) 80.00) — 명령어: autodrivespeed [0.00 에(서) 80.00]
+		운전 스타일 — 명령어: autodrivestyle
+			법규 준수
+			법규 준수, 하지만 정지 신호등은 무시
+			높음/공격적
+			뒤로
+		목적지 비컨 표시 — 명령어: showbeacon [on/off]
+		입력 시 취소 — 차량을 조종하려고 시도할 때 자동으로 제거합니다. — 명령어: autodriveautocancel [on/off]
+	지시등 — 명령어: lightsignals
+		방향 지시등 — 명령어: signal
+			끄기 — 명령어: signal off
+			왼쪽으로 — 명령어: signal left
+			오른쪽으로 — 명령어: signal right
+			비상등 — 명령어: signal hazard
+		방향 지시등 자동 비활성화 — 명령어: autosignal [on/off]
+		멈췄을 때 브레이크 등 사용 — 명령어: brakelights [on/off]
+	차량을 똑바른 위치로 회전 — 현재의 차량이나 마지막 차량을 똑바른 위치로 회전합니다. — 명령어: flipvehicle
+	차량 수리 — 현재 차량이나 마지막 차량을 수리합니다. — 명령어: fixvehicle — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+	차량 무적 — 자신이 운전자인 차량이 피해를 입지 않도록 합니다. — 명령어: vehgodmode [on/off]
+	자동 수리 — 흠집이 생기지 않는 차량으로 만듭니다. — 명령어: mint [on/off]
+	투명 — 명령어: vehinvisibility
+		비활성화 — 명령어: vehinvisibility off
+		나에게만 보임 — 명령어: vehinvisibility remote
+		활성화 — 명령어: vehinvisibility on
+	헤드라이트 가시 거리 (0.00 에(서) 10000.00) — * 더 높은 헤드라이트 값은 자신에게만 반사됩니다. * — 명령어: headlightsintensity [0.00 에(서) 10000.00]
+	락온 당하지 않음 — 명령어: nolockon [on/off]
+	끌어내릴 수 없게 하기 — 명령어: nojacking [on/off]
+	즉시 차량 타기 & 내리기  — 캐릭터가 차량으로 걸어가고, 엔진을 켜고, 내리는 것 등을 건너뜁니다. — 명령어: instaseat [on/off]
+	내릴 때 차량 멈춤 — 명령어: exitstop [on/off]
+	차량에서 내릴 때 엔진 켜두기 — 명령어: leaveengineon [on/off]
+	잠수함 자동차 자동 변형
+		잠수함 자동차 자동 변형 (켜기/끄기)
+		애니메이션 없음 (켜기/끄기)
+	모든 차량 운전 중 총기 발사 — 명령어: drivebyinall [on/off]
+	차량 운전 중 모든 무기로 총기 발사 — 명령어: drivebywithall [on/off]
+	차량에서도 무기 선택창 표시 — 스크롤 휠을 위로 올리면 차량 무기를 하나씩 사용할 수 있으며, 차량 무기를 사용하려면 스크롤 휠을 위로 올려야 합니다. — 명령어: wheelonwheels [on/off]
+	차량 좌석 설정 (-1 에(서) 7) — 명령어: setseat [-1 에(서) 7]
+	페가수스 차량으로 설정 — 게임이 페가수스 차량이라고 생각하게 함으로써 생성된 특정 항공기를 격납고에 넣을 수 있습니다. — 명령어: pegasus
+	차량 모델 위조 — 완전히 똑같진 않지만 자신에게 더 빠르게 "소환된 차량 선물" 을 할 수 있게 됩니다. — 명령어: forgemodel [on/off]
+	엔진 켜고 끄기 잠금 — 참고로 앞으로나 뒤로 가는 키를 누르면 대부분의 차량에서 엔진을 다시 켜게 합니다. — 명령어: toggleengine
+	삭제 (폭발) — 명령어: destroyvehicle
+	삭제 — 현재 차량이나 마지막 차량을 삭제합니다. — 명령어: deletevehicle
+온라인 — 명령어: t online
+	새로운 세션 생성 — 명령어: go
+		캐릭터 선택 창에서 멈추기 (켜기/끄기)
+		공개 세션 생성 — 명령어: go solopublic
+		초대 전용 세션 생성 — 명령어: go inviteonly
+		비공개 조직 세션 생성 — 명령어: go closedcrew
+		조직 세션 생성 — 명령어: go crew
+		비공개 친구 세션 생성 — 명령어: go closedfriend
+		솔로 세션 생성 — 명령어: go solo
+		친구가 있는 세션에 조인 — 명령어: go joinafriend
+		조직 멤버가 있는 세션에 조인 — 명령어: go joincrew
+		공개 세션 찾기 — 명령어: go public
+		새로운 공개 세션 찾기  — "새로운 공개 세션 찾기" 는, 동일한 세션이 계속 되지 않도록 먼저 새 세션을 시작합니다. — 명령어: go newpublic
+		크리에이터 모드 — 명령어: go creatormode
+		SCTV — 명령어: go sctv
+	로딩 도움 기능
+		매치메이킹
+			지역 변경
+				지역 변경 — 명령어: regionoverride [on/off]
+				지역
+					필터링하지 않음
+					오스트레일리아
+					유럽
+					홍콩
+					일본
+					라틴 아메리카
+					북 아메리카
+					미국, 동쪽
+					미국, 서쪽
+			에셋 해시
+				에셋 해시 고치기 — 보통 수정된 에셋을 이용하면 호환되지 않는 에셋 오류가 뜨지만, 이 기능을 사용하면 수정된 에셋을 이용해 세션을 조인할 수 있도록 해줍니다. — 명령어: fixassethashes [on/off]
+				에셋 Checksum 설정 — 메치메이킹과 세션을 제한하기 위해서 커스텀 에셋 Checksum을 입력할 수 있도록 해줍니다. (최대 Hex 8글자) — 명령어: assetchecksum
+				에셋 Checksum 초기화 — 명령어: resetassetchecksum
+				추가 Checksum 설정 — 명령어: extratoggle [on/off]
+				추가 Checksum — 메치메이킹과 세션을 제한하기 위해서 추가 Checksum을 입력할 수 있도록 해줍니다. (최대 Hex 8글자) — 명령어: extravalue [값]
+				추가 Checksum: 설정된 설정값
+					Stand
+					2Take1
+			풀 변경
+				풀 변경 — 명령어: mmpooltoggle [on/off]
+				풀 (-2147483648 에(서) 2147483647) — 명령어: mmpoolslider [-2147483648 에(서) 2147483647]
+			플레이어 수 (0 에(서) 30) — 설정된 플레이어 수와 비슷한 세션을 매칭시킵니다. (0 = 비활성화) — 명령어: playermagnet [0 에(서) 30] — Regular 버전 전용
+			비활성화 — 매치메이킹을 비활성화시켜 존재하는 공개 세션을 찾을 일이 없도록 만듭니다. — 명령어: mmdisable [on/off]
+		매끄러운 세션 변경
+			매끄러운 세션 변경 — 명령어: seamless [on/off]
+			월드 상태 변경
+				비활성화
+				연기됨
+				연기됨, 온라인만
+				연기됨, 스토리 모드만
+		속도 올리기
+			데이터 전송 받는 것 기다리지 않음 — 명령어: skipbroadcast [on/off]
+			미션 런쳐를 위해 기다리지 않음 — 명령어: speedupfmmc [on/off]
+			소환하기 위한 권한 묻지 않음 — 명령어: speedupspawn [on/off]
+		세션 파인더
+			세션 파인더 — 명령어: sessionhopper [on/off]
+			최소 플레이어 (1 에(서) 30) — 명령어: hopminplayers [1 에(서) 30]
+		세션 탈출 — 명령어: unstuck
+		플레이어로 가득찬 세션 조인 — 플레이어로 가득찬 세션을 관전 슬롯을 이용하여 실제로 관전하지 않고 조인할 수 있도록 해줍니다.
+			기본값
+			관전
+			자유 모드
+		위에서 보는 카메라 건너뛰기 — 세션을 조인할 때 위에서 내려오는 슬로우 카메라 모션을 건너뜁니다. — 명령어: skipswoopdown [on/off]
+		락스타 서포트 메시지 표시 — 명령어: supportmessage [on/off]
+		소환 활동 비활성화 — 세션 접속 및 로딩이 다 된 후 자신의 캐릭터가 애니메이션 하는 것을 방지합니다. — 명령어: nospawnactivities [on/off]
+		DLC 인트로 영상 비활성화 — 명령어: nodlcintromovie [on/off]
+		로딩 도우미 — 구름 속에 갇히지 않도록 합니다. — 명령어: transitionhelper [on/off]
+		로딩 상태 표시 — 명령어: showtransitionstate [on/off]
+		어레이 연동 상태 표시 (켜기/끄기)
+	세션
+		세션 스크립트
+			스크립트 시작 — 명령어: runscript
+				자유 모드 활동
+					<10 개의 옵션>
+				아케이드 게임
+					<6 개의 옵션>
+				사라진 자유 모드 활동
+					<6 개의 옵션>
+				세션 고장
+					<9 개의 옵션>
+				서비스
+					공습
+					탄약 투하
+					헬리콥터 지원
+					헬리콥터 지원 (카요 페리코)
+					보트 지원
+					헬리콥터 픽업
+					불 샤크 테스토스테론
+				상호 작용 메뉴 열기
+				비행 학교
+				랜덤 플레이어에게 번개 치기
+				패시브 모드 비활성화
+				다트
+				즉석 데스메치
+				로스 산토스 슬래셔 추적
+				컷씬
+					<3 개의 옵션>
+				카테고리에 없는 이벤트
+					<167 개의 옵션>
+		세션 코드 — 명령어: sessioncode
+			세션 코드
+			코드로 세션 조인 — 명령어: codejoin [코드]
+			코드로 세션 관전 — 명령어: codespectate [코드]
+			초대 링크 복사
+		세션 조인 차단
+			모든 플레이어 차단 — 명령어: blockjoins [on/off] — Ultimate 버전 전용
+			모르는 플레이어 — 소셜 클럽에서 친구가 아닌 플레이어가 세션에 조인하는 것을 차단합니다. — 명령어: blockjoinsstrangers [on/off]
+			화이트리스트 안된 모든 플레이어 (켜기/끄기) — 화이트리스트를 하지 않은 모든 플레이어가 세션에 조인하는 것을 차단합니다.
+			알려진 광고하는 플레이어 차단 (켜기/끄기)
+			사라진 플레이어 (켜기/끄기) — 킥하거나 크래쉬한 플레이어가 세션에 조인하는 것을 차단합니다.
+			메시지 — 이것은 자신이 세션 호스트일 때만 작용합니다.
+				플레이어가 세션에 없습니다.
+				호환이 가능하지 않은 에셋 — 버전이 호환되지 않아 세션에 참가하지 못했습니다.
+				최신 GTA 온라인 업데이트 설치 확인 — 모든 플레이어가 최신 타이틀 업데이트를 설치했는지 확인하십시오.
+				타 목표 모드 선호 — 현재 참가하려는 세션은 다른 조준 모드를 이용하고 있습니다. GTA Theft Auto V 내 일시 중지 메뉴의 설정 탭에서 적용사항을 변경할 수 있습니다. 새로운 GTA 온라인 세션에 참가하는 중입니다.
+				계정이 나쁜 평판을 가지고 있음 — 사용자의 계정 평판이 나쁘기 때문에 세션에 참가 할 수 없습니다.
+				치트 사용자 — 당신은 치트 사용자로 분류되었습니다. 금지 조치가 풀릴 때까지 다른 치트 사용자들과만 플레이할 수 있습니다.
+				비매너 유저 — 이 세션은 치트 비사용자 및 매너 플레이어 사용자를 위한 세션입니다. 당신은 비매너 플레이어입니다.
+				호환이 가능하지 않은 다운로드 가능한 콘텐츠 — 호환되지 않는 다운로드 가능한 콘텐츠입니다. 모든 플레이어가 최신 호환성 팩을 보유해야 합니다.
+				타 빌드 종류 — 참가하려는 세션의 빌드 유형이 사용자와 다릅니다.
+				타 컨텐츠 — 참가하려는 세션이 당신과 같은 콘텐츠를 사용하고 있지 않습니다.
+				비매너 유저 전용 — 참가하려는 세션은 비매너 플레이어 전용입니다.
+				치트 사용자 전용 — 참가하려는 세션은 치트 사용자 전용입니다.
+				프리미엄 레이스 — 참가하려는 세션이 프리미엄 레이스를 위한 세션이므로 참가할 수 없습니다.  초대 수락과 참가는 이 모드에서 이용할 수 없습니다.
+				연결이 불가능함 — 세션에 연결할 수 없습니다. 해당 세션이 없어진 것 같습니다.
+				비밀 세션 — 참가하려는 세션은 비공개 전용입니다. 이 세션에 참가하려면 초대를 받아야 합니다.
+				친구 전용 세션 — 참가하려는 세션은 친구 전용입니다.
+				투표 킥을 당함 — 이미 이 게임 세션에서 투표로 추방되었습니다.
+				초대가 비활성화됨 — 현재 세션에서 초대를 이용할 수 없습니다.
+				더 이상 존재하지 않음 — 참가하려는 세션이 더 이상 존재하지 않습니다.
+				의도한 세션이 아님 — 의도한 GTA 온라인 세션에 참가하지 못했습니다.
+			사라진 플레이어 — 자신에게 크래쉬나 킥을 당해 세션 조인하는 것을 차단 당한 플레이어 목록입니다.
+			알림
+				모든 플레이어 차단
+					알림 (켜기/끄기)
+					로그 파일에 적기 (켜기/끄기)
+					콘솔에 적기 (켜기/끄기)
+					채팅에 방송 (켜기/끄기)
+					팀 채팅에 방송 (켜기/끄기)
+				모르는 플레이어
+					알림 (켜기/끄기)
+					로그 파일에 적기 (켜기/끄기)
+					콘솔에 적기 (켜기/끄기)
+					채팅에 방송 (켜기/끄기)
+					팀 채팅에 방송 (켜기/끄기)
+				화이트리스트 안된 모든 플레이어
+					알림 (켜기/끄기)
+					로그 파일에 적기 (켜기/끄기)
+					콘솔에 적기 (켜기/끄기)
+					채팅에 방송 (켜기/끄기)
+					팀 채팅에 방송 (켜기/끄기)
+				알려진 광고하는 플레이어 차단
+					알림 (켜기/끄기)
+					로그 파일에 적기 (켜기/끄기)
+					콘솔에 적기 (켜기/끄기)
+					채팅에 방송 (켜기/끄기)
+					팀 채팅에 방송 (켜기/끄기)
+				사라진 플레이어
+					알림 (켜기/끄기)
+					로그 파일에 적기 (켜기/끄기)
+					콘솔에 적기 (켜기/끄기)
+					채팅에 방송 (켜기/끄기)
+					팀 채팅에 방송 (켜기/끄기)
+		플레이어 바
+			플레이어 바 — 명령어: playerbar [on/off] — Regular 버전 전용
+			텍스트 크기 (1 에(서) 32767) — 명령어: playerbarscale [1 에(서) 32767]
+			배경 블러 처리 (0 에(서) 100) — 더 높은 값은 GPU의 요구 사항을 매우 높히게 됩니다.  — 명령어: playerbarblur [0 에(서) 100]
+			해당 상황에선 숨기기
+				비활성화
+				플레이어 목록이 보인다면
+				XP 바가 보인다면
+			세션에 혼자 있어도 표시 — 명령어: playerbaralone [on/off]
+			태그 표시 — 명령어: playerbartags [on/off]
+			태그가 없는 플레이어 숨기기 — 명령어: playerbarhidenotags [on/off]
+			기본 색상 — 명령어: playerbardefault
+			셀프
+				색 — 명령어: playerbarself
+				색상 사용 (켜기/끄기)
+			친구
+				색 — 명령어: playerbarfriend
+				색상 사용 (켜기/끄기)
+			조직 멤버
+				색 — 명령어: playerbarcrewmember
+				색상 사용 (켜기/끄기)
+			연결 시간 초과 상태
+				색 — 명령어: playerbarintimeout
+				색상 사용 (켜기/끄기)
+			모더
+				색 — 명령어: playerbarmodder
+				색상 사용 (켜기/끄기)
+			락스타 어드민
+				색 — 명령어: playerbaradmin
+				색상 사용 (켜기/끄기)
+			모더 같음
+				색 — 명령어: playerbarlikelymodder
+				색상 사용 (켜기/끄기)
+			공격한 유저
+				색 — 명령어: playerbarattackedyou
+				색상 사용 (켜기/끄기)
+			호스트
+				색 — 명령어: playerbarhost
+				색상 사용 (켜기/끄기)
+			다음 호스트
+				색 — 명령어: playerbarnexthost
+				색상 사용 (켜기/끄기)
+			스크립트 호스트
+				색 — 명령어: playerbarscripthost
+				색상 사용 (켜기/끄기)
+			무적
+				색 — 명령어: playerbarinvulnerable
+				색상 사용 (켜기/끄기)
+			파괴할 수 없는 차량
+				색 — 명령어: playerbarindestructiblevehicle
+				색상 사용 (켜기/끄기)
+			RC 차량 사용
+				색 — 명령어: playerbarrcvehicle
+				색상 사용 (켜기/끄기)
+			레이더 숨기기 
+				색 — 명령어: playerbarofftheradar
+				색상 사용 (켜기/끄기)
+			실내
+				색 — 명령어: playerbarinaninterior
+				색상 사용 (켜기/끄기)
+			관전 중
+				색 — 명령어: playerbarspectating
+				색상 사용 (켜기/끄기)
+			채팅 입력 중
+				색 — 명령어: playerbartyping
+				색상 사용 (켜기/끄기)
+			죽음
+				색 — 명령어: playerbardead
+				색상 사용 (켜기/끄기)
+			투명
+				색 — 명령어: playerbarinvisible
+				색상 사용 (켜기/끄기)
+			VPN
+				색 — 명령어: playerbarvpn
+				색상 사용 (켜기/끄기)
+		플레이어가 세션을 나간 사유
+			알림 — 명령어: lrnotify [on/off]
+			로그 파일에 적기 — 명령어: lrlog [on/off]
+			콘솔에 적기 — 명령어: lrconsole [on/off]
+			채팅에 방송 — 명령어: lrchat [on/off]
+			팀 채팅에 방송 — 명령어: lrteamchat [on/off]
+			"일반적인 사유로 나감" 알림 표시 — 명령어: lrnormal [on/off]
+			"게임을 종료함" 알림 표시 — 명령어: lrclose [on/off]
+			"조인하려는 것을 차단했습니다" 알림 표시 — 명령어: lrblocked [on/off]
+		플레이어가 세션을 나갈 때 알림
+			알림 — 명령어: leavenotify [on/off]
+			로그 파일에 적기 — 명령어: leavelog [on/off]
+			콘솔에 적기 — 명령어: leaveconsole [on/off]
+			채팅에 방송 — 명령어: leavechat [on/off]
+			팀 채팅에 방송 — 명령어: leaveteamchat [on/off]
+		스크립트 호스트 되기 — 명령어: scripthost
+		커스텀 투표 킥 한계점
+			커스텀 투표 킥 한계점 — 명령어: customvotekick [on/off]
+			한계점 (1 에(서) 32) — 자신이 누군가를 킥하기 전에 요구되는 투표 킥의 수 — 명령어: customvotekickthreshold [1 에(서) 32]
+			친구 제외 — 명령어: customvotekickexcludefriends [on/off]
+			조직 멤버 제외 — 명령어: customvotekickexcludecrewmembers [on/off]
+			Stand 유저 제외 — 명령어: customvotekickexcludestandusers [on/off]
+			조직 멤버 제외 — 명령어: customvotekickexcludeorgmembers [on/off]
+			알림 — 명령어: customvotekicknotify [on/off]
+			로그 파일에 적기 — 명령어: customvotekicklog [on/off]
+			콘솔에 적기 — 명령어: customvotekickconsole [on/off]
+			채팅에 방송 — 명령어: customvotekickchat [on/off]
+			팀 채팅에 방송 — 명령어: customvotekickteamchat [on/off]
+		디싱크된 세션 자동 조인
+			디싱크된 세션 자동 조인 — 자신이 디싱크된 세션을 자동으로 조인합니다. — 명령어: autorejoindesynced [on/off]
+			알림 (켜기/끄기)
+			로그 파일에 적기 (켜기/끄기)
+			콘솔에 적기 (켜기/끄기)
+			채팅에 방송 (켜기/끄기)
+			팀 채팅에 방송 (켜기/끄기)
+		번개 날씨
+			요청 활성화 — 명령어: thunderon
+			요청 비활성화 — 명령어: thunderoff
+			요청 시 알림 — 명령어: thundernotify [on/off]
+		자유 모드 스크립트 재시작 — 명령어: restartfm
+		세션 재 조인 — 명령어: rejoin
+		1인 세션 만들기 — 자신을 현재 세션에서 유일한 플레이어로 만듭니다. — 명령어: bealone
+		세션 종류 설정 — 명령어: setsessiontype
+			솔로 — 명령어: setsessiontype solo
+			초대 전용 — 명령어: setsessiontype inviteonly
+			비공개 친구 — 명령어: setsessiontype closedfriend
+			비공개 조직 — 명령어: setsessiontype closedcrew
+			조직 — 명령어: setsessiontype crew
+			공개 — 명령어: setsessiontype public
+	플레이어 기록 — 명령어: history
+		검색 — 플레이어들을 닉네임, 락스타 ID, 노트를 이용해 찾을 수 있게 해줍니다. — 명령어: findplayer [관련된 단어]
+		메모된 플레이어
+		트랙된 플레이어 — Ultimate 버전 전용
+		메타
+			닉네임으로 추가 — 명령어: historyadd [이름]
+			RID로 추가 — 명령어: historyaddrid [rid]
+			세션 조인 시 액션 할 플레이어 
+			조인 화이트리스트된 플레이어
+			재연결 할 플레이어
+			트랙 상태가 업데이트 되었을 때...
+				알림 (켜기/끄기)
+				로그 파일에 적기 (켜기/끄기)
+				콘솔에 적기 (켜기/끄기)
+				채팅에 방송 (켜기/끄기)
+				팀 채팅에 방송 (켜기/끄기)
+			인젝 시에 온라인 상태인 트랙된 플레이어 표시 — 명령어: injecttrackedinfo [on/off]
+			락스타 어드민
+				놓친 플레이어 — 명령어: adminsupdate
+				노트 설정 — 플레이어 기록에서 모든 어드민의 노트를 설정합니다. — 명령어: adminsnote [값]
+				모두 트랙 — 명령어: adminstrack — Ultimate 버전 전용
+				모두 트랙 해제 — 명령어: adminsuntrack
+			트랙된 플레이어
+				모두 트랙 해제 — 명령어: untracktracked
+				모두 화이트 리스트 — 명령어: whitelisttracked
+				모두 화이트 리스트 해제 — 명령어: unwhitelisttracked
+				가짜 친구 마킹 — 명령어: fakefriendtracked
+				가짜 친구 마킹 해제 — 명령어: unfakefriendtracked
+			소셜 클럽 친구
+				놓친 플레이어 — 명령어: friendsupdate
+				노트 설정 — 명령어: friendsnote [값]
+				모두 트랙 — 명령어: friendstrack — Ultimate 버전 전용
+				모두 트랙 해제 — 명령어: friendsuntrack — Ultimate 버전 전용
+				모두 화이트 리스트 — 명령어: friendswhitelist
+				모두 화이트 리스트 해제 — 명령어: friendsunwhitelist
+			플레이어 기록 초기화
+				플레이어 기록 초기화
+				노트된 플레이어 유지 (켜기/끄기)
+				트랙된 플레이어 유지 (켜기/끄기)
+				화이트 리스트된 플레이어 유지 (켜기/끄기)
+				조인 액션을 유지할 플레이어 (켜기/끄기)
+	세션 브라우저 — Regular 버전 전용
+		최소 플레이어 (0 에(서) 30) — 명령어: browserminplayers [0 에(서) 30]
+		최대 플레이어 (1 에(서) 30) — 명령어: browsermaxplayers [1 에(서) 30]
+		지역
+			필터링하지 않음
+			기본값
+			오스트레일리아
+			유럽
+			홍콩
+			일본
+			라틴 아메리카
+			북 아메리카
+			미국, 동쪽
+			미국, 서쪽
+		자유 에임
+			필터링하지 않음
+			예
+			아니오
+		추가 필터링
+			숨겨짐
+				필터링하지 않음
+				아니오
+				예
+			비매너 유저
+				필터링하지 않음
+				예
+				아니오
+			에셋 해시 (켜기/끄기)
+		새로 고침
+	경험 향상
+		표시기 지우기 — 화면 오른쪽 아래에 있는 로딩 표시기를 제거합니다. — 명령어: removeloader
+		현재 건물 떠나기 — 명령어: leaveinterior
+		클라우드 강제 저장 — 명령어: forcecloudsave
+		돈 수 천만 구분기 — 화면 위 오른쪽에 보이는 돈의 액수를 천만 단위로 끊어 읽을 수 있게 만듭니다. — 명령어: thousands [on/off]
+		자유 모드 배너를 알림으로 표시 — 명령어: fmbanner2notify [on/off]
+		모든 미션을 비밀 세션에서 진행 — 명령어: sellinprivate [on/off]
+		휴대폰 애니메이션 (켜기/끄기) — 자신의 캐릭터가 휴대폰을 사용할 때 애니메이션을 하도록 합니다.
+		잠수 추방 비활성화 — 명령어: noidlekick [on/off]
+		휴대폰 통화 연결음 건너뛰기 — 명령어: speeddial [on/off]
+		월드 이탈로 인한 사망 방지 — 명령어: nodeathbarriers [on/off]
+		정비공 쿨타임 비활성화 — 명령어: nomechaniccooldown [on/off]
+		오프레서 Mk II 쿨타임 비활성화 — 명령어: nomk2cooldown [on/off]
+		VIP 수 제한 비활성화 — 명령어: noworkcooldown [on/off]
+		자살 쿨타임 비활성화 — 명령어: noewocooldown [on/off]
+		패시브 모드 쿨타임 비활성화 — 명령어: nopassivecooldown [on/off]
+		무한 오비탈 캐넌 발사 — 명령어: noorbcooldown [on/off]
+		코사트카 미사일 쿨타임 비활성화 — 명령어: nokosatkamissilecooldown [on/off]
+		코사트카 미사일 범위 제한 비활성화 — 발사된 미사일에는 적용되지 않습니다. — 명령어: nokosatkamissilerangelimit [on/off]
+		자유 모드 이벤트 카운트 다운 음악 비활성화 — 명령어: noeventendaudio [on/off]
+		켜고 끌 수 있는 확장된 맵 — 비행기에 탄 것처럼 미니 맵의 크기를 크게 만듭니다. — 명령어: toggleablebigmap [on/off]
+		일시 중지 메뉴에서 게임 중지 — 명령어: pausable [on/off]
+		패시브 모드에서 무기화 차량 탑승 가능 — 명령어: passiweaponveh [on/off]
+		모든 차량 원격 조종 가능 — 명령어: rcanyvehicle [on/off]
+		강제 원격 조종 시점 비활성화 — 명령어: norcfirstperson [on/off]
+		내부 건물 제한 우회 — 공장 같은 건물 내부에 들어갈 때 다른 곳으로 순간 이동되는 현상 없이 들어갈 수 있습니다. — 명령어: nointeriorcheck [on/off]
+		비활성화된 상호 작용 메뉴 기능 사용 — 상호 작용 메뉴에서 회색으로 칠해져 있거나 사용이 불가능한 기능을 사용할 수 있도록 합니다. — 명령어: nopimenugrey [on/off]
+		카지노 지역 잠금 해제 — 명령어: nocasinoregionlock [on/off]
+		타임 트라이얼 시간 제한 우회 — 명령어: notimetrialsuitability [on/off]
+		빠른 새로운 차량 체험 비활성화 — 모든 DLC의 새 차량을 일반적인 유저가 구입하기 전에 소환, 운전 및 구입할 수 있게 됩니다. — 명령어: nodripfeeding [on/off]
+		비어 있는 알림 비활성화 — 명령어: noemptynotifications [on/off]
+		칭찬 알림 — 도움을 주거나 우호적인 사유로 칭찬을 받았을 경우 알림을 받습니다. — 명령어: commendnotify [on/off]
+		공과금 지불 없음 — 명령어: nodailyexpenses [on/off]
+		백그라운드 스크립트 차단 — 락스타가 새 DLC를 적용하는 데 사용하는 백그라운드 스크립트의 실행을 차단하며 이 백그라운드 스크립트가 활성화되면 모더에게 문제를 일으킵니다. — 명령어: nobgscript [on/off]
+		클린 레이스 보장 — 만약 레이스에서 상대 드라이버 플레이어들이 가까이 오면 본인에게만 고스트 모드가 되도록하여 공정하게 플레이하도록 보장합니다. — 명령어: ghostnearbydrivers [on/off]
+	프로텍션 — 명령어: protections
+		이벤트
+			크래쉬 이벤트
+				알림
+					활성화 — 친구, 모르는 플레이어 및 자신을 포함합니다.
+					친구 및 모르는 플레이어
+					모르는 플레이어
+					비활성화
+				차단
+					<4 개의 옵션>
+				로그 파일에 적기
+					<4 개의 옵션>
+				콘솔에 적기
+					<4 개의 옵션>
+				채팅에 방송
+					<4 개의 옵션>
+				팀 채팅에 방송
+					<4 개의 옵션>
+				킥
+					<3 개의 옵션>
+				러브 레터 킥 — 킥 할 플레이어는 누가 자신을 킥 했는지 알 수 없는 별개의 킥입니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다.
+					<3 개의 옵션>
+				블랙리스트 킥 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 이것은 자신이 세션 호스트일 때만 작용합니다.
+					<3 개의 옵션>
+				크래쉬 — Ultimate 버전 전용
+					<3 개의 옵션>
+				연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다.
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 차단
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 기록
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 알림
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 알림
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 알림
+					<3 개의 옵션>
+			킥 이벤트
+				<21 개의 옵션>
+			유효하지 않은 이벤트 — 유효하지 않은 이벤트: 모더만 보낼 수 있는 이벤트
+				<21 개의 옵션>
+			아파트 초대
+				<21 개의 옵션>
+			시선 위치 강제 조종
+				<21 개의 옵션>
+			비즈니스 배틀 걸기
+				<17 개의 옵션>
+			자유 모드 미션 시작
+				<21 개의 옵션>
+			자유 모드 미션 시작 (자신의 두목이 아닐 때)
+				<21 개의 옵션>
+			실내로 순간 이동
+				<21 개의 옵션>
+			실내로 순간 이동 (자신의 두목이 아닐 때)
+				<21 개의 옵션>
+			수집품 지급
+				<21 개의 옵션>
+			수집품 지급 (내 CEO가 아닐 때)
+				<21 개의 옵션>
+			CEO/MC 킥
+				<21 개의 옵션>
+			무한 로딩
+				<21 개의 옵션>
+			무한 휴대폰 전화 울림
+				<21 개의 옵션>
+			카요 페리코 초대
+				<21 개의 옵션>
+			강제 작업 보내기
+				<21 개의 옵션>
+			차량 인수 — 운전 중일 때 어떤 플레이어가 차량 제어권을 획득하려고 할 때 순간 이동으로 사용할 수 있습니다.
+				<21 개의 옵션>
+			차량 운전 비활성화
+				<21 개의 옵션>
+			차량에서 내보내기
+				<21 개의 옵션>
+			실내에서 내보내기
+				<21 개의 옵션>
+			얼리기
+				<21 개의 옵션>
+			카메라 흔들기 이벤트
+				<21 개의 옵션>
+			폭발 스팸 — 누군가가 자신의 캐릭터에 폭발을 스팸할 때 적용됩니다.
+				<21 개의 옵션>
+			레그돌 이벤트
+				<21 개의 옵션>
+			모드 사용한 데미지 이벤트
+				<21 개의 옵션>
+			무기 제거 이벤트
+				<21 개의 옵션>
+			모든 네트워크 이벤트
+				<85 개의 옵션>
+		모더 감지
+			분류
+				모든 분류
+					알림
+						활성화 — 친구, 모르는 플레이어 및 자신을 포함합니다.
+						친구 및 모르는 플레이어
+						모르는 플레이어
+						비활성화
+					로그 파일에 적기
+						<4 개의 옵션>
+					콘솔에 적기
+						<4 개의 옵션>
+					채팅에 방송
+						<4 개의 옵션>
+					팀 채팅에 방송
+						<4 개의 옵션>
+					연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다.
+						<3 개의 옵션>
+					플레이어의 네트워크 이벤트 차단
+						<3 개의 옵션>
+					플레이어의 들어오는 싱크 차단
+						<3 개의 옵션>
+					플레이어의 나가는 싱크 차단
+						<3 개의 옵션>
+					플레이어의 네트워크 이벤트 기록
+						<3 개의 옵션>
+					플레이어의 들어오는 싱크 기록
+						<3 개의 옵션>
+					플레이어의 나가는 싱크 기록
+						<3 개의 옵션>
+					플레이어의 네트워크 이벤트 알림
+						<3 개의 옵션>
+					플레이어의 들어오는 싱크 알림
+						<3 개의 옵션>
+					플레이어의 나가는 싱크 알림
+						<3 개의 옵션>
+				모더
+					<16 개의 옵션>
+				락스타 어드민
+					<16 개의 옵션>
+				모더 같음
+					<16 개의 옵션>
+				모더일 수 있는
+					<16 개의 옵션>
+			Stand 유저 감지 (켜기/끄기) — 다른 Stand 유저를 감지하지만 그 유저가 자신을 감지할 수도 있습니다.
+			모든 감지
+				알림
+					활성화 — 친구, 모르는 플레이어 및 자신을 포함합니다.
+					친구 및 모르는 플레이어
+					모르는 플레이어
+					비활성화
+				로그 파일에 적기
+					<4 개의 옵션>
+				콘솔에 적기
+					<4 개의 옵션>
+				채팅에 방송
+					<4 개의 옵션>
+				팀 채팅에 방송
+					<4 개의 옵션>
+				플레이어의 네트워크 이벤트 차단
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 기록
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 알림
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 알림
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 알림
+					<3 개의 옵션>
+			Stand 유저
+				<15 개의 옵션>
+			Stand 유저 (코로딩)
+				<15 개의 옵션>
+			다른 메뉴 유저 감지
+				<15 개의 옵션>
+			락스타 안티 치트 (RAC)
+				<15 개의 옵션>
+			모드 사용 체력
+				<15 개의 옵션>
+			오랜 시간 동안 죽어 있음
+				<15 개의 옵션>
+			오랜 시간 동안 레이더 은신 사용
+				<15 개의 옵션>
+			방탄복이 많음
+				<15 개의 옵션>
+			프리센스 스푸핑 — 세션 스푸핑 뿐만 아니라 기타 미세한 스푸핑까지 감지합니다.
+				<15 개의 옵션>
+			락스타 직원 RID
+				<15 개의 옵션>
+			Take-Two IP 주소
+				<15 개의 옵션>
+			스푸핑된 호스트 토큰 (강함)
+				<16 개의 옵션>
+			스푸핑된 호스트 토큰 (중간)
+				<16 개의 옵션>
+			스푸핑된 호스트 토큰 (약함)
+				<16 개의 옵션>
+			스푸핑된 호스트 토큰 (기타)
+				<16 개의 옵션>
+			유효하지 않은 모델
+				<15 개의 옵션>
+			무적인 상태에서 공격
+				<15 개의 옵션>
+			데미지 수정
+				<15 개의 옵션>
+			슈퍼 점프
+				<15 개의 옵션>
+			락스타 개발자
+				<15 개의 옵션>
+			락스타 게임 테스터 표시
+				<15 개의 옵션>
+			치트 사용자 표시
+				<15 개의 옵션>
+			유효하지 않은 랭크/RP
+				<15 개의 옵션>
+			올바르지 않은 RP
+				<15 개의 옵션>
+			스푸핑된 랭크
+				<15 개의 옵션>
+			스푸핑된 K/D
+				<15 개의 옵션>
+			차단된 네트워크 이벤트 — 필수적인 네트워크 이벤트인 엔티티의 컨트롤 등을 막았을 지도 모르는 플레이어를 나타냅니다.
+				<15 개의 옵션>
+			치트 사용한 차량 내 무기 사용
+				<15 개의 옵션>
+			타이핑 없이 채팅
+				<15 개의 옵션>
+			현상금 수배 스팸 — 세션의 모든 플레이어에게 현상금을 수배하는 것과 같이, 일반적인 플레이어가 불가능한 현상금 수배를 나타냅니다.
+				<15 개의 옵션>
+			치트 사용 현상금 — $6969 같은, 일반적인 플레이어가 불가능한 액수의 현상금 수배를 하는 것을 나타냅니다.
+				<15 개의 옵션>
+			폭발 누명 — 참고로 또한 이 기능은 다른 모더가 타 플레이어을 폭발시킬 때에도 감지합니다. 
+				<16 개의 옵션>
+			치트 사용 폭발
+				<16 개의 옵션>
+			치트 사용 조직 이름
+				<16 개의 옵션>
+			플레이어 목록으로부터 숨겨짐
+				<15 개의 옵션>
+		모더 감지 방지
+			무적 (켜기/끄기)
+			관전 중 (켜기/끄기) — 이 기능과 관계 없이, 카메라 위치는 항상 동기화되기 때문에 관전 관련으로 감지될 수도 있습니다.
+			데미지 수정 (켜기/끄기)
+		싱크
+			커스텀 모델 싱크 반응
+				모델 추가 — 명령어: addblacklistmodel [모델 이름]
+			케이지에 가둘 시 — 모더가 소환한 오브젝트에 다른 플레이어가 재 연동될 수 있으므로, 그것을 조심하세요.
+				<21 개의 옵션>
+			월드 오브젝트 싱크 — 모더가 소환한 오브젝트에 다른 플레이어가 재 연동될 수 있으므로, 그것을 조심하세요.
+				<21 개의 옵션>
+			유효하지 않은 모델 싱크 — 모더가 소환한 오브젝트에 다른 플레이어가 재 연동될 수 있으므로, 그것을 조심하세요.
+				<21 개의 옵션>
+			부착물 스팸 — 모더가 소환한 오브젝트에 다른 플레이어가 재 연동될 수 있으므로, 그것을 조심하세요.
+				<21 개의 옵션>
+			들어오는
+				모든 들어오는 싱크
+					알림
+						활성화
+						모르는 플레이어
+						비활성화
+					차단
+						<3 개의 옵션>
+					로그 파일에 적기
+						<3 개의 옵션>
+					콘솔에 적기
+						<3 개의 옵션>
+				클론 생성
+					<4 개의 옵션>
+				클론 업데이트
+					<4 개의 옵션>
+				클론
+					<4 개의 옵션>
+				클론 생성 알림
+					<4 개의 옵션>
+				클론 업데이트 알림
+					<4 개의 옵션>
+				클론 삭제 알림
+					<4 개의 옵션>
+			나가는
+				클론 생성
+					<4 개의 옵션>
+				클론 업데이트
+					<4 개의 옵션>
+				클론
+					<4 개의 옵션>
+		텍스트 메시지
+			모든 메시지
+				알림
+					활성화
+					모르는 플레이어
+					비활성화
+				차단
+					<3 개의 옵션>
+				로그 파일에 적기
+					<3 개의 옵션>
+				콘솔에 적기
+					<3 개의 옵션>
+				채팅에 방송
+					<3 개의 옵션>
+				팀 채팅에 방송
+					<3 개의 옵션>
+				킥
+					<3 개의 옵션>
+				러브 레터 킥 — 킥 할 플레이어는 누가 자신을 킥 했는지 알 수 없는 별개의 킥입니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다.
+					<3 개의 옵션>
+				블랙리스트 킥 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 이것은 자신이 세션 호스트일 때만 작용합니다.
+					<3 개의 옵션>
+				크래쉬 — Ultimate 버전 전용
+					<3 개의 옵션>
+				연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다.
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 차단
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 기록
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 알림
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 알림
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 알림
+					<3 개의 옵션>
+			광고
+				<21 개의 옵션>
+			메시지 필터링 우회
+				<21 개의 옵션>
+		세션 스크립트 시작
+			모든 세션 스크립트 이벤트
+				<4 개의 옵션>
+			카테고리에 없는 이벤트
+				<4 개의 옵션>
+			자유 모드 활동
+				<4 개의 옵션>
+			아케이드 게임
+				알림
+					활성화 — 친구, 모르는 플레이어 및 자신을 포함합니다.
+					친구 및 모르는 플레이어
+					모르는 플레이어
+					비활성화
+				차단
+					<4 개의 옵션>
+				로그 파일에 적기
+					<4 개의 옵션>
+				콘솔에 적기
+					<4 개의 옵션>
+				채팅에 방송
+					<4 개의 옵션>
+				팀 채팅에 방송
+					<4 개의 옵션>
+				킥
+					<3 개의 옵션>
+				러브 레터 킥 — 킥 할 플레이어는 누가 자신을 킥 했는지 알 수 없는 별개의 킥입니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다.
+					<3 개의 옵션>
+				블랙리스트 킥 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 이것은 자신이 세션 호스트일 때만 작용합니다.
+					<3 개의 옵션>
+				크래쉬 — Ultimate 버전 전용
+					<3 개의 옵션>
+				연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다.
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 차단
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 기록
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 알림
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 알림
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 알림
+					<3 개의 옵션>
+			사라진 자유 모드 활동
+				<21 개의 옵션>
+			세션 고장
+				<21 개의 옵션>
+			서비스
+				<21 개의 옵션>
+			상호 작용 메뉴 열기
+				<21 개의 옵션>
+			비행 학교
+				<21 개의 옵션>
+			랜덤 플레이어에게 번개 치기
+				<21 개의 옵션>
+			패시브 모드 비활성화
+				<21 개의 옵션>
+			다트
+				<21 개의 옵션>
+			즉석 데스메치
+				<21 개의 옵션>
+			로스 산토스 슬래셔 추적
+				<21 개의 옵션>
+			컷씬
+				<21 개의 옵션>
+		호스트 킥
+			호스트 킥 강도 줄이기 — 호스트 킥을 당했을 때 1인 세션이 되며 알림을 표시하는 방식으로 호스트 킥 강도를 줄입니다. — 명령어: lessenhostkicks [on/off]
+		러브 레터 & 디싱크 킥
+			러브 레터 킥 당했을 때 알림 — 명령어: notifyloveletter [on/off]
+			디싱크 킥 반사 — 일부 다른 메뉴의 디싱크 킥 옵션은 자신에게 역효과를 냅니다. — 명령어: desynckarma [on/off] — Regular 버전 전용
+			Love Letter Lube (켜기/끄기) — Should improve matters if love letter kicks are backfiring for you.
+		프리센스 이벤트
+			친구 Stat 알림 차단 — "특정 플레이어가 특정 이벤트를 완료했습니다." 와 같은 알림을 차단합니다. — 명령어: nofriendstatnotifications [on/off]
+			작업 초대 차단 — 명령어: nojobinvites [on/off]
+		픽업
+			어떤 픽업을 주울 시
+				알림 (켜기/끄기)
+				차단 (켜기/끄기)
+				로그 파일에 적기 (켜기/끄기)
+				콘솔에 적기 (켜기/끄기)
+				채팅에 방송 (켜기/끄기)
+				팀 채팅에 방송 (켜기/끄기)
+			현금을 주울 시
+				<6 개의 옵션>
+			RP를 주울 시
+				<6 개의 옵션>
+			유효하지 않은 픽업을 주울 시 — 세션에서 킥 당하게 하는 유효하지 않은 픽업을 줍는 경우의 액션을 뜻합니다.
+				<6 개의 옵션>
+		코로딩
+			코로딩할 때 크래쉬 이벤트 (N1) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (C1) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (C3) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (U1) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (U2) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (CS) 비활성화 (켜기/끄기)
+			코로딩할 때 크래쉬 이벤트 (SR) 비활성화 (켜기/끄기)
+		세션 연결 끊기 차단
+			"플레이어가 세션에 없습니다" (켜기/끄기)
+			주요 조직 바꾸기 (켜기/끄기)
+			관전 관련 (켜기/끄기) — 목표 플레이어가 떠난 것 등을 뜻합니다.
+			기타 사유 (켜기/끄기) — 시간 초과 등의 사유를 뜻합니다.
+		프로텍션 설정 도움 페이지
+		누명 킬 차단 — 다른 플레이어를 데미지를 입히지 못하게 만들어 다른 플레이어도 본인을 데미지 입힐 수 없게 만듭니다. — 명령어: noblame [on/off]
+		추방 투표 차단 — 명령어: novotekicks
+			비활성화 — 명령어: novotekicks off
+			SCTV / 관전 모드 — 추천됨 — 명령어: novotekicks sctv
+			자유 모드 미션 2 — 명령어: novotekicks mission2
+			자유 모드 미션 4 — 명령어: novotekicks mission4
+			자유 모드 미션 1 — 명령어: novotekicks mission1
+			자유 모드 미션 3 — 명령어: novotekicks mission3
+		조인 차단 반사 — 호스트가 아닌 플레이어가 자신의 세션 조인을 차단하는 것을 감지해 해당 유저를 세션에서 제거해버리고, 조인할 수 있도록 합니다.
+			조인 차단 반사 — 호스트가 아닌 플레이어가 자신의 세션 조인을 차단하는 것을 감지해 해당 유저를 세션에서 제거해버리고, 조인할 수 있도록 합니다. — 명령어: blockjoinkarma [on/off] — Regular 버전 전용
+			알림 (켜기/끄기)
+			로그 파일에 적기 (켜기/끄기)
+			콘솔에 적기 (켜기/끄기)
+			채팅에 방송 (켜기/끄기)
+			팀 채팅에 방송 (켜기/끄기)
+		엔티티 스팸 차단
+			엔티티 스팸 차단 — 명령어: blockentityspam [on/off]
+			크래쉬 방지 카메라 자동 사용 (켜기/끄기)
+		죽음을 유발하는 렌더링 방지 — 크래쉬를 유발하는 과도한 렌더링을 멈춥니다. — 명령어: drawpatch [on/off]
+		쓸모 없는 오브젝트 삭제 — 오브젝트의 모델 정보가 언로드된 오브젝트를 삭제시킵니다.
+			쓸모 없는 오브젝트 삭제 (켜기/끄기) — 오브젝트의 모델 정보가 언로드된 오브젝트를 삭제시킵니다.
+			알림 (켜기/끄기)
+			로그 파일에 적기 (켜기/끄기)
+			콘솔에 적기 (켜기/끄기)
+			채팅에 방송 (켜기/끄기)
+			팀 채팅에 방송 (켜기/끄기)
+		치트 사용 팝 증가 구역 삭제 — 치트 사용 인구 증가 구역을 삭제하여 GTA 온라인이 일반적인 때보다 더 황량해 보이지 않도록 만듭니다. — 명령어: nomodpop [on/off]
+		스크립트 오류 복구 — 명령어: scripterrorrecovery
+			비활성화 — 명령어: scripterrorrecovery off
+			자유 모드 전용 — 명령어: scripterrorrecovery freemodeonly
+			활성화 — 명령어: scripterrorrecovery on
+		플레이어 모델 스왑 차단
+			플레이어 모델 스왑 차단 (켜기/끄기) — 본인에게만 플레이어들이 일반적으로 플레이할 수 없는 모델로 변형되는 것을 차단합니다. 원칙적으로는, 이것은 필요없는데, 그 이유로는 모든 크래쉬들을 패치했기 때문입니다.
+			친구 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+			Stand 유저 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+		강제 릴레이 연결 — 명령어: forcerelayconnections [on/off]
+	빠른 진행 — "리커버리" 라고도 불립니다.
+		잠금 해제 — 명령어: unlocks
+			모두 잠금 해제 — 한 번의 클릭으로 모든 것을 잠금 해제하고 싶을 때 사용하세요. — 명령어: unlockall
+			무료 오비탈 캐넌 발사 잠금 해제 — 명령어: freeorbital
+			성별 변경 잠금 해제 — 상호 작용 메뉴, 스타일 > 외모 변경 에서 캐릭터의 성별 변경이 가능합니다.  — 명령어: unlockgenderchange
+			전용 상징 잠금 해제 — 명령어: unlockliveries
+			벙커 연구 잠금 해제 — 명령어: unlockresearch
+			코사트카 구매 잠금 해제 — 명령어: unlockkosatka
+			카지노 습격 의상 잠금 해제 — 명령어: unlockcasinoheistclothing
+			아레나 워 의상 잠금 해제 — 명령어: unlockarenawarclothing
+			벙커 사격장 보상 잠금 해제 — 사격장에서 3개 티어의 사격을 모두 완료하여 보상을 잠금 해제합니다. — 명령어: unlockshootingrangerewards
+			보상 잠금 해제 — 의상 및 타투 같은 많은 보상 잠금 해제를 포함합니다. — 명령어: unlockawards
+			차량 커스터마이징 잠금 해제 — 명령어: unlockvehiclecustomisations
+			아뮤네이션 무기 틴트 잠금 해제 — 가능한 모든 무기의 군대, 녹색, 주황색, LSPD 계열의 틴트를 잠금 해제합니다. — 명령어: unlockweapontints
+			캐릭터 능력치 최대 — 기력, 힘, 사격, 은신, 비행, 운전, 폐활량 능력치를 최대로 채웁니다. — 명령어: unlockcharacterstats
+		LS 차량 모임
+			평판 레벨 설정 — 참고로 평판을 쌓기 전에 LS 차량 모임의 멤버가 될 필요가 있습니다. — 명령어: setlscarmeetreplevel [1 에(서) 1000]
+			차량 상품 잠금 해제  — 명령어: unlockprizeride
+		카요 페리코 습격 — 명령어: cayoheist
+			준비 작업 끝내기 — 명령어: setupcayoheist
+			주요 목표물 설정 — 명령어: cayotarget
+				사파이어 팬서 — 명령어: cayotarget panther
+				마드라조 파일 — 명령어: cayotarget files
+				핑크 다이아몬드 — 명령어: cayotarget diamond
+				무기명 채권 — 명령어: cayotarget bonds
+				루비 목걸이 — 명령어: cayotarget necklace
+				테킬라 — 명령어: cayotarget tequila
+		카지노 습격 — 명령어: casinoheist
+			습격 쿨타임 제거 — 이 기능을 사용할 때는 아케이드 안에 있지 마세요. — 명령어: repeatcasinoheist
+			접근 지점
+				조사 완료 — 최초 카지노 조사 임무를 완전히 완료한 후에만 사용하세요. 그렇지 않으면 심각한 오류에 걸릴겁니다. — 명령어: scopecasino
+				조사 미완료 — 명령어: unscopecasino
+			금고 목표물 선택 — 습격 비용을 지불하며 금고 목표물을 지정하기 전에 이 기능을 사용할 수 있습니다. — 명령어: casinovault
+				다이아몬드 — 명령어: casinovault diamonds
+				예술품 — 명령어: casinovault art
+				금괴 — 명령어: casinovault gold
+				현금 — 명령어: casinovault cash
+			첫 번째 준비 보드 — 습격 준비 비용을 지불한 상태에서 금고 목표물을 선택하고 이 기능을 선택적으로 사용할 수 있습니다. — 명령어: casinoapproach
+				비밀 작전 — 명령어: casinoapproach silentandsneaky
+				대 사기극 — 명령어: casinoapproach bigcon
+				공격 전술 — 명령어: casinoapproach aggressive
+			두 번째 준비 보드 — 명령어: casinosecondboard
+			조직원 초기화 — 조직원을 잘못 선택해서 바꾸고 싶은 경우에 사용할 수 있습니다. — 명령어: casinoresetcrew
+		카지노
+			럭키 휠 보상 — 명령어: rigluckywheel
+				끄기 — 명령어: rigluckywheel off
+				포디움 차량 — 명령어: rigluckywheel vehicle
+				할인 — 명령어: rigluckywheel discount
+				칩 — 명령어: rigluckywheel chips
+				현금 — 명령어: rigluckywheel cash
+				RP — 명령어: rigluckywheel rp
+				의상 — 명령어: rigluckywheel clothing
+				랜덤 상자: 차량 — 명령어: rigluckywheel mysteryvehicle
+				랜덤 상자: 비즈니스 보급품 — 명령어: rigluckywheel supplies
+				랜덤 상자: 스낵 — 명령어: rigluckywheel snacks
+				랜덤 상자: 칩 — 명령어: rigluckywheel mysterychips
+				랜덤 상자: 현금 — 명령어: rigluckywheel mysterycash
+				랜덤 상자: RP — 명령어: rigluckywheel mysteryrp
+				랜덤 상자: 의상 — 명령어: rigluckywheel mysteryclothing
+			슬롯 머신 결과  — 이 기능은 같은 계정에 이미 리그 슬롯 머신을 사용하거나 다른 메뉴를 사용했다면 안전하지 않을 수도 있습니다. 매 승리 시 마다 몇 번을 패해야 한다는 것을 잊지 마세요. 매 24시간 동안의 돈 제한: GTA$ 50,000,000. — 명령어: rigslotmachines
+				끄기 — 명령어: rigslotmachines off
+				잭팟 — 명령어: rigslotmachines jackpot
+				패배 — 명령어: rigslotmachines loss
+				작은 승리 — 명령어: rigslotmachines smallwin
+			결과: 항상 블랙잭 — 항상 딜러가 고장난 상태로 만듭니다. 이 기능을 사용하면 다른 플레이어도 이득을 취할 수 있습니다. — 명령어: rigblackjack [on/off]
+			룰렛 결과 (-1 에(서) 37) — 이 기능을 사용하면 다른 플레이어도 이득을 취할 수 있습니다. — 명령어: rigroulette [-1 에(서) 37]
+		돈 버는 법
+		방탄복 & 스낵 다시 채우기 — 명령어: fillinventory
+		심판의 날 습격 준비 작업 완료 — 현재 진행 중인 심판의 날 습격의 모든 준비 작업을 끝냅니다. — 명령어: setupdoomsdayheist
+		아파트 습격 준비 작업 완료 — 현재 진행 중인 아파트 습격의 모든 준비 작업을 끝냅니다. — 명령어: setupapartmentheist
+		랭크 설정 — 명령어: setrank [1 에(서) 8000]
+		나이트클럽 인기도
+			나이트클럽 인기도 설정 (0 에(서) 100) — 명령어: clubpopularity [0 에(서) 100]
+			나이트클럽 인기도 잠금 — 명령어: locknightclubpopularity [on/off]
+		빠른 달리기
+			활성화
+			비활성화
+		비매너 유저 상태
+			활성화
+			제거
+	채팅
+		명령어 — Stand의 명령어 상자는 선택된 명령어로 채팅 메시지를 처리하지만 대부분의 명령어는 다른 플레이어에게 사용할 수 없습니다.
+			나에게 활성화 — 명령어: commandsforme [on/off]
+			친구에게 활성화
+				활성화 — 명령어: commandsforfriends [on/off]
+				친절한 명령어 (켜기/끄기)
+				일반적인 명령어 (켜기/끄기)
+				소환 명령어 (켜기/끄기)
+				무례한 명령어 (켜기/끄기)
+				폭력적인 명령어 (켜기/끄기)
+				Toxic 명령어 (켜기/끄기)
+			조직 멤버
+				활성화 — 명령어: commandsforcrew [on/off]
+				친절한 명령어 (켜기/끄기)
+				일반적인 명령어 (켜기/끄기)
+				소환 명령어 (켜기/끄기)
+				무례한 명령어 (켜기/끄기)
+				폭력적인 명령어 (켜기/끄기)
+				Toxic 명령어 (켜기/끄기)
+			자신의 팀 — 예를 들면, 자신의 CEO/MC 멤버를 뜻합니다.
+				활성화 (켜기/끄기)
+				친절한 명령어 (켜기/끄기)
+				일반적인 명령어 (켜기/끄기)
+				소환 명령어 (켜기/끄기)
+				무례한 명령어 (켜기/끄기)
+				폭력적인 명령어 (켜기/끄기)
+				Toxic 명령어 (켜기/끄기)
+			모르는 플레이어에게 활성화
+				활성화 — 명령어: commandsforstrangers [on/off]
+				친절한 명령어 (켜기/끄기)
+				일반적인 명령어 (켜기/끄기)
+				소환 명령어 (켜기/끄기)
+				무례한 명령어 (켜기/끄기)
+				폭력적인 명령어 (켜기/끄기)
+				Toxic 명령어 (켜기/끄기)
+			설정된 명령어
+				!
+				?
+				;
+				,
+				.
+				+
+				-
+				*
+				/
+				\
+				%
+				=
+				#
+				$
+				€
+			답장 시 표식
+				N/A
+				!
+				?
+				;
+				,
+				.
+				+
+				-
+				*
+				/
+				\
+				%
+				=
+				#
+				$
+				€
+			답장을 볼 수 있는 사람
+				모두
+				명령어를 입력한 사람 및 자신
+				명령어를 입력한 사람
+			명령어 상자 목록
+			명령어 목록
+		액션
+			모든 메시지
+				<1 개의 옵션>
+			광고
+				알림
+					활성화
+					모르는 플레이어
+					비활성화
+				차단 — 자신은 채팅 메시지를 볼 수 없도록 막지만, 다른 플레이어는 채팅 메시지를 볼 수 있습니다.
+					<3 개의 옵션>
+				로그 파일에 적기
+					<3 개의 옵션>
+				콘솔에 적기
+					<3 개의 옵션>
+				채팅에 방송
+					<3 개의 옵션>
+				팀 채팅에 방송
+					<3 개의 옵션>
+				킥
+					<3 개의 옵션>
+				러브 레터 킥 — 킥 할 플레이어는 누가 자신을 킥 했는지 알 수 없는 별개의 킥입니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다.
+					<3 개의 옵션>
+				블랙리스트 킥 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 이것은 자신이 세션 호스트일 때만 작용합니다.
+					<3 개의 옵션>
+				크래쉬 — Ultimate 버전 전용
+					<3 개의 옵션>
+				연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다.
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 차단
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 차단
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 기록
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 기록
+					<3 개의 옵션>
+				플레이어의 네트워크 이벤트 알림
+					<3 개의 옵션>
+				플레이어의 들어오는 싱크 알림
+					<3 개의 옵션>
+				플레이어의 나가는 싱크 알림
+					<3 개의 옵션>
+			메시지 필터링 우회
+				<21 개의 옵션>
+			채팅 도배
+				<21 개의 옵션>
+		채팅 메시지 기록 — 명령어: logchat
+			Chat.txt (켜기/끄기)
+			Log.txt (켜기/끄기)
+			콘솔 (켜기/끄기)
+		채팅 상태 표시기 — 디스코드와 비슷하게 채팅을 작성 중인 플레이어를 표시해줍니다.
+			채팅 상태 표시기 — 디스코드와 비슷하게 채팅을 작성 중인 플레이어를 표시해줍니다. — 명령어: typingindicator [on/off]
+			채팅이 닫혀 있을 때의 위치 — 명령어: closedtypingpos
+				X — 명령어: closedtypingx
+				Y — 명령어: closedtypingy
+				마우스로 조정 — 명령어: closedtypingmousemove [on/off]
+			채팅이 열려 있을 때의 위치 — 명령어: opentypingpos
+				X — 명령어: opentypingx
+				Y — 명령어: opentypingy
+				마우스로 조정 — 명령어: opentypingmousemove [on/off]
+		채팅 보내기
+			채팅 보내기 — 명령어: say [텍스트]
+			본인에게도 표시 — 명령어: saylocal [on/off]
+			팀 채팅 — 명령어: sayteam [on/off]
+		채팅 도배
+			채팅 도배 — 참고로 Stand 약관에서 광고하는 것은 금지하고 있으며 그런 행동을 하는 것은 계정 정지라는 결과를 초래할 것입니다. — 명령어: spam [on/off] — Ultimate 버전 전용
+			텍스트 — 명령어: spamtext [값]
+			채팅 쿨타임 (ms) (500 에(서) 60000) — 명령어: spaminterval [500 에(서) 60000]
+			본인에게도 표시 — 채팅 도배 중인 텍스트를 보고 싶은 경우에 활성화하세요. — 명령어: spamlocal [on/off]
+		모든 채팅 메시지 보내기 (켜기/끄기) — 채팅 상자를 "메시지 전송" 기능을 위한 한 인터페이스에 지속적으로 자신의 메시지가 다른 플레이어에게 전송되도록 만듭니다.
+		모든 채팅 메시지 표시 (켜기/끄기) — 누가 보냈는지 상관 없이 게임을 강제로 변경하여 받은 모든 채팅을 표시합니다.
+		플레이어 닉네임 자동 완성 — 채팅을 적는 중에 할당된 핫키를 누르면 플레이어 닉네임을 완성합니다. — 명령어: tabcomplete [on/off] — Regular 버전 전용
+		채팅 붙여넣기 가능 — 채팅을 적는 중에 할당된 핫키를 누르면 클립보드의 텍스트를 붙여넣습니다. — 명령어: chatpaste [on/off] — Regular 버전 전용
+		욕설 필터링 무시 — 욕설을 해도 다른 플레이어들이 필터링을 거치지 않은 욕설을 볼 수 있습니다. — 명령어: uncensored
+			비활성화 — 명령어: uncensored off
+			활성화 — 명령어: uncensored on
+			팀 채팅 — 명령어: uncensored team
+		글자 필터링 무시 — 채팅에서 < 과 > 같은 특이한 글자를 사용 가능하게 합니다. — 명령어: html
+			비활성화 — 명령어: html off
+			활성화 — 명령어: html on
+			팀 채팅 — 명령어: html team
+		채팅 입력할 때 "처리 중" 없음 (켜기/끄기) — 인게임 채팅창이 열려 있을 때 "처리 중" 표시기를 지웁니다.
+		스크롤 중일 때는 채팅 열기 (켜기/끄기) — 스크롤 중일 때는 채팅이 보이게 해서 스크롤을 할 수 있게 고쳐줍니다.
+		항상 열림 — 명령어: chatalwaysopen [on/off]
+		채팅 표시기 끄기 — 다른 플레이어가 자신이 채팅을 작성 중일 때 채팅 입력 중 표시를 볼 수 없도록 합니다. — 명령어: hidetyping [on/off]
+		자신의 채팅 메시지 OwO화 — 자신의 채팅 메시지를 OwO화합니다. 참고로 자신은 차이점을 알 수 없습니다. — 명령어: owoifymychats [on/off]
+		채팅에서 노래부르기 — 채팅에서 노래 부를 노래를 %appdata%/Stand/Song.lrc 에서 커스텀할 수 있습니다. — 명령어: singing [on/off] — Regular 버전 전용
+	스푸핑
+		닉네임 스푸핑 — 이 기능은 자신의 게임에서만 적용됩니다.
+			닉네임 스푸핑 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: spoofname [on/off]
+			스푸핑 할 닉네임 — 명령어: spoofedname [값]
+			플레이어 기록에서 랜덤 닉네임 얻기
+		호스트 토큰 스푸핑 — 낮은 값으로 호스트 토큰을 변경하여 호스트 대기열의 순위를 낮출 수 있습니다.
+			호스트 토큰 스푸핑 — 낮은 값으로 호스트 토큰을 변경하여 호스트 대기열의 순위를 낮출 수 있습니다. — 명령어: hosttokenspoofing [on/off]
+			스푸핑 할 호스트 토큰 — 명령어: spoofedhosttoken [값]
+			설정된 설정값
+				일반인보단 높음
+				높음/공격적
+				매우 낮음
+			대기열 순위가 호스트 다음일 때 호스트를 킥
+				대기열 순위가 호스트 다음일 때 호스트를 킥 (켜기/끄기) — Ultimate 버전 전용
+				친구 제외 (켜기/끄기)
+				조직 멤버 제외 (켜기/끄기)
+				Stand 유저 제외 (켜기/끄기)
+				조직 멤버 제외 (켜기/끄기)
+		세션 스푸핑
+			세션 숨기기 — 자신을 트랙, 조인, 관전하려는 모든 플레이어에게 세션을 숨깁니다. — 명령어: spoofsession
+				비활성화 — 명령어: spoofsession off
+				스토리 모드 — 명령어: spoofsession storymode — Regular 버전 전용
+				존재하지 않는 세션 — 명령어: spoofsession fake — Ultimate 버전 전용
+			세션 종류 — 자신을 트랙하는 플레이어에게 이 세션 종류가 표시될 것입니다. — Ultimate 버전 전용
+				스푸핑하지 않음
+				솔로 세션
+				초대 전용 세션
+				비공개 친구 세션
+				비공개 조직 세션
+				조직 세션
+				공개 세션
+				유효하지 않은 세션
+			호스트
+				호스트 스푸핑 — 명령어: spoofhost [on/off] — Ultimate 버전 전용
+				호스트 스푸핑 - RID — 명령어: spoofedhostrid [rid]
+				호스트 스푸핑 - 이름 / 닉네임 — 명령어: spoofedhostname [값]
+				호스트 스푸핑: 설정된 설정값
+					유튜버 목록
+						<32 개의 옵션>
+					자신
+		조직 스푸핑
+			조직 스푸핑 — 명령어: crew [on/off]
+			ID — 이것은 엠블럼이 표시되면 결정됩니다. 조직 태그에는 절대 아무 것도 없으면 안됩니다. — 명령어: crewid [id]
+			태그 — 명령어: crewtag [태그]
+			이름 / 닉네임 — 명령어: crewname [이름]
+			조직 좌우명 — 명령어: crewmotto [조직 좌우명]
+			배지 — 명령어: crewaltbadge [on/off]
+			색 — 명령어: crewcolour
+			설정된 설정값
+				조직 없음
+				Stand.gg < STD ]
+				Runs Dead [ DEAD ]
+				IGN Crew < IGN ]
+			자신의 조직으로부터 복사
+		랭크 스푸핑 — 플레이어 목록에서 다른 플레이어가 볼 수 있는 랭크를 변경할 수 있습니다.
+			랭크 스푸핑 — 플레이어 목록에서 다른 플레이어가 볼 수 있는 랭크를 변경할 수 있습니다. — 명령어: spoofrank [on/off]
+			스푸핑 할 랭크 (-2147483648 에(서) 2147483647) — 명령어: spoofedrank [-2147483648 에(서) 2147483647]
+		K/D 스푸핑
+			K/D 스푸핑 — 명령어: spoofkd [on/off]
+			스푸핑 할 K/D (-21474836.48 에(서) 21474836.47) — 명령어: spoofedkd [-21474836.48 에(서) 21474836.47]
+		위치 스푸핑
+			위치 스푸핑 — 명령어: spoofpos [on/off]
+			스푸핑된 위치 — 명령어: spoofedposition [값]
+		락스타 개발자 — 플레이어들이 일반적인 투표로 추방하는 방법을 이용해 킥할 수 없도록 만듭니다. — 명령어: devflag [on/off]
+		락스타 게임 테스터 표시 — 오직 다른 모더들만 이것을 볼 수 있습니다. — 명령어: qaflag [on/off]
+		치트 사용자 표시 — 오직 다른 모더들만 이것을 볼 수 있습니다. — 명령어: cheaterflag [on/off]
+		스트리머 모드 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: streamerspoof [on/off]
+		플레이어 목록에서 지우기 — 게임의 HUD 플레이어 목록에서 자신을 지웁니다. — 명령어: hidefromplayerlist [on/off]
+	액션
+		플레이어가 세션에 들어올 시 액션
+			<16 개의 옵션>
+		RID 조인 시 액션
+			<21 개의 옵션>
+		호스트가 바뀔 시 액션
+			<16 개의 옵션>
+		스크립트 호스트가 바뀔 시 액션
+			<16 개의 옵션>
+		킥 투표 시 액션
+			누군가에게 킥 투표
+				<20 개의 옵션>
+			나에게 킥 투표
+				<20 개의 옵션>
+		러브 레터 킥 시 액션 — 이것은 자신이 세션 호스트일 때만 작용합니다.
+			<17 개의 옵션>
+		신고 시 액션
+			<21 개의 옵션>
+		현상금 수배 시 액션 — NPC가 자신에게 현상금 수배 시에는 적용되지 않습니다.
+			<20 개의 옵션>
+		입자 효과 스팸 시 액션 — 항상 위험한 것은 아니지만, 게임의 프레임을 낮출 수 있습니다.
+			<21 개의 옵션>
+	RID 도구
+		닉네임으로 세션 조인 — 명령어: join [이름]
+		닉네임으로 플레이어 관전 — 명령어: namespectate [이름]
+		닉네임으로 세션에 초대 — 명령어: invite [이름]
+		닉네임으로 프로필 열기 — 명령어: nameprofile [이름]
+		RID로 세션 조인 — 명령어: ridjoin [rid]
+		RID로 플레이어 관전 — 명령어: ridspectate [rid]
+		RID로 세션에 초대 — 명령어: ridinvite [rid]
+		RID로 프로필 열기 — 명령어: ridprofile [rid]
+	CEO/MC
+		색 슬롯 — 명령어: ceocolours
+			0 — 명령어: ceocolour0
+			<9 개 외의 더 많은 옵션>
+		CEO/VIP 가입 — 명령어: ceostart
+		모터사이클 클럽 시작 — 명령어: mcstart
+		이름 / 닉네임 — 명령어: ceoname [값]
+		종류 변경 — 조직을 MC 또는 그 반대로 변경합니다. — 명령어: ceotomc
+		CEO/MC 밴 지우기 — 명령어: ceoappeal
+	사이코 수치
+		사이코 수치 설정 (0 에(서) 100) — 명령어: mentalstate [0 에(서) 100]
+		사이코 수치 잠금 — 명령어: lockmentalstate [on/off]
+		계속해서 변화하는 사이코 수치 (켜기/끄기) — 맵 아이콘에 표시되는 사이코 수치 색상을 계속해서 변화시킵니다.
+	ATM
+		현금 인출 — 명령어: withdraw [값]
+		현금을 은행으로 자동 전송 (0 에(서) 1000000) — 명령어: wallethopper [0 에(서) 1000000]
+	꾸미기 — 락스타가 특정 이벤트 주간에만 활성화 하는 기능 중 일부를 활성화할 수 있습니다. — 명령어: tunables
+		보험금 지급 비활성화 — 다른 사람의 개인 차량을 파손할 때 보험료를 지불하지 않도록 합니다. — 명령어: noinsurancepay [on/off]
+		할로윈 이벤트 — 명령어: halloween [on/off]
+		환각 선인장 — 명령어: peyotes [on/off]
+	세션 연결 끊고 스토리 모드 가기 — 명령어: quittosp
+	세션 강제로 연결 끊고 스토리 모드 가기 — 모든 게임 시스템을 재 시작하여 스토리 모드를 불러오도록 만듭니다. — 명령어: forcequittosp
+	서비스 요청
+		폭격 요청 — 플레어가 지급되며 플레어의 위치에 메리웨더 제트기가 소환되며 폭탄을 그 위치에 투하할 것입니다. — 명령어: airstrike
+		탄약 투하 요청 — 명령어: requestammodrop
+		보트 픽업 요청 — 명령어: boatpickup
+		헬리콥터 픽업 요청 — 명령어: helipickup
+		헬리콥터 지원 요청 — 명령어: helibackup
+	레이더 은신 지급 — 명령어: otr [on/off]
+	불 샤크 테스토스테론 — 명령어: bst [on/off]
+	불 샤크 테스토스테론 얻기 — 명령어: bstonce
+	현상금 제거 — 명령어: removebounty
+	레이더 은신 플레이어 보이기 — 명령어: revealotr [on/off]
+	투명화된 플레이어 보이게 하기 — 명령어: revealinvisible [on/off]
+	오비탈 캐넌 되기 — 자신이 죽인 모든 플레이어를 병원으로 보내고 오비탈 캐넌 메시지를 표시합니다. — 명령어: becomeorbitalcannon [on/off]
+	신고 목록 보기 — Stand는 모든 신고를 차단하지만 신고 당한 목록을 볼 수 있습니다. — 명령어: reportstats
+	목표 지정 모드 설정 — 명령어: targeting
+		에임 도움 - 최대 — 명령어: targeting assisted
+		에임 도움 - 부분적 — 명령어: targeting partialassist
+		자유 에임 - 도움 — 명령어: targeting assistedfreeaim
+		자유 에임 — 명령어: targeting freeaim
+	락스타 어드민 DLC — 잠금 해제할 수 없는 의상을 잠금 해제하며, SCTV도 사용 가능하게 해줍니다. — 명령어: admindlc [on/off]
+	맵 아이콘에 플레이어 태그 — 명령어: bliptags [on/off]
+	NPC 헤드샷 초기화 — 플레이어 목록이나 알림이 빈 검은색일 때 헤드샷 대신에 고정시킵니다. — 명령어: resetheadshots
+플레이어 — 명령어: t players
+	설정
+		태그
+			괄호
+				STD
+				[STD]
+				(STD)
+				{STD}
+				<STD>
+			자신의 분류 태그 (켜기/끄기)
+			셀프
+				<96 개의 옵션>
+			친구
+				<96 개의 옵션>
+			조직 멤버
+				<96 개의 옵션>
+			연결 시간 초과 상태
+				<96 개의 옵션>
+			모더
+				<96 개의 옵션>
+			락스타 어드민
+				<96 개의 옵션>
+			모더 같음
+				<96 개의 옵션>
+			공격한 유저
+				<96 개의 옵션>
+			호스트
+				<96 개의 옵션>
+			다음 호스트
+				<96 개의 옵션>
+			스크립트 호스트
+				<96 개의 옵션>
+			무적
+				<96 개의 옵션>
+			파괴할 수 없는 차량
+				<96 개의 옵션>
+			RC 차량 사용
+				<96 개의 옵션>
+			레이더 숨기기 
+				<96 개의 옵션>
+			실내
+				<96 개의 옵션>
+			관전 중
+				<96 개의 옵션>
+			채팅 입력 중
+				<96 개의 옵션>
+			죽음
+				<96 개의 옵션>
+			투명
+				<96 개의 옵션>
+			VPN
+				<96 개의 옵션>
+		지정된 플레이어에게 AR 비컨 지급
+			플레이어 목록에 있는 유저 (켜기/끄기)
+			플레이어 목록 이내에 있는 유저 (켜기/끄기)
+			자신 제외 (켜기/끄기)
+		플레이어 목록에 들어갈 때...
+			해당 플레이어 관전
+				비활성화
+				방법 - 넛츠
+				방법 - 일반 유저
+		플레이어 목록을 떠날 때...
+			플레이어 관전 중단 (켜기/끄기)
+		관전 중단 — 명령어: stopspectating
+		정렬
+			이름 / 닉네임
+			거리
+			랭크
+			돈 합계
+			K/D 수치
+			검색 시간
+			세션 플레이어 ID / 슬롯
+			호스트 우선 순위
+		역순 정렬 (켜기/끄기)
+		우선 순위 태그 — 우선 순위 태그인 플레이어는 우선 순위 태그를 가지고 있지 않은 다른 플레이어보다 상단에 위치할 것입니다.
+			셀프 (켜기/끄기)
+			친구 (켜기/끄기)
+			조직 멤버 (켜기/끄기)
+			연결 시간 초과 상태 (켜기/끄기)
+			모더 (켜기/끄기)
+			락스타 어드민 (켜기/끄기)
+			모더 같음 (켜기/끄기)
+			공격한 유저 (켜기/끄기)
+			호스트 (켜기/끄기)
+			다음 호스트 (켜기/끄기)
+			스크립트 호스트 (켜기/끄기)
+			무적 (켜기/끄기)
+			파괴할 수 없는 차량 (켜기/끄기)
+			RC 차량 사용 (켜기/끄기)
+			레이더 숨기기  (켜기/끄기)
+			실내 (켜기/끄기)
+			관전 중 (켜기/끄기)
+			채팅 입력 중 (켜기/끄기)
+			죽음 (켜기/끄기)
+			투명 (켜기/끄기)
+			VPN (켜기/끄기)
+	모든 플레이어
+		제외 목록
+			친구 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+			Stand 유저 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+		순간 이동
+			자신에게 순간 이동 — 명령어: summonall — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			자신의 목적지로 순간 이동 — 명령어: wpsummonall
+			해당 플레이어의 목적지로 순간 이동 — 명령어: wptpall
+			순간 이동할 장소 목록
+				자신의 근처 — 명령어: aptmeall — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				자신의 목적지 근처 — 명령어: aptwpall — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				이클립스 타워, 아파트 31 — 명령어: apt1all — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				<113 개 외의 더 많은 옵션>
+			카지노로 순간 이동 — 명령어: casinotpall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		친절함
+			차량
+				업그레이드 — 명령어: upgradevehall
+				차량 수리 — 명령어: repairvehall — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				차량 무적 — 명령어: givevehgodall [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				락온 당하지 않음 — 명령어: givenolockonall [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				엔진 파워 수정 (1.00 에(서) 20.00) — 명령어: givepowerall [1.00 에(서) 20.00] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			수집품 지급
+				모든 옵션 — 명령어: givecollectiblesall — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				영화 소품
+				숨겨진 캐시
+				보물 상자
+				라디오 안테나
+				미디어 USB
+				난파선
+				파묻힌 물품
+				잭 오 랜턴
+				LD 유기농 제품
+				정크 에너지 스카이다이브
+				눈 사람
+				제랄드의 캐시
+			CEO 돈 반복 — 직원에게 상당한 보수를 지급합니다. 받는 사람이 자신의 직원이 될 필요는 없습니다. — 명령어: ceopayall [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			카지노 피규어 지급 — RP와 현금을 주기 위해 쓰일 수 있습니다. — 명령어: rpall [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			트럼프 카드 지급 — RP와 카지노 칩을 주기 위해 쓰일 수 있습니다. — 명령어: cardsall [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			자동 체력 회복 — 해당 플레이어의 방탄복과 체력을 최대로 유지합니다. — 명령어: autohealall [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			지명 수배 되지 않음 — 명령어: bailall [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			레이더 은신 지급 — 명령어: giveotrall [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			스낵 지급 — 명령어: snackall [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			폭발 적용 — 거리 상으로 가까울 때 가장 잘 작동합니다. — 명령어: explosiveammoall
+				<85 개의 옵션>
+			폭발 효과 — 거리 상으로 가까울 때 가장 잘 작동합니다.
+				<503 개의 옵션>
+		채팅
+			채팅 따라하기 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: chatmockall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			채팅 메시지 OwO화 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: chatowoall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		무기
+			무기 지급 — 명령어: armall
+				모든 무기 지급 — 명령어: armallall — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				<8 개 외의 더 많은 옵션>
+			탄약 지급 — 해당 플레이어의 현재 무기에 탄약을 지급합니다. — 명령어: ammoall — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			낙하산 지급 — 명령어: paragiveall — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무장 해제 — 무기 무장을 해제합니다. — 명령어: disarmall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		트롤링
+			차량
+				미끄러운 타이어 — 비활성화하기 위해서는 조금의 시간이 필요합니다. — 명령어: slipperyall [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			지명 수배 레벨 설정 (0 에(서) 5) — 명령어: pwantedall [0 에(서) 5] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			얼리기 — 명령어: freezeall [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			시선 위치 강제 조종 — 일부 플레이어의 무적을 해제할 수도 있습니다. — 명령어: confuseall [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			레그돌 — 명령어: ragdollall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			카메라 흔들기 — 명령어: shakecamall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			죽이기 — '누명 킬 차단' 기능을 사용하였거나 패시브 모드 상태이면 작동하지 않습니다. — 명령어: killall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			케이지에 가두기 — 명령어: cageall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			폭발 — 명령어: explodeall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			현상금 수배 — 명령어: bountyall [0 에(서) 10000] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			자신에게 현상금 수배 (켜기/끄기) — 다른 플레이어에게 의심을 받지 않기 위해 자신에게 현상금을 걸기도 합니다.
+			현상금 반복
+				값 (1000 에(서) 10000) — 명령어: loopbountyvalueall [1000 에(서) 10000]
+				현상금 반복 — 명령어: loopbountyall [on/off]
+				자신에게 현상금 수배 (켜기/끄기) — 다른 플레이어에게 의심을 받지 않기 위해 자신에게 현상금을 걸기도 합니다.
+			알림 보내기
+				현금이 지워짐 — 명령어: notifyremovedall [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				현금이 도난 당함 — 명령어: notifystolenall [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				현금이 계좌에 임금됨 — 명령어: notifybankedall [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				알림 도배 — 명령어: notifyspamall [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			강제 작업 보내기
+				시비 붙은 메리웨더 — 명령어: sendtojoball
+				하프트랙 훔치기
+				탈출 전략
+				숨겨진 자금
+				탄로난 정체
+				두더지 잡기
+				데이터 브리치
+				알력 싸움
+			차량에서 내보내기 — 명령어: vehkickall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			실내에서 내보내기 — 명령어: interiorkickall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			차량 운전 비활성화 — 아파트 초대로 해결할 수 있는 것들 중에서 차량을 운전할 수 없는 상태로 만듭니다. — 명령어: novehsall — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무한 로딩 — 명령어: infiniteloadingall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무한 휴대폰 전화 울림 — 명령어: ringall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			강제 자유 모드 미션 — 강제로 목표 플레이어를 자유 모드 미션 참가 상태로 만듭니다. 그러면, 패시브 모드를 하거나 건물 내에 들어갈 수 없게 됩니다. — 명령어: missionall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			비즈니스 배틀 걸기 — 명령어: raidall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		카메라 표시 — 명령어: showcamall [on/off]
+		모든 플레이어를 대신하여 명령어 사용 — 명령어: asall — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		칭찬/신고
+			우호적임 — 명령어: commendhelpfulall — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			친절함 — 명령어: commendfriendlyall — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			게임 플레이 중 괴롭힘 — 명령어: reportgriefingall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			치트 또는 모드 사용 — 명령어: reportexploitsall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			게임 기능 악용 — 명령어: reportbugabuseall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			텍스트 채팅: 괴롭힘 — 명령어: reportannoyingall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			텍스트 채팅: 욕설 사용 — 명령어: reporthateall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			보이스 채팅: 괴롭힘 — 명령어: reportvcannoyingall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			보이스 채팅: 욕설 사용 — 명령어: reportvchateall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		킥
+			스마트 — 모든 킥을 이용해 세션에서 킥합니다. — 명령어: kickall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			밴 — 자신이 호스트일 때만 사용 가능합니다. — 명령어: banall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			참수 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: aidsall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			블랙리스트 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 자신이 호스트일 때만 사용 가능합니다. — 명령어: blacklistall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			호스트 킥 — 투표 킥 메커니즘을 이용하여 플레이어를 킥합니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다. — 명령어: hostkickall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			논-호스트 킥 — 대부분의 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: nonhostkickall — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		크래쉬
+			엘레강트 — 대부분의 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: crashall — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			BDSM — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: chokeall — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		나가는 싱크
+			차단 — 다른 플레이어에게 자신의 위치를 업데이트하지 않으므로 이 기능을 사용하도록 설정한 경우 자신이 조인 중임을 알 수 없도록 할 수도 있습니다. — 명령어: desyncall [on/off]
+			로그 파일에 적기 — 명령어: syncoutlogall [on/off]
+			콘솔에 적기 (켜기/끄기)
+			알림 (켜기/끄기)
+	[플레이어] — 명령어: [플레이어]
+		정보 — 명령어: info[플레이어]
+			상태
+				거리
+				체력
+				방탄복
+				무기
+				차량
+				지명 수배 레벨
+				사이코 수치
+				무기 데미지 변경
+				근접 무기 데미지 변경
+				아파트 ID
+				세션 플레이어 ID / 슬롯
+				종류
+				두목
+				이름 / 닉네임
+			연결
+				핑
+				이 방식을 이용해 연결됨:
+				실질적 IP
+				실질적 포트
+				랜 IP
+				IP 주소
+				포트
+				도시
+				지역
+				국가
+				ISP
+			통계
+				랭크
+				지갑 돈
+				은행 돈
+				돈 합계
+				사살
+				사망
+				K/D 수치
+				즐겨 찾는 라디오
+				자신의 벙커
+				자신의 시설
+				자신의 나이트클럽
+			조직
+				ID
+				이름 / 닉네임
+				태그
+				조직 좌우명
+				배지
+				조직 스푸핑에 복사
+			플레이어 닉네임 (Stand)
+			플레이어 닉네임 (세션 내)
+			플레이어 닉네임 (소셜 클럽)
+			Rockstar ID
+			만난 후 시간
+			무적인 시간
+			호스트 토큰
+			호스트 우선 순위
+		순간 이동
+			플레이어에게 순간 이동 — 명령어: tp[플레이어]
+			플레이어의 차량으로 순간 이동 — 명령어: tpveh[플레이어]
+			플레이어의 아파트 안으로 순간 이동
+			자신에게 순간 이동 — 명령어: summon[플레이어] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			플레이어에게 순간 이동...
+			자신의 목적지로 순간 이동 — 명령어: wpsummon[플레이어]
+			해당 플레이어의 목적지로 순간 이동 — 명령어: wptp[플레이어]
+			순간 이동할 장소 목록
+				자신의 근처 — 명령어: aptme[플레이어] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				자신의 목적지 근처 — 명령어: aptwp[플레이어] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				이클립스 타워, 아파트 31 — 명령어: apt1[플레이어] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				<113 개 외의 더 많은 옵션>
+			카지노로 순간 이동 — 명령어: casinotp[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		친절함
+			차량
+				업그레이드 — 명령어: upgradeveh[플레이어]
+				차량 수리 — 명령어: repairveh[플레이어] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				차량 무적 — 명령어: givevehgod[플레이어] [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				락온 당하지 않음 — 명령어: givenolockon[플레이어] [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				엔진 파워 수정 (1.00 에(서) 20.00) — 명령어: givepower[플레이어] [1.00 에(서) 20.00] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			수집품 지급
+				모든 옵션 — 명령어: givecollectibles[플레이어] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				영화 소품
+				숨겨진 캐시
+				보물 상자
+				라디오 안테나
+				미디어 USB
+				난파선
+				파묻힌 물품
+				잭 오 랜턴
+				LD 유기농 제품
+				정크 에너지 스카이다이브
+				눈 사람
+				제랄드의 캐시
+			소환된 차량 선물 — 플레이어가 차량 가치에 상관없이 모든 차량을 차고에 넣을 수 있습니다. — 명령어: gift[플레이어] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			CEO 돈 반복 — 직원에게 상당한 보수를 지급합니다. 받는 사람이 자신의 직원이 될 필요는 없습니다. — 명령어: ceopay[플레이어] [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			카지노 피규어 지급 — RP와 현금을 주기 위해 쓰일 수 있습니다. — 명령어: rp[플레이어] [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			트럼프 카드 지급 — RP와 카지노 칩을 주기 위해 쓰일 수 있습니다. — 명령어: cards[플레이어] [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			자동 체력 회복 — 해당 플레이어의 방탄복과 체력을 최대로 유지합니다. — 명령어: autoheal[플레이어] [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			지명 수배 되지 않음 — 명령어: bail[플레이어] [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			레이더 은신 지급 — 명령어: giveotr[플레이어] [on/off] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			스낵 지급 — 명령어: snack[플레이어] [on/off] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			폭발 적용 — 거리 상으로 가까울 때 가장 잘 작동합니다. — 명령어: explosiveammo[플레이어]
+				<85 개의 옵션>
+			폭발 효과 — 거리 상으로 가까울 때 가장 잘 작동합니다.
+				<503 개의 옵션>
+			스크립트 호스트 주기 — 명령어: givesh[플레이어] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		채팅
+			채팅 따라하기 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: chatmock[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			채팅 메시지 OwO화 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: chatowo[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			비밀 메시지 보내기 — 해당 플레이어와 자신만 볼 수 있는 메시지를 보냅니다. — 명령어: sendpm[플레이어] [텍스트]
+		무기
+			무기 지급 — 명령어: arm[플레이어]
+				모든 무기 지급 — 명령어: arm[플레이어]all — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				<8 개 외의 더 많은 옵션>
+			탄약 지급 — 해당 플레이어의 현재 무기에 탄약을 지급합니다. — 명령어: ammo[플레이어] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			낙하산 지급 — 명령어: paragive[플레이어] — 친절한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무장 해제 — 무기 무장을 해제합니다. — 명령어: disarm[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		트롤링
+			차량
+				고장 — 명령어: killveh[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				EMP — 명령어: empveh[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				불에 태우기 — 명령어: igniteveh[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				삭제 — 명령어: delveh[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				타이어 터뜨리기 — 명령어: poptires[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				슬링 샷 — 명령어: slingshot[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				주변 돌기 — 명령어: turnaround[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				휠 떼어내기 — 명령어: detachwheel[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				미끄러운 타이어 — 비활성화하기 위해서는 조금의 시간이 필요합니다. — 명령어: slippery[플레이어] [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				문 제거 — 명령어: removedoors[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				프로펠러 제거 — 명령어: destroyprop[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				꼬리 날개 분리시키기  — 명령어: breakofftailboom[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			공격자
+				소환
+					소환
+					수 (1 에(서) 20)
+					모델
+						플레이할 수 있는 캐릭터
+							<6 개의 옵션>
+						지상 동물
+							<4 개의 옵션>
+						NPC
+							<981 개의 옵션>
+					차량
+						N/A
+						랜덤
+						슈퍼카
+							<55 개의 옵션>
+						서비스
+							<13 개의 옵션>
+						다목적
+							<22 개의 옵션>
+						헬리콥터
+							<29 개의 옵션>
+						오토바이
+							<58 개의 옵션>
+						비행기
+							<44 개의 옵션>
+						스포츠카
+							<104 개의 옵션>
+						긴급
+							<19 개의 옵션>
+						군용
+							<17 개의 옵션>
+						스포츠 클래식
+							<45 개의 옵션>
+						콤팩트
+							<18 개의 옵션>
+						세단
+							<38 개의 옵션>
+						SUV
+							<40 개의 옵션>
+						보트
+							<26 개의 옵션>
+						상업용
+							<21 개의 옵션>
+						오프로드
+							<65 개의 옵션>
+						밴
+							<39 개의 옵션>
+						머슬카
+							<85 개의 옵션>
+						자전거
+							<9 개의 옵션>
+						산업용
+							<11 개의 옵션>
+						쿠페
+							<17 개의 옵션>
+						오픈 휠
+							<4 개의 옵션>
+					무기
+						근접 무기
+							<19 개의 옵션>
+						피스톨
+							<21 개의 옵션>
+						머신건
+							<13 개의 옵션>
+						라이플
+							<13 개의 옵션>
+						샷건
+							<10 개의 옵션>
+						스나이퍼 라이플
+							<6 개의 옵션>
+						중화기
+							<10 개의 옵션>
+					정확도 (0 에(서) 100)
+				설정된 설정값 — 명령어: presets[플레이어]
+					제트키 보내기
+					바이커 보내기
+					광대 보내기
+					헬리콥터 보내기
+					BMX 갱 보내기
+					농부 보내기
+					미니 탱크 보내기
+				무적 (켜기/끄기)
+				차량 채우기 (켜기/끄기) — 각각의 공격자를 위한 새로운 차량을 만드는 것 대신에, 있던 차량에 먼저 공격자를 가득 채울 것입니다.
+				모든 공격자 삭제
+			부딪치기
+				부딪치기 — 명령어: ram[플레이어]
+				속도 (20 에(서) 200) — 명령어: ramspeed[플레이어] [20 에(서) 200]
+				차량
+					랜덤
+					슈퍼카
+						<55 개의 옵션>
+					서비스
+						<13 개의 옵션>
+					다목적
+						<44 개의 옵션>
+					헬리콥터
+						<29 개의 옵션>
+					오토바이
+						<58 개의 옵션>
+					비행기
+						<44 개의 옵션>
+					스포츠카
+						<104 개의 옵션>
+					긴급
+						<19 개의 옵션>
+					군용
+						<17 개의 옵션>
+					스포츠 클래식
+						<45 개의 옵션>
+					콤팩트
+						<18 개의 옵션>
+					세단
+						<38 개의 옵션>
+					SUV
+						<40 개의 옵션>
+					보트
+						<26 개의 옵션>
+					상업용
+						<21 개의 옵션>
+					오프로드
+						<65 개의 옵션>
+					밴
+						<39 개의 옵션>
+					머슬카
+						<85 개의 옵션>
+					자전거
+						<9 개의 옵션>
+					산업용
+						<11 개의 옵션>
+					기차
+						<9 개의 옵션>
+					쿠페
+						<17 개의 옵션>
+					오픈 휠
+						<4 개의 옵션>
+				투명 (켜기/끄기)
+			지명 수배 레벨 설정 (0 에(서) 5) — 명령어: pwanted[플레이어] [0 에(서) 5] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			얼리기 — 명령어: freeze[플레이어] [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			가짜 돈 지급 — 명령어: fakemoneydrop[플레이어] [on/off]
+			패시브 모드 차단 — 명령어: nopassivemode[플레이어] [on/off]
+			시선 위치 강제 조종 — 일부 플레이어의 무적을 해제할 수도 있습니다. — 명령어: confuse[플레이어] [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			레그돌 — 명령어: ragdoll[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			카메라 흔들기 — 명령어: shakecam[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			적대적인 NPC — 명령어: aggressivenpcs[플레이어] [on/off]
+			강도 보내기 반복 — 명령어: mugloop[플레이어] [on/off] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다. — Ultimate 버전 전용
+			야수로 변신 — 명령어: beast[플레이어] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다. — Ultimate 버전 전용
+			죽이기 — '누명 킬 차단' 기능을 사용하였거나 패시브 모드 상태이면 작동하지 않습니다. — 명령어: kill[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			케이지에 가두기 — 명령어: cage[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			폭발 — 명령어: explode[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			누명 킬
+			입자 효과 스팸
+				입자 효과 스팸 — 명령어: particlespam[플레이어] [on/off]
+				입자 효과
+					<502 개의 옵션>
+				크기 (0.25 에(서) 10.00) — 명령어: ptfxscale[플레이어] [0.25 에(서) 10.00]
+				채팅 쿨타임 (ms) (0 에(서) 1000) — 명령어: ptfxdelay[플레이어] [0 에(서) 1000]
+			현상금 수배 — 명령어: bounty[플레이어] [0 에(서) 10000] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			현상금 반복
+				값 (1000 에(서) 10000) — 명령어: loopbountyvalue[플레이어] [1000 에(서) 10000]
+				현상금 반복 — 명령어: loopbounty[플레이어] [on/off]
+			알림 보내기
+				현금이 지워짐 — 명령어: notifyremoved[플레이어] [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				현금이 도난 당함 — 명령어: notifystolen[플레이어] [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				현금이 계좌에 임금됨 — 명령어: notifybanked[플레이어] [-2147483648 에(서) 2147483647] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+				알림 도배 — 명령어: notifyspam[플레이어] [on/off] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			강제 작업 보내기
+				시비 붙은 메리웨더 — 명령어: sendtojob[플레이어]
+				하프트랙 훔치기
+				탈출 전략
+				숨겨진 자금
+				탄로난 정체
+				두더지 잡기
+				데이터 브리치
+				알력 싸움
+			차량에서 내보내기 — 명령어: vehkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			실내에서 내보내기 — 명령어: interiorkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			차량 운전 비활성화 — 아파트 초대로 해결할 수 있는 것들 중에서 차량을 운전할 수 없는 상태로 만듭니다. — 명령어: novehs[플레이어] — 무례한 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			CEO/MC 킥 — 명령어: ceokick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무한 로딩 — 명령어: infiniteloading[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			무한 휴대폰 전화 울림 — 명령어: ring[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			강제 자유 모드 미션 — 강제로 목표 플레이어를 자유 모드 미션 참가 상태로 만듭니다. 그러면, 패시브 모드를 하거나 건물 내에 들어갈 수 없게 됩니다. — 명령어: mission[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			비즈니스 배틀 걸기 — 명령어: raid[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		목적지 — 명령어: wp[플레이어] [on/off]
+		해당 플레이어의 목적지 복사 — 명령어: copywp[플레이어]
+		관전
+			방법 - 넛츠 — 명령어: spectate[플레이어] [on/off]
+			방법 - 일반 유저 (켜기/끄기)
+		카메라 표시 — 명령어: showcam[플레이어] [on/off]
+		프로필 열기 — 명령어: profile[플레이어]
+		친구 요청 보내기 — 명령어: befriend[플레이어]
+		플레이어 기록에 넣기
+		아웃핏 복사 — 명령어: copyoutfit[플레이어]
+		차량 복사 — 명령어: copyvehicle[플레이어]
+		해당 플레이어로 명령어 사용 — 명령어: as[플레이어] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		CEO/MC 가입 — 명령어: ceojoin[플레이어] [on/off]
+		탁구 초대 — 명령어: pong[플레이어]
+		칭찬/신고
+			우호적임 — 명령어: commendhelpful[플레이어] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			친절함 — 명령어: commendfriendly[플레이어] — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			게임 플레이 중 괴롭힘 — 명령어: reportgriefing[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			치트 또는 모드 사용 — 명령어: reportexploits[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			게임 기능 악용 — 명령어: reportbugabuse[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			텍스트 채팅: 괴롭힘 — 명령어: reportannoying[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			텍스트 채팅: 욕설 사용 — 명령어: reporthate[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			보이스 채팅: 괴롭힘 — 명령어: reportvcannoying[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			보이스 채팅: 욕설 사용 — 명령어: reportvchate[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		킥
+			스마트 — 모든 킥을 이용해 세션에서 킥합니다. — 명령어: kick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			밴 — 자신이 호스트일 때만 사용 가능합니다. — 명령어: ban[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			참수 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: aids[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			러브 레터 — 킥 할 플레이어는 누가 자신을 킥 했는지 알 수 없는 별개의 킥입니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다. — 명령어: loveletterkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			오르가즘 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: orgasmkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			블랙리스트 — 투표 킥을 당한 것 같이 해당 플레이어를 블랙리스트에 추가하고, 그렇지만 해당 플레이어에게는 디싱크 킥과 비슷하게 킥 당합니다. 자신이 호스트일 때만 사용 가능합니다. — 명령어: blacklist[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			호스트 킥 — 투표 킥 메커니즘을 이용하여 플레이어를 킥합니다. 만약 자신이 호스트라면, 다른 플레이어는 이 킥을 막을 수 없습니다. — 명령어: hostkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			논-호스트 킥 — 대부분의 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: nonhostkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			유효하지 않은 픽업 킥 — 대부분의 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: pickupkick[플레이어] — 폭력적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		크래쉬
+			엘레강트 — 대부분의 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: crash[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			BDSM — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: choke[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			신세대 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: ngcrash[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			양상추 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: footlettuce[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			차량 — 유명한 메뉴는 이 킥/크래쉬를 막습니다. — 명령어: slaughter[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			스팀롤러 — 참고: 목표 플레이어 근처에 있는 플레이어들도 크래쉬 당할 수도 있습니다. — 명령어: steamroll[플레이어] — Toxic 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+		연결 시간 초과 — 임시적으로 해당 플레이어가 보내는 대부분의 네트워크 이벤트들을 막습니다. — 명령어: timeout[플레이어] [on/off]
+		네트워크 이벤트
+			차단 — 명령어: ignore[플레이어] [on/off]
+			로그 파일에 적기 — 명령어: netlog[플레이어] [on/off]
+			콘솔에 적기 (켜기/끄기)
+			알림 (켜기/끄기)
+		들어오는 싱크
+			차단 — 명령어: blocksync[플레이어] [on/off]
+			로그 파일에 적기 — 명령어: syncinlog[플레이어] [on/off]
+			콘솔에 적기 (켜기/끄기)
+			알림 (켜기/끄기)
+		나가는 싱크
+			차단 — 이 플레이어에게 자신의 위치 업데이트를 중지합니다. — 명령어: desync[플레이어] [on/off]
+			로그 파일에 적기 — 명령어: syncoutlog[플레이어] [on/off]
+			콘솔에 적기 (켜기/끄기)
+			알림 (켜기/끄기)
+월드 — 명령어: t world
+	장소
+		순간 이동 옵션 목록 — 명령어: tp
+			목적지 — 명령어: tpwp — 일반적인 명령어 사용 권한을 가진 다른 플레이어가 사용할 수 있습니다.
+			목표지 — 명령어: tpobjective
+			저장된 장소 — 이 기능을 이용해서도 장소를 저장할 수 있습니다: 월드 > 장소 > 위치 (좌표).
+				폴더 열기
+				AR아르카디스 — 명령어: tpar
+				AS알타 — 명령어: tpas
+				A아케이드 — 명령어: tpa
+				B벙커 — 명령어: tpb
+				K카지노 — 명령어: tpk
+				LS모임 — 명령어: tpls
+				M메이저뱅크 — 명령어: tpm
+				N나이트클럽 — 명령어: tpn
+				SB시설본부 — 명령어: tpsb
+				SC수출 — 명령어: tpsc
+				SS이클립스타워 — 명령어: tpss
+				S사무소 — 명령어: tps
+				T튜닝샵 — 명령어: tpt
+				USS 럭싱턴 — 명령어: tpuss
+				USS 럭싱톤 1F — 명령어: tpuss1f
+				USS 럭싱톤 2F — 명령어: tpuss2f
+				안전한 공간 — 명령어: tp
+			상점
+				아뮤네이션 — 명령어: tpammunation
+				사격장이 있는 아뮤네이션 — 명령어: tpshootingrange
+				이발소 — 명령어: tpbarbershop
+				의상점 — 명령어: tpclothesstore
+				로스 산토스 커스텀 — 명령어: tplsc
+				타투샵 — 명령어: tptattooparlor
+			랜드마크
+				로스 산토스 국제 공항 — 명령어: tplsia
+				메이즈 뱅크 타워 헬기장 — 명령어: tpmazehelipad
+				포트 잔쿠도 — 명령어: tpfortzancudo
+				마운트 칠라아드 — 명령어: tpmtchiliad
+				카요 페리코 — 물에 빠지지 않도록 순간 이동 전에 카요 페리코 월드 상태 또는 IPL이 활성화되었는지 확인하세요. — 명령어: tpcayoperico
+				카지노 — 명령어: tpcasino
+			높게 올라가기 — 명령어: tphigh
+			클립보드에서 위치 불러오기 — 2D나 3D 좌표를 클립보드에서 찾습니다. — 명령어: pastepos
+			목적지 자동 순간 이동 — 설정한 어느 지점이든 자동으로 순간 이동합니다. — 명령어: autotpwp [on/off]
+			포털 사용하여 목적지로 순간 이동 — 명령어: wpportals [on/off]
+		마지막 순간 이동 반복 — 명령어: repeattp
+		순간 이동 되돌리기 — 명령어: undoteleport
+		목적지 이동 옵션 목록 — 명령어: wp
+			목표지 — 명령어: wpobjective
+			저장된 장소 — 이 기능을 이용해서도 장소를 저장할 수 있습니다: 월드 > 장소 > 위치 (좌표).
+				폴더 열기
+				AR아르카디스 — 명령어: wpar
+				AS알타 — 명령어: wpas
+				A아케이드 — 명령어: wpa
+				B벙커 — 명령어: wpb
+				K카지노 — 명령어: wpk
+				LS모임 — 명령어: wpls
+				M메이저뱅크 — 명령어: wpm
+				N나이트클럽 — 명령어: wpn
+				SB시설본부 — 명령어: wpsb
+				SC수출 — 명령어: wpsc
+				SS이클립스타워 — 명령어: wpss
+				S사무소 — 명령어: wps
+				T튜닝샵 — 명령어: wpt
+				USS 럭싱턴 — 명령어: wpuss
+				USS 럭싱톤 1F — 명령어: wpuss1f
+				USS 럭싱톤 2F — 명령어: wpuss2f
+				안전한 공간 — 명령어: wp
+			상점
+				아뮤네이션 — 명령어: wpammunation
+				사격장이 있는 아뮤네이션 — 명령어: wpshootingrange
+				이발소 — 명령어: wpbarbershop
+				의상점 — 명령어: wpclothesstore
+				로스 산토스 커스텀 — 명령어: wplsc
+				타투샵 — 명령어: wptattooparlor
+			랜드마크
+				로스 산토스 국제 공항 — 명령어: wplsia
+				메이즈 뱅크 타워 헬기장 — 명령어: wpmazehelipad
+				포트 잔쿠도 — 명령어: wpfortzancudo
+				마운트 칠라아드 — 명령어: wpmtchiliad
+				카요 페리코 — 물에 빠지지 않도록 순간 이동 전에 카요 페리코 월드 상태 또는 IPL이 활성화되었는지 확인하세요. — 명령어: wpcayoperico
+				카지노 — 명령어: wpcasino
+			클립보드에서 위치 불러오기 — 2D나 3D 좌표를 클립보드에서 찾습니다. — 명령어: wpclipboard
+		위치 (좌표) — 명령어: pos
+			자신의 현재 위치 저장 — 명령어: savepos [이름]
+			목적지 지정 위치 저장 — 명령어: savewppos [이름]
+			X — 명령어: posx
+			Y — 명령어: posy
+			Z (고도) — 명령어: posz
+			위치 클립보드 복사 — 명령어: copypos
+		실내
+			벙커
+				순간 이동 — 명령어: tpbunker
+				벙커 스타일 — 명령어: bunkerstyle
+					1 — 명령어: bunkerstyle 1
+					2 — 명령어: bunkerstyle 2
+					3 — 명령어: bunkerstyle 3
+				보안 — 명령어: bunkersecurity [on/off]
+				장비 업그레이드 — 명령어: bunkerequipmentupgrade [on/off]
+				무기 캐비닛 — 명령어: bunkergunlocker [on/off]
+				개인 골프 캐디 — 명령어: bunkerpersonalquarters [on/off]
+				무기 사격장 — 명령어: bunkergunrange [on/off]
+			차량 차고
+				순간 이동 — 명령어: tpvehware
+				벙커 스타일 — 명령어: vehwarestyle
+					브랜드 — 명령어: vehwarestyle branded
+					어반 — 명령어: vehwarestyle urban
+					베이직 (색상 1) — 명령어: vehwarestyle basic1
+					베이직 (색상 2) — 명령어: vehwarestyle basic2
+					베이직 (색상 3) — 명령어: vehwarestyle basic3
+					베이직 (색상 4) — 명령어: vehwarestyle basic4
+			LS 차량 모임 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpcarmeet
+			IAA 시설 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpfacility
+			서버 번 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpserverroom
+			보그단의 잠수함 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpsubmarine
+			휴메인 연구소 — 명령어: tphumanelabs
+			FIB (사무실 습격) — 명령어: tpburntfib
+			FIB — 명령어: tpfib
+			IAA — 명령어: tpiaa
+			La Fluente Blanca — 명령어: tpranch
+			Split Sides West Comedy Club — 명령어: tpcomedy
+			Bahama Mamas — 명령어: tpbahamamamas
+			Torture Room — 명령어: tptortureroom
+			모텔 방 — 명령어: tpmotelroom
+			영화관 — 명령어: tpcinema
+			재활용 공장 — 명령어: tprecyling
+			오메가의 차고 — 명령어: tpomega
+			레스터의 집 — 명령어: tplester
+			프리드랜더의 사무실 — 명령어: tptherapy
+			솔로몬의 사무실 — 명령어: tpsolomon
+			플로이드의 집 — 명령어: tpfloyd
+			관리인의 집 — 명령어: tpjanitor
+			베니의 오리지날 정비소 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpbenny
+			Hayes Autos — 명령어: tpchopshop
+			테킬라 — 명령어: tprockclub
+			주물 공장 — 명령어: tpfoundry
+			노동 조합 은행 차고 — 명령어: tpcarpark
+			엡실론 저장 방 — 명령어: tpepsilonstorage
+			캐릭터 생성 방
+			미션 후 차고
+			나이트클럽 차고 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다.
+			마리화나 농장 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpweedfarm
+			스틸트 집 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다. — 명령어: tpstilthouse
+			고급 아파트
+			중급 아파트
+			저급 아파트
+			고급 차고
+			중급 차고
+			저급 차고
+			대형 창고 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다.
+			중형 창고 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다.
+			소형 창고 — 이 위치에서 순간 이동하면 온라인 월드 상태가 유지되어 게임이 멈출 수 있습니다.
+		IPL — IPL을 불러오거나 및 불러오기 해제할 수 있습니다. (본인만 적용) — 명령어: ipls
+			IPL로 순간 이동 — IPL로 순간 이동을 활성화하면 IPL로 순간 이동합니다. — 명령어: ipltp [on/off]
+			카요 페리코 — 이 IPL을 활성화하면 온라인 월드 상태가 유지되어 곧 게임이 멈출 수 있습니다. — 명령어: iplcayopercio [on/off]
+			북쪽 양크턴 — 명령어: yank [on/off]
+			북쪽 양크턴 맵 & 레이더 — 명령어: yankmap [on/off]
+			Clucking Bell 공장 — 명령어: cluckingbellfactory [on/off]
+			USS 럭싱턴 — 이 IPL을 활성화하면 온라인 월드 상태가 유지되어 곧 게임이 멈출 수 있습니다. — 명령어: ussluxington [on/off]
+			시체 안치소 — 명령어: morgue [on/off]
+			필박스 병원 — 명령어: hospital [on/off]
+			시리즈 A 습격 요트 — 이 IPL을 활성화하면 온라인 월드 상태가 유지되어 곧 게임이 멈출 수 있습니다. — 명령어: seriesayacht [on/off]
+			O'Neil Brothers 목장 — 명령어: ranch [on/off]
+			O'Neil Brothers 목장 사고 — 명령어: ranchfire [on/off]
+			로스트 MC 클럽하우스 — 이 IPL을 활성화하면 온라인 월드 상태가 유지되어 곧 게임이 멈출 수 있습니다. — 명령어: lostmcclubhouse [on/off]
+			레스터의 공장 — 명령어: lestersfactory [on/off]
+			Fame or Shame — 명령어: fameorshame [on/off]
+			라이프 인베이더 — 명령어: lifeinvader [on/off]
+			Vangelico Fine Jewelry — 명령어: vangelicofinejewelry [on/off]
+			맥스 렌다 — 명령어: maxrenda [on/off]
+			기차 크래쉬 — 명령어: trainwreck [on/off]
+			마운트 칠리야드 UFO — 명령어: ufoeye [on/off]
+			Banham Canyon 집 — 명령어: banhamcanyonhouse [on/off]
+			빨강 카펫 — 명령어: redcarpet [on/off]
+			FIB 로비 — 명령어: fiblobby [on/off]
+			FIB 헬리콥터 사고 — 명령어: fibhelicoptercrash [on/off]
+			부서진 FIB 건물  — 명령어: fibrubble [on/off]
+			노동 조합 은행 — 명령어: uniondepository [on/off]
+			비행기 충돌 구멍 — 명령어: planecrashtrench [on/off]
+			Alamo Sea 트라이애슬론 — 명령어: alamoseatriathlon [on/off]
+			LSIA 트라이애슬론 — 명령어: lsiatriathlon [on/off]
+			포트 잔쿠도 군사 기지  — 명령어: zancudogates [on/off]
+			센디 쇼어 비행장 초소 — 명령어: sandyshoresairfieldboxes [on/off]
+			세차용 스피너 — 명령어: carwashspinners [on/off]
+			메이즈 뱅크 광고판 낙서 — 명령어: mazebankbillboardgraffiti [on/off]
+			Ron Oil 광고판 낙서 — 명령어: ronoilbillboardgraffiti [on/off]
+			iFruit 광고판 — 명령어: ifruitbillboard [on/off]
+			Meltdown 광고판 (1) — 명령어: meltdownbillboard1 [on/off]
+			Meltdown 광고판 (2) — 명령어: meltdownbillboard2 [on/off]
+			Hill Valley 교회 무덤 — 이 IPL을 활성화하면 온라인 월드 상태가 유지되어 곧 게임이 멈출 수 있습니다. — 명령어: hillvalleychurchgrave [on/off]
+		순간 이동 효과
+			<503 개의 옵션>
+	NPC
+		구역 정리
+			구역 정리 — 명령어: cleararea
+			다가오면 (0.00 에(서) 1000.00) — 명령어: clearproximity [0.00 에(서) 1000.00]
+			차량 — 명령어: clearvehicles [on/off]
+			NPC — 명령어: clearpeds [on/off]
+			오브젝트 — 명령어: clearobjects [on/off]
+			케이지 — 명령어: clearcages [on/off]
+			픽업 — 명령어: clearpickups [on/off]
+			미션 엔티티 무시 — 명령어: clearnomission [on/off]
+			지연 없음 — 명령어: clearnodelay [on/off]
+		트래픽
+			트래픽 색상
+				트래픽 색상 — 명령어: colourtraffic [on/off]
+				색 — 명령어: trafficcolour
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: trafficcolourrainbow [0 에(서) 1000]
+			비활성화 — 명령어: notraffic
+				비활성화 — 명령어: notraffic off
+				활성화 — 명령어: notraffic on
+				활성화, 주차된 차량 포함
+			그래픽이 뭉개지는 모드 — 명령어: trafficpotato [on/off]
+			활강 능력 — 명령어: trafficglide
+				기본값 — 명령어: trafficglide default
+				활성화 — 명령어: trafficglide on
+				비활성화 — 명령어: trafficglide off
+		NPC
+			비활성화 — 명령어: nopedestrians [on/off]
+		NPC 처벌  — 명령어: existencepunishments
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			부활 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		NPC가 다가오면 처벌 — 명령어: proximitypunishments
+			다가오면 (0.00 에(서) 1000.00) — 명령어: punishableproximity [0.00 에(서) 1000.00]
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			부활 (켜기/끄기)
+			레그돌 (켜기/끄기)
+			삭제 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		적대 NPC 처벌 — 명령어: hostilitypunishments
+			모두 포함 (켜기/끄기) — 본인만 처벌받는 것이 아니라 해당 종류도 표적이 될 경우 처벌이 적용됩니다.
+			모두 포함, 미션 및 습격에서만 (켜기/끄기) — 위와 같지만 미션에서 더 효과적입니다.
+			친구 포함 (켜기/끄기) — 본인만 처벌받는 것이 아니라 해당 종류도 표적이 될 경우 처벌이 적용됩니다.
+			탑승객 포함 (켜기/끄기) — 본인만 처벌받는 것이 아니라 해당 종류도 표적이 될 경우 처벌이 적용됩니다.
+			조직 멤버 포함 (켜기/끄기) — 본인만 처벌받는 것이 아니라 해당 종류도 표적이 될 경우 처벌이 적용됩니다.
+			조직 멤버 포함 (켜기/끄기) — 본인만 처벌받는 것이 아니라 해당 종류도 표적이 될 경우 처벌이 적용됩니다.
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			방해 (켜기/끄기)
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			레그돌 (켜기/끄기)
+			삭제 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		NPC가 조준하면 처벌 — 자신의 근처 구역에서 NPC가 조준하면 처벌합니다. — 명령어: aimpunishments
+			나에게 조준 시에만 처벌 (켜기/끄기) — 비활성화한다면 NPC는 누구를 조준하던지 상관없이, 자신의 구역을 조준했기에 처벌합니다.
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			방해 (켜기/끄기)
+			얼리기 (켜기/끄기)
+			겁 먹이기 (켜기/끄기)
+			겁 먹이기 (달아남) (켜기/끄기)
+			밀기 (켜기/끄기)
+			부활 (켜기/끄기)
+			레그돌 (켜기/끄기)
+			삭제 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		플레이어가 조준 시 처벌 — 자신의 근처 구역에서 플레이어가 조준 시 처벌합니다. — 명령어: playeraimpunishments
+			친구 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+			Stand 유저 제외 (켜기/끄기)
+			조직 멤버 제외 (켜기/끄기)
+			나에게 조준 시에만 처벌 (켜기/끄기) — 비활성화한다면 플레이어는 누구를 조준하던지 상관없이, 자신의 구역을 조준했기에 처벌합니다.
+			익명의 폭발 (켜기/끄기)
+			자신의 폭발 (켜기/끄기)
+			불 타기 (켜기/끄기)
+			죽기 (켜기/끄기)
+			무장 해제 (켜기/끄기) — 무기 무장을 해제합니다.
+			방해 (켜기/끄기)
+			얼리기 (켜기/끄기)
+			레그돌 (켜기/끄기)
+			AR 마커 (켜기/끄기)
+		NPC ESP
+			뼈 ESP — 명령어: npcboneesp
+				비활성화
+				낮은 지연 렌더링
+				일반 렌더링
+			죽은 NPC 제외 (켜기/끄기)
+		플레이어 ESP
+			뼈 ESP — 명령어: playerboneesp
+				비활성화
+				낮은 지연 렌더링
+				일반 렌더링
+			닉네임 ESP
+				닉네임 ESP — 명령어: nameesp
+					비활성화
+					낮은 지연 렌더링
+					일반 렌더링
+				거리: 최대 (1 에(서) 100000) — 명령어: esprange [1 에(서) 100000]
+				태그 표시 — 명령어: esptags [on/off]
+				최소 글자 크기 (1 에(서) 10000) — 명령어: esptextmin [1 에(서) 10000]
+				최대 글자 크기 (1 에(서) 10000) — 명령어: esptextmax [1 에(서) 10000]
+				글자 크기 전환 — 명령어: esptextinverse [on/off]
+			상자 ESP
+				상자 ESP — 명령어: boxesp
+					비활성화
+					낮은 지연 렌더링
+					일반 렌더링
+				거리: 최대 (1 에(서) 100000) — 명령어: boxesprange [1 에(서) 100000]
+			선 ESP
+				선 ESP — 명령어: lineesp [on/off]
+				거리: 최대 (1 에(서) 100000) — 명령어: lineesprange [1 에(서) 100000]
+		모든 로프 삭제 — 명령어: deleteropes
+	대기
+		시간 — 이 기능은 자신의 게임에서만 적용됩니다.
+			세션 내 시간 사용 — 명령어: syncclock
+			시간 — 명령어: time [값]
+			시간 잠금 — 명령어: locktime [on/off]
+			시스템 시간 사용 — 명령어: systime [on/off]
+			속도 (1 에(서) 3999) — 명령어: clockspeed [1 에(서) 3999]
+			부드러운 시간 흐름 — 명령어: timesmoothing [on/off]
+			정오 — 명령어: time 12
+			아침 — 명령어: time 6
+			새벽 — 명령어: time 0
+			점심 — 명령어: time 18
+		날씨 변경 — 날씨를 무시합니다. (본인만 적용) — 명령어: weather
+			기본값 — 명령어: weather normal
+			매우 맑음 — 명령어: weather extrasunny
+			맑음 — 명령어: weather clear
+			구름 — 명령어: weather clouds
+			스모그 — 명령어: weather smog
+			안개 — 명령어: weather foggy
+			흐림 — 명령어: weather overcast
+			비 — 명령어: weather rain
+			번개 — 명령어: weather thunder
+			클리어 — 명령어: weather clearing
+			평범한 — 명령어: weather neutral
+			눈 — 명령어: weather snow
+			눈보라 — 명령어: weather blizzard
+			약한 눈 — 명령어: weather snowlight
+			크리스마스 — 명령어: weather xmas
+			할로윈 — 명령어: weather halloween
+		구름 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: clouds
+			<21 개의 옵션>
+		하늘 비활성화 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: nosky [on/off]
+	에디터 — 명령어: editor
+		생성기
+			검색 — 명령어: findobject [관련된 단어]
+			모델 이름 입력 — "전문가 모드" 는 오브젝트를 소환하는 방법 중 하나입니다. — 명령어: spawnobject [모델 이름]
+			도심
+				<130 개의 옵션>
+			<19578 개 외의 더 많은 옵션>
+		도구
+			자유 시점 — 명령어: editorfreecam [on/off]
+			자신이 보고 있는 곳으로 순간 이동 — 명령어: editorteleport
+			소환된 모든 오브젝트 삭제 — 명령어: editorclear
+	물
+		파도 움직임 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: wavebehaviour
+			일반 — 명령어: wavebehaviour normal
+			부드러움 — 명령어: wavebehaviour smooth
+			자석 — 명령어: wavebehaviour magnet
+		Z 좌표 차이 (-10000.00 에(서) 10000.00) — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: waterheight [-10000.00 에(서) 10000.00]
+		주변 물에 Z 좌표 차이만 적용 (켜기/끄기)
+		강도 (0.00 에(서) 1000.00) — 명령어: waterstrength [0.00 에(서) 1000.00]
+		불투명도 (-80 에(서) 233) — 물의 불투명도를 변경할 수 있습니다. (본인만 적용) — 명령어: wateropacity [-80 에(서) 233]
+	월드 상태 설정 — 참고로 월드 상태를 변경하면 곧 게임이 멈출 수 있습니다. — 명령어: worldstate
+		스토리 모드 — 명령어: worldstate storymode
+		온라인 — 명령어: worldstate online
+		카요 페리코 — 명령어: worldstate island
+	향상된 오픈 월드
+		향상된 오픈 월드 — 월드를 더 넓게 보여주며 여유롭게 인테리어를 즐길 수 있습니다. — 명령어: doors [on/off]
+		맵 아이콘 — 명령어: doorblips [on/off]
+	워치 독스 해킹
+		워치 독스 해킹 — 명령어: dedsecmode [on/off]
+		점착 선택 (0 에(서) 2000) — 해킹들은 오직 명시된 ms 후에 선택 해제됩니다. 컨트롤러 유저에게 유용합니다. — 명령어: dedsecsticky [0 에(서) 2000]
+		어떤 목표도 선택되지 않았을 때...
+			십자선 표시 — 명령어: dedsecpassivereticle [on/off]
+			선 표시 — 명령어: dedsecpassiveline [on/off]
+			상자 표시 — 명령어: dedsecpassivebox [on/off]
+		목표가 선택되었을 때...
+			십자선 표시 — 명령어: dedsecactivereticle [on/off]
+			선 표시 — 명령어: dedsecactiveline [on/off]
+			상자 표시 — 명령어: dedsecactivebox [on/off]
+		색 — 명령어: dedsechex
+			무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: dedsecrainbow [0 에(서) 1000]
+		휴대폰 열기 제한 시간 (0 에(서) 60000) — 해당 시간 (ms) 내에 키를 놓으면 해킹 대상이 있더라도 휴대폰을 열 수 있습니다. — 명령어: dedsecdelay [0 에(서) 60000]
+		해킹 — 화면에 어떤 치트가 보일지 설정할 수 있도록 해줍니다.
+			일반 액션
+				얼리기 (켜기/끄기)
+				얼지 않음 (켜기/끄기)
+				폭발 (켜기/끄기)
+				무장 해제 (켜기/끄기)
+				삭제 (켜기/끄기)
+			차량 액션
+				삭제 (폭발) (켜기/끄기)
+				운전 (켜기/끄기)
+				탑승 (켜기/끄기)
+				비어 있음 (켜기/끄기)
+				불에 태우기 (켜기/끄기)
+				슬링 샷 (켜기/끄기)
+				Stand 열기 (켜기/끄기) — 차량 안에 있는 플레이어를 선택 중일 때 적용됩니다.
+			NPC 액션
+				불 타기 (켜기/끄기)
+				겁 먹이기 (달아남) (켜기/끄기)
+				겁 먹이기 (켜기/끄기)
+				부활 (켜기/끄기)
+			플레이어 액션
+				고장 (켜기/끄기)
+				케이지에 가둘 시 (켜기/끄기)
+				Stand 열기 (켜기/끄기) — 도보 중 플레이어를 선택 중일 때 적용됩니다.
+	GeoGuessr — 산 안드레아스에 대해 얼마나 잘 아시나요?
+		GeoGuessr (켜기/끄기)
+		목표 보기 (켜기/끄기)
+		정답 확인 — 목적지를 설정하거나, 자유 시점을 사용하거나, 캐릭터를 움직이거나/순간 이동하여 위치를 입력하세요.
+	미적 불빛 
+		미적 불빛  (켜기/끄기)
+		색 — 명령어: aestheticcolour
+		무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: aestheticrainbow [0 에(서) 1000]
+		배치
+			캐릭터 — 자신의 캐릭터에서 한 개의 빛이 납니다.
+			카메라 — 카메라에서 한 개의 빛이 납니다.
+			타원형의 빛 — 81개의 빛이 캐릭터 주위에 타원형으로 배치됩니다.
+		범위 (0.00 에(서) 10000.00) — 명령어: aestheticrange [0.00 에(서) 10000.00]
+		가시거리 (0.00 에(서) 10000.00) — 명령어: aestheticintensity [0.00 에(서) 10000.00]
+		모서리 경사도 (-10000.00 에(서) 10000.00) — 명령어: aestheticdiffraction [-10000.00 에(서) 10000.00]
+	월드 경계
+		월드 경계 (0 에(서) 12000) — 지정된 거리 이내인 경우 월드 경계를 표시합니다. — 명령어: worldborder [0 에(서) 12000]
+		색 — 명령어: worldborderhex
+			무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: worldborderrainbow [0 에(서) 1000]
+	정전 — 이 기능은 자신의 게임에서만 적용됩니다. — 명령어: blackout
+		비활성화
+		활성화
+		활성화, 차량 포함
+	더 많은 기차 생성 — 월드에 더 많은 기차가 생성됩니다. — 명령어: trains [on/off]
+	AR 목적지 — 목적지에 비컨을 배치하여 Stand를 통해 일부 목적지와의 거리를 확인할 수 있습니다. — 명령어: arwaypoint [on/off]
+	AR GPS — 목적지로 안내합니다. — 명령어: argps [on/off]
+게임 — 명령어: t game
+	비활성화 목록
+		게임 입력 비활성화
+			설정된 설정값
+				마우스 — Stand가 열려 있는 동안 가장 많은 게임 입력을 비활성화합니다.
+				컨트롤러 — Stand가 열려 있는 동안 적은 게임 입력을 비활성화합니다.
+				컨트롤러 + 탭 — "컨트롤러" 와 동일하지만 차량 가속 및 브레이크 입력을 비활성화합니다.
+				숫자 패드 — 모든 게임 입력을 활성화합니다.
+			전환 (켜기/끄기)
+			<361 개 외의 더 많은 옵션>
+		전화 차단 — 핸드폰에 걸려오는 모든 전화를 차단합니다. — 명령어: nophonespam [on/off]
+		카메라 흔들기 비활성화 — 명령어: nocamshake [on/off]
+		스턴트 점프 비활성화 — 명령어: nostuntjumps [on/off]
+		시네마틱 카메라 비활성화 — 명령어: nocinematiccamera [on/off]
+		차량 카메라 비활성화 — 차량 내에서 친한 플레이어 등의 근처에 있을 때 시네마 카메라 버튼을 누르면 카메라를 비활성화합니다. — 명령어: nofocuscamera [on/off]
+		잠수 카메라 비활성화 — 명령어: noidlecam [on/off]
+		녹화 비활성화 — 락스타 에디터 클립에 자신의 활동이 캡쳐되는 것을 비활성화합니다. — 명령어: norecordings [on/off]
+		지역 제한 비활성화 — 이 기능으로 인해 습격에 무기가 없거나 불러오는 것을 실패하는 원인이 될 수도 있습니다. — 명령어: norestrictedareas [on/off]
+		비행 음악 비활성화 — 명령어: noflightmusic [on/off]
+		넘버패드 7번 키가 소셜 클럽 창 여는 것 방지 (켜기/끄기)
+	카메라
+		자유 시점 — 원하는 어느 곳이든 시점을 바꿀 수 있도록 합니다.
+			자유 시점 — 원하는 어느 곳이든 시점을 바꿀 수 있도록 합니다. — 명령어: freecam [on/off]
+			움직임 속도 (0.01 에(서) 10000.00) — 명령어: freecamspeed [0.01 에(서) 10000.00]
+			빠른 자유 시점 (0.01 에(서) 10000.00) — 빠른 자유 시점 키: [Space] — 명령어: freecamsprintmultiplier [0.01 에(서) 10000.00]
+			원래 시점 위치로 순간 이동 비활성화 — 자유 시점을 끌 때 원래 시점의 위치로 순간 이동하는 것을 활성화 / 비활성화합니다. — 명령어: freecamtp [on/off]
+			움직임이 높이 차이를 무시함 — 보는 시점에 따라 높이에 영향을 미치는 전방이나 후방의 이동을 비활성화합니다. — 명령어: freecamignorepitch [on/off]
+			미니맵이 자유 시점을 따라감 — 명령어: freecamminmap [on/off]
+			버튼 사용 설명서 표시 — 명령어: freecambuttoninstructions [on/off]
+			이동 제어 — 자유 시점용 키를 입력할 때 자신의 캐릭터도 그 키에 반응하는지 여부 — 명령어: freecammovement [on/off]
+		시야
+			3인칭, 차량 안 (-5 에(서) 360) — 명령어: fovtpinveh [-5 에(서) 360]
+			3인칭, 도보 (-5 에(서) 360) — 명령어: fovtponfoot [-5 에(서) 360]
+			1인칭, 차량 안 (-5 에(서) 360) — 명령어: fovfpinveh [-5 에(서) 360]
+			1인칭, 도보 (-5 에(서) 360) — 명령어: fovfponfoot [-5 에(서) 360]
+			일반 총 조준 (-5 에(서) 360) — 명령어: fovaiming [-5 에(서) 360]
+			스나이퍼 총 조준 (-5 에(서) 360) — 명령어: fovsniping [-5 에(서) 360]
+		카메라 거리 확대/축소기 (-10000.00 에(서) 10000.00) — 명령어: cameradistance [-10000.00 에(서) 10000.00]
+		게임 플레이 카메라 제한 없음 — 360° 전부 게임 플레이 카메라를 돌릴 수 있도록 합니다. — 명령어: unrestrictcam [on/off]
+		2인칭 시점 — 명령어: 2ndperson [on/off]
+		게임 플레이 카메라 회전 잠금 — 명령어: lockheading [on/off]
+		크래쉬 방지 카메라 — 명령어: anticrashcamera [on/off]
+	렌더링
+		시각 설정 — 명령어: vis
+			<42 개의 옵션>
+		야광 투시 — 명령어: nightvision [on/off]
+		열 감지 투시 — 명령어: thermalvision [on/off]
+		쉐이더 변경 — 명령어: shader
+			<958 개의 옵션>
+		거리 축척 (0.00 에(서) 200.00) — 명령어: lodscale [0.00 에(서) 200.00]
+		HD 렌더링만 불러오기 (켜기/끄기)
+		그래픽이 뭉개지는 모드 — 2013년의 게임 초기 출시 그래픽으로 되돌립니다. — 명령어: potatomode [on/off]
+		대부분의 렌더링 비활성화 — 명령어: norender [on/off]
+		스트리밍 초점 잠금
+			스트리밍 초점 잠금 — 명령어: lockstreamingfocus [on/off]
+			잠금된 위치 — 명령어: lockedstreamingpos [값]
+	오버레이 정보 — 명령어: hudinfo
+		게임 내 시간 — 명령어: infoclock [on/off]
+		실제 시간 (컴퓨터 시간) — 명령어: infotime [on/off]
+		속도계 — 명령어: infospeed [on/off]
+		TPS — 초당 프레임 (FPS) — 명령어: infotps [on/off]
+		DPS — 명령어: infodps [on/off]
+		GPU 오버헤드 (ms) — CPU가 얼마나 많은 ms 동안 GPU가 그 프레임을 끝내기 위해 기다리는지를 뜻합니다. — 명령어: infogpuoverhead [on/off]
+		기어 — 명령어: infogear [on/off]
+		RPM — 명령어: inforpm [on/off]
+		플레이어 — 명령어: infoplayers [on/off]
+		플레이어 태그
+			친구 — 명령어: infofriend [on/off]
+			조직 멤버 — 명령어: infocrewmember [on/off]
+			연결 시간 초과 상태 — 명령어: infointimeout [on/off]
+			모더 — 명령어: infomodder [on/off]
+			락스타 어드민 — 명령어: infoadmin [on/off]
+			모더 같음 — 명령어: infolikelymodder [on/off]
+			공격한 유저 — 명령어: infoattackedyou [on/off]
+			호스트 — 명령어: infohost [on/off]
+			다음 호스트 — 명령어: infonexthost [on/off]
+			스크립트 호스트 — 명령어: infoscripthost [on/off]
+			무적 — 명령어: infoinvulnerable [on/off]
+			파괴할 수 없는 차량 — 명령어: infoindestructiblevehicle [on/off]
+			RC 차량 사용 — 명령어: inforcvehicle [on/off]
+			레이더 숨기기  — 명령어: infoofftheradar [on/off]
+			실내 — 명령어: infoinaninterior [on/off]
+			관전 중 — 명령어: infospectating [on/off]
+			채팅 입력 중 — 명령어: infotyping [on/off]
+			죽음 — 명령어: infodead [on/off]
+			투명 — 명령어: infoinvisible [on/off]
+			VPN — 명령어: infovpn [on/off]
+		누가 누구를 관전 중인지 — 명령어: infowhospectateswho [on/off]
+		세션 코드 — 명령어: infosessioncode [on/off]
+		국가 순 정렬 — 세션 플레이어가 속한 국가의 수를 국가 옆에 보여줍니다. — 명령어: infocountrybreakdown
+			비활성화
+			국가 수
+			국가 이름
+		고도 — 명령어: infoaltitude [on/off]
+		땅과의 거리 — 명령어: infogrounddistance [on/off]
+		위치 (좌표) — 명령어: infoposition [on/off]
+		회전 (엔티티) — 명령어: inforotationentity [on/off]
+		회전 (카메라) — 명령어: inforotationcamera [on/off]
+		NPC — 명령어: infopeds [on/off]
+		차량 — 명령어: infovehicles [on/off]
+		오브젝트 — 명령어: infoobjects [on/off]
+		픽업 — 명령어: infopickups [on/off]
+		Projectiles — 명령어: infoprojectiles [on/off]
+		Script Programs — 명령어: infoscriptprograms [on/off]
+		Script Threads — 명령어: infoscriptthreads [on/off]
+		Natives GTA Invoked Last Tick — 명령어: infogtanatives [on/off]
+		Natives Stand Invoked Last Tick — 명령어: infostandnatives [on/off]
+		Entity Handles Last Tick — 명령어: infoentityhandles [on/off]
+		Control Requests — 명령어: infocontrolrequests [on/off]
+		Fibers — 명령어: infofibers [on/off]
+		Script Tick Handlers — 명령어: infoscripttick [on/off]
+		Draw Handlers — 명령어: infodraw [on/off]
+		연결 계속 유지 — 명령어: infokeepalive [on/off]
+	HUD/UI 색 편집
+		<224 개의 옵션>
+	레이블 편집 — 명령어: editlabels
+		레이블 추가 — 편집할 수 있는 레이블을 목록에 추가합니다. — 명령어: addlabel
+		레이블 표시 — 게임 내 레이블을 확인하고 레이블 이름을 표시합니다. — 명령어: reveallabels [on/off]
+		레이블 OwO화 — 명령어: owolabels [on/off]
+		레이블 목록
+	커스텀 DLC — 에드온 차량과 같은 것을 쉽게 불러올 수 있도록 해줍니다.
+		폴더 열기 — "Custom DLCs" 폴더를 열고, GTA의 "dlcpacks" 폴더는 Stand처럼 쉽게 한 번만에 DLC를 등록하고 불러올 수 없지만, Stand는 할 수 있도록 해줍니다.
+		에셋 해시 고치기 — 보통 수정된 에셋을 이용하면 호환되지 않는 에셋 오류가 뜨지만, 이 기능을 사용하면 수정된 에셋을 이용해 세션을 조인할 수 있도록 해줍니다. — 명령어: fixassethashes [on/off]
+		모델 스푸핑 (켜기/끄기) — 커스텀 DLC의 모델을 실제로 게임에 있는 모델로 스푸핑하여 플레이어들이 커스텀 DLC 없이 다른 차량을 볼 수 있도록 해줍니다.
+	라디오
+		라디오 방송국 목록
+			Blaine County Radio
+				기본값
+				나타남
+				숨겨짐
+			Blue Ark
+				<3 개의 옵션>
+			Worldwide FM
+				<3 개의 옵션>
+			FlyLo FM
+				<3 개의 옵션>
+			The Lowdown 91.1
+				<3 개의 옵션>
+			The Lab
+				<3 개의 옵션>
+			Radio Mirror Park
+				<3 개의 옵션>
+			Space 103.2
+				<3 개의 옵션>
+			Vinewood Boulevard Radio
+				<3 개의 옵션>
+			Blonded LS 97.8 FM
+				<3 개의 옵션>
+			LS Underground Radio
+				<3 개의 옵션>
+			iFruit Radio
+				<3 개의 옵션>
+			셀프 라디오
+				<3 개의 옵션>
+			Los Santos Rock Radio
+				<3 개의 옵션>
+			Non-Stop-Pop FM
+				<3 개의 옵션>
+			Radio Los Santos
+				<3 개의 옵션>
+			Channel X
+				<3 개의 옵션>
+			West Coast Talk Radio
+				<3 개의 옵션>
+			Rebel Radio
+				<3 개의 옵션>
+			Soulwax FM
+				<3 개의 옵션>
+			East Los FM
+				<3 개의 옵션>
+			West Coast Classics
+				<3 개의 옵션>
+			미디어 플레이어
+				<3 개의 옵션>
+			MOTOMAMI Los Santos
+				<3 개의 옵션>
+			The Music Locker
+				<3 개의 옵션>
+			Kult FM
+				<3 개의 옵션>
+			Still Slipping Los Santos
+				<3 개의 옵션>
+		모바일 라디오 — 걸을 때에도 라디오를 활성화 할 수 있습니다. — 명령어: ipod [on/off]
+		라디오 방송국 잠금 — 게임이나 다른 플레이어에 의해 라디오 방송국이 바뀔 수 없게 합니다. — 명령어: lockradio [on/off]
+	잠금 해제
+		스토리 모드 돈 설정 — 마이클, 프랭클린, 트레버의 돈을 조회하고 돈 액수를 바꿀 수 있게 합니다.
+			마이클 — 명령어: spcashmichael [0 에(서) 2147483647]
+			프랭클린 — 명령어: spcashfranklin [0 에(서) 2147483647]
+			트레버 — 명령어: spcashtrevor [0 에(서) 2147483647]
+		GTA 온라인 잠금 해제 (프롤로그 건너뛰기) — 명령어: skipprologue
+		모든 도전 과제 잠금 해제 — 명령어: unlockachievements
+		전체 지도 표시 — 명령어: revealmap [on/off]
+		미리 GTA5를 구매한 보너스 얻기 — 명령어: preorder
+			기본값 — 명령어: preorder default
+			켜기 — 명령어: preorder on
+			끄기 — 명령어: preorder off
+	AR 알림
+		AR 알림 — 명령어: arnotifs [on/off]
+		디버그 모드 — 명령어: arnotifsdebug [on/off]
+		동적 스케일 (0.00 에(서) 1000.00) — 명령어: arnotifsdynamicscale [0.00 에(서) 1000.00]
+		정적 스케일 (0.00 에(서) 1000.00) — 명령어: arnotifsstaticscale [0.00 에(서) 1000.00]
+		동적 스케일링 — 명령어: arnotifsdynamicscaling [on/off]
+		회전 모드 — 명령어: arnotifsrotation
+			엔티티
+			엔티티, Pitch 포함
+			카메라
+			카메라, Pitch 포함
+		수평 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifshorizontaloffset [-100.00 에(서) 100.00]
+		수직 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifsverticaloffset [-100.00 에(서) 100.00]
+		깊이 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifsdepthoffset [-100.00 에(서) 100.00]
+		1인칭 수평 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifsfphoriztonaloffset [-100.00 에(서) 100.00]
+		1인칭 수직 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifsfpverticaloffset [-100.00 에(서) 100.00]
+		1인칭 깊이 오프셋 (-100.00 에(서) 100.00) — 명령어: arnotifsfpdepthoffset [-100.00 에(서) 100.00]
+		반대 상태인 가장 높은 공간 (0.00 에(서) 1.00) — 명령어: arnotifsreservedtopspace [0.00 에(서) 1.00]
+		글자 가독성 보장 — 명령어: arnotifsbackface [on/off]
+	미니 맵
+		모양이 매끈한 미니 맵 — 명령어: sleekminimap [on/off]
+		새로운 초대 표시기 비활성화 — 맵 옆과 작업 목록 앱에 뜨는 새로운 초대 표시기를 비활성화합니다. — 명령어: noinviteindicator [on/off]
+	맵 위의 알림 지우기 — 명령어: clearnotifications
+	컷씬 건너뛰기 — 명령어: skipcutscene
+	뱀과 놀기 — 명령어: snake
+		비활성화 — 명령어: snake off
+		세션 로딩 중에만 — 명령어: snake whilewaiting
+		활성화 — 명령어: snake on
+	시간 조절 (0.00 에(서) 1.00) — 시간의 속도를 변경합니다. (본인만 적용) — 명령어: timescale [0.00 에(서) 1.00]
+	무기 조준 시간 조절 (0.00 에(서) 1.00) — 무기를 조준 할 때 무기 조준 시간을 변경합니다. (본인만 적용) — 명령어: aimtimescale [0.00 에(서) 1.00]
+	스크린샷 모드 — 명령어: screenshot [on/off]
+	위치 되감기 — 핫키를 누르거나 컨트롤러에서 특별한 활동을 해서 시간을 되돌립니다. — 명령어: rewind [on/off]
+	게임 언어 설정 — 몇몇 언어는 다른 폰트를 사용하기에 게임 재시작 후에만 해당 언어로 사용 가능합니다. (번역가 주: 영어에서 한국어로 변경할 경우 유용하게 쓰일 수 있지만 영어에서 한국어로 변경할 경우 다른 폰트를 불러와야하기에 변경해도 폰트가 깨지기에 의미가 없습니다.) — 명령어: gamelang
+		Chinese (Simplified) - 简体中文 — 명령어: gamelang zh
+		Chinese (Traditional) - 繁體中文 — 명령어: gamelang zht
+		English (US) — 명령어: gamelang en
+		French - Français — 명령어: gamelang fr
+		German - Deutsch — 명령어: gamelang de
+		Italian - Italiana — 명령어: gamelang it
+		Japanese - 日本語 — 명령어: gamelang jp
+		Korean - 한국어 — 명령어: gamelang ko
+		Polish - Polski — 명령어: gamelang pl
+		Portuguese - Português — 명령어: gamelang pt
+		Russian - русский — 명령어: gamelang ru
+		Spanish - Español — 명령어: gamelang es
+		Spanish (Mexican) - Española (Mexicana) — 명령어: gamelang esmx
+	키보드 후킹 비활성화 (켜기/끄기) — 전체 화면으로 게임 중, 게임 창이 최소화된 상태일 때의 인게임 키보드 입력을 비활성화 시켜 불필요한 성능 저하를 없앱니다.
+	디버그 불러오기 — 게임의 일부 스크립트에서 여전히 사용되는 원래의 디버그를 구현합니다. — 명령어: debugnatives [on/off]
+	패치
+		발사 무기 Pool (켜기/끄기) — 발사 무기 Pool이 가득찼을 때 소환을 거부하는 것 대신에, 이 패치는 발사된지 가장 오래된 발사 무기를 삭제할 것입니다.
+	Wooting 아날로그 지원 — 만약 Wooting 키보드를 가지고 있다면, 이 기능이 키보드를 얼마나 쎄게 누르고 있는지 게임이 알 수 있도록 만들 것입니다. 아날로그 SDK는 설치 되어야만 합니다; 설치 후에는, 게임과 게임 런쳐는 재시작 되어야만 합니다. — 명령어: wooting [on/off]
+	게임 시작 전 인젝트: 향상 — Stand가 게임이 시작된 것처럼 인젝트되도록 적용됩니다.
+		게임 Pool 크기 조정 (1.00 에(서) 7.00) — 엔티티 및 게임 스크립트를 위한 풀 크기를 조정합니다. "게임 메모리가 부족합니다" 오류를 방지하기 위해서는 메모리 풀 크기를 증가시키세요. Attempting to make a replay recording with modified game pools will crash the game. — 명령어: gamepoolmultiplier [1.00 에(서) 7.00]
+		메모리 Pool 크기 조정 (MB) (488 에(서) 2147) — 명령어: mempool [488 에(서) 2147]
+		게임을 높은 우선 순위로 설정 (켜기/끄기)
+		빠른 게임 시작 (켜기/끄기)
+		인트로 및 라이센스 건너뛰기 (켜기/끄기)
+	스크립트 가상 머신 시스템 사용 — 게임의 스크립트 런타임을 살짝 더 향상된 버전으로 대체합니다. — 명령어: svmreimpl [on/off]
+	YEET — 명령어: yeet
+Stand — 명령어: t stand
+	설정 — 명령어: settings
+		외모
+			색
+				1차 색상 — 명령어: primary
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: rainbow [0 에(서) 1000]
+				중심 글자 색 — 명령어: focustext
+				중심 글자의 오른쪽 경계 글자 색 — 명령어: focusrighttext
+					중심 글자 색 복사
+				중심 질감 색 — 명령어: focustexture
+					중심 글자 색 복사
+				배경 색 — 명령어: background
+				비중심 글자 색 — 명령어: unfocusedtext
+				비중심 글자의 오른쪽 경계 글자 색 — 명령어: unfocusedrighttext
+					비중심 글자 색 복사
+				비중심 질감 색 — 명령어: unfocusedtexture
+					비중심 글자 색 복사
+				HUD 색 — 명령어: hud
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: hudrainbow [0 에(서) 1000]
+					1차 색상 복사
+				AR 색 — 명령어: ar
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: arrainbow [0 에(서) 1000]
+					1차 색상 복사
+				미니 게임 색 — 명령어: minigame
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: minigamerainbow [0 에(서) 1000]
+					1차 색상 복사
+			위치 (좌표) — 명령어: menupos
+				X — 명령어: menux
+				Y — 명령어: menuy
+				마우스로 조정 — 명령어: menumousemove [on/off]
+			헤더
+				헤더 — 명령어: header
+					숨겨짐 — 명령어: header hide
+					Stand And Fight by TGP
+					A Tribute by Super Saiyan Ginger
+					Logo Concept 5 by Hollywood Collins
+					Minimalistic by PootisGodAnimations
+					Rockstar Admin Tools
+					Paragon by Denzy
+					Paragon (Purple) by Denzy
+					Paragon (Cyan) by Denzy
+					GlitchFav4 by SourGrapeApe
+					Quantum by Denzy
+					2Horny2Stand
+					2Horny2Stand Animated by super saiyan ginger
+					2Horny2Stand Animated 2 by super saiyan ginger
+					Amogus by boah
+					JoJo by Spicy
+					Shitty Attempt #2 by super saiyan ginger
+					Logo Concept 3 by Hollywood Collins
+					Stan by synn420
+					Take-Two Anti-Profit Tool
+					WillMa Techno by Cahya
+					Untitled (2) by moue
+					epic3dblenderrendernightmare by Thimo
+					Komp 1 by Cahya
+					Shitty Attempt #1 by super saiyan ginger
+					Shitty Attempt #3 by super saiyan ginger
+					Untitled Animated by moue
+					커스텀 — 명령어: header custom
+				프레임 간격 (1 에(서) 10000) — 명령어: headerinterval [1 에(서) 10000]
+				배경 블러 처리 (켜기/끄기) — 헤더의 투명도를 위해서 활성화 되어야만 합니다. 블러 처리를 위해 쓸모 없는 리소스가 낭비되는데, 그 블러 처리는 전체적으로 숨겨집니다.
+				레거시 포지셔닝 (켜기/끄기)
+				폴더 열기
+			위치 바
+				위치 바 — 명령어: addressbar [on/off]
+				메뉴 이름
+					<14 개의 옵션>
+				위치 구분 기호
+					Stand > Online
+					Stand>Online
+					Stand / Online
+					Stand/Online
+					Stand : Online
+					Stand:Online
+					Stand \ Online
+					Stand\Online
+				현재 목록만 표시 (켜기/끄기)
+				너비가 스크롤 막대의 영향을 받음  (켜기/끄기)
+				높이 (0 에(서) 32767) — 명령어: addressbarheight [0 에(서) 32767]
+				텍스트 — 명령어: addressbartext
+					크기 (1 에(서) 32767) — 명령어: addressbartextscale [1 에(서) 32767]
+					X 오프셋 (-15 에(서) 15) — 명령어: addressbartextxoffset [-15 에(서) 15]
+					Y 오프셋 (-10 에(서) 10) — 명령어: addressbartextyoffset [-10 에(서) 10]
+				커서 위치 표시 — Stand의 게임 내 GUI 오른쪽 상단에 있는 커서 위치 표시기의 가시성을 변경합니다. — 명령어: cursorpos [on/off]
+				구분선 포함 커서 위치 (켜기/끄기)
+			커서
+				스크롤 간격 (0 에(서) 25) — 목록의 시작 또는 끝에 있지 않은 경우 선택 항목 아래 또는 위에 표시되는 명령어의 최소 양을 설정합니다. — 명령어: cursorpadding [0 에(서) 25]
+				너비 (0 에(서) 32767) — 명령어: cursorborderwidth [0 에(서) 32767]
+				둥근 — 명령어: cursorborderrounded [on/off]
+				색 — 명령어: cursorborder
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: cursorborderrainbow [0 에(서) 1000]
+			탭
+				탭 — 명령어: tabs [on/off]
+				너비 (1 에(서) 32767) — 명령어: tabswidth [1 에(서) 32767]
+				높이 (1 에(서) 32767) — 명령어: tabsheight [1 에(서) 32767]
+				위치 (좌표) — 명령어: tabsposition
+					왼쪽 — 명령어: tabsposition left
+					오른쪽 — 명령어: tabsposition right
+					위 — 명령어: tabsposition top
+					아래쪽 — 명령어: tabsposition bottom
+				텍스트 — 명령어: tabstext
+					크기 (1 에(서) 32767) — 명령어: tabstextscale [1 에(서) 32767]
+					X 오프셋 (-15 에(서) 15) — 명령어: tabstextxoffset [-15 에(서) 15]
+					Y 오프셋 (-10 에(서) 10) — 명령어: tabstextyoffset [-10 에(서) 10]
+				텍스트 정렬 — 명령어: tabsalignment
+					왼쪽 — 명령어: tabsalignment left
+					중간 — 명령어: tabsalignment centre
+					오른쪽 — 명령어: tabsalignment right
+				왼쪽 아이콘 표시 — 명령어: tabslefticon [on/off]
+				이름 표시기 — 명령어: tabsname [on/off]
+				오른쪽 아이콘 표시 — 명령어: tabsrighticon [on/off]
+				아이콘이 글자 색상 사용 (켜기/끄기)
+			스크롤 막대
+				스크롤 막대
+					활성화
+					큰 목록
+					비활성화
+				너비 (1 에(서) 32767) — 명령어: scrollbarwidth [1 에(서) 32767]
+			명령어 정보 텍스트
+				위치 (좌표) — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: commandinfotextposition
+					왼쪽 — 명령어: commandinfotextposition left
+					아래쪽 — 명령어: commandinfotextposition bottom
+					오른쪽 — 명령어: commandinfotextposition right
+					아래쪽 탭 — 명령어: commandinfotextposition belowtabs
+				너비 (1 에(서) 32767) — 명령어: infowidth [1 에(서) 32767]
+				간격 (-100 에(서) 100) — 명령어: infopadding [-100 에(서) 100]
+				도움말 표시 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: showhelptext [on/off]
+				명령어 구문 표시 — 표시될 글자의 예시를 보여주는 중입니다. — 명령어: showsyntax [on/off]
+				슬라이더 동작 표시 — 명령어: showsliderbehaviour [on/off]
+				다른 플레이어가 사용 가능한지 표시 — 명령어: shownonuseronly [on/off]
+				소유 중인 스크립트 표시 — 명령어: showowners [on/off]
+			알림
+				종류
+					게임
+					Stand, 맵 옆
+					Stand, 커스텀 위치
+				커스텀 위치 — "Stand, 커스텀" 으로 설정된 경우에만 적용될 것입니다. — 명령어: notifypos
+					X — 명령어: notifyx
+					Y — 명령어: notifyy
+					마우스로 조정 — 명령어: notifymousemove [on/off]
+				반대로 차오르기 (켜기/끄기) — "Stand, 커스텀" 으로 설정된 경우에만 적용될 것입니다.
+				너비 (0 에(서) 32767) — 명령어: notifywidth [0 에(서) 32767]
+				경계 색상 — 명령어: notifyborder
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: notifyborderrainbow [0 에(서) 1000]
+					1차 색상 복사
+				번쩍이는 색상 — 명령어: notifyflash
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: notifyflashrainbow [0 에(서) 1000]
+				배경 색 — 명령어: notifybg
+					배경 색 복사
+				번쩍이는 알림
+			명령어
+				텍스트 — 명령어: commandtext
+					크기 (1 에(서) 32767) — 명령어: commandtextscale [1 에(서) 32767]
+					X 오프셋 (-15 에(서) 15) — 명령어: commandtextxoffset [-15 에(서) 15]
+					Y 오프셋 (-10 에(서) 10) — 명령어: commandtextyoffset [-10 에(서) 10]
+				색 명령어
+					색상의 텍스처 미리 보기 (켜기/끄기)
+					목록의 색상 미리 보기 (켜기/끄기)
+				현재 값 명령어 상자에 미리 채우기
+					슬라이더 (켜기/끄기)
+					글자 입력 (켜기/끄기)
+				숫자 슬라이더
+					선택 가능한 N/A 슬라이더 — 명령어: selectablenasliders [on/off]
+					오른쪽 경계선 값 — 명령어: slidersrightbound [on/off]
+				선택 가능한 분할 — 명령어: selectabledividers [on/off]
+			경계
+				너비 (0 에(서) 32767) — 명령어: borderwidth [0 에(서) 32767]
+				둥근 — 명령어: borderrounded [on/off]
+				색 — 명령어: border
+					무지개 모드 (0 에(서) 1000) — 색깔을 x초마다 순환시키고 채도, 값 및 불투명도를 변경할 수 있습니다. — 명령어: borderrainbow [0 에(서) 1000]
+			표시되는 최대 명령어 수 (3 에(서) 255) — 명령어: menuheight [3 에(서) 255]
+			목록 너비 (0 에(서) 32767) — 명령어: listwidth [0 에(서) 32767]
+			목록 높이 (0 에(서) 32767) — 명령어: listheight [0 에(서) 32767]
+			간격 크기 (0 에(서) 32767) — 명령어: spacersize [0 에(서) 32767]
+			부드러운 스크롤 (0 에(서) 1000) — 명령어: smoothscroll [0 에(서) 1000]
+			배경 블러 처리 (0 에(서) 100) — 더 높은 값은 GPU의 요구 사항을 매우 높히게 됩니다.  — 명령어: blur [0 에(서) 100]
+			테마 폴더 열기 — %appdata%/Stand/Theme\ 폴더를 엽니다.
+			폰트 & 글자
+				폰트 설정 — 명령어: setfont
+				설정된 폰트 사용 — 명령어: presetfont
+					Microsoft YaHei — Stand의 기본 폰트입니다. — 명령어: presetfont yahei
+					Nanum Gothic — Stand의 한국어를 위한 보조 글꼴입니다. — 명령어: presetfont nanumgothic
+				폰트 다시 불러오기 — 명령어: reloadfont
+				명령어 상자 입력 글자 — 명령어: commandboxinput
+					크기 (1 에(서) 32767) — 명령어: commandboxinputscale [1 에(서) 32767]
+					X 오프셋 (-15 에(서) 15) — 명령어: commandboxinputxoffset [-15 에(서) 15]
+					Y 오프셋 (-10 에(서) 10) — 명령어: commandboxinputyoffset [-10 에(서) 10]
+				작은 텍스트 — 명령어: smalltext
+					크기 (1 에(서) 32767) — 명령어: smalltextscale [1 에(서) 32767]
+					X 오프셋 (-15 에(서) 15) — 명령어: smalltextxoffset [-15 에(서) 15]
+					Y 오프셋 (-10 에(서) 10) — 명령어: smalltextyoffset [-10 에(서) 10]
+				텍스트 경계 상자 표시 — 명령어: showtextboundingboxes [on/off]
+			텍스처
+				왼쪽 경계선 — 명령어: lefttextures [on/off]
+				텍스처 다시 불러오기 — 명령어: reloadtextures
+			스트리머 전용 렌더링 — Stand가 DirectX/게임 캡처를 사용하는 스트리밍 소프트웨어에 보이는 것을 방지합니다. — 명령어: streamproof [on/off]
+			엔티티 미리 보기 비활성화 — 명령어: disableentitypreviews [on/off]
+		메뉴 입력
+			키보드 입력 방식 — 명령어: inputscheme
+				설정된 설정값
+					유연함
+					텐키리스
+					숫자 패드
+				메뉴 열기/닫기
+				이전 탭
+				다음 탭
+				위로
+				아래로
+				왼쪽으로
+				오른쪽으로
+				클릭
+				뒤로
+				콘텍스트 메뉴
+				명령어 상자
+			컨텍스트 옵션 핫키
+				설정 저장
+				설정 불러오기
+				기본 설정 불러오기
+				최솟값 설정
+				최댓값 설정
+			마우스 지원
+				마우스 지원 — 명령어: mouse [on/off]
+				마우스가 아닌 탐색 커서 위치로 설정  (켜기/끄기)
+			컨트롤러 지원 — 명령어: controller [on/off]
+			컨트롤러 지원 키 목록
+				메뉴 열기/닫기 (1)
+					<16 개의 옵션>
+				메뉴 열기/닫기 (2)
+					<16 개의 옵션>
+				이전 탭
+					<16 개의 옵션>
+				다음 탭
+					<16 개의 옵션>
+				위로
+					<16 개의 옵션>
+				아래로
+					<16 개의 옵션>
+				왼쪽으로
+					<16 개의 옵션>
+				오른쪽으로
+					<16 개의 옵션>
+				클릭
+					<16 개의 옵션>
+				뒤로
+					<16 개의 옵션>
+				콘텍스트 메뉴
+					<16 개의 옵션>
+				명령어 상자
+					<17 개의 옵션>
+			뒤로 가기로 커서 초기화 — 뒤로 가봤자 아무 것도 없을 때 뒤로 가기 키를 누르면 커서를 현재 리스트의 가장 윗쪽으로 위치시킵니다. — 명령어: backreset [on/off]
+			메뉴 뒤로 닫기 — 뒤로 갈 내용이 없을 때 뒤로 가기를 눌러 Stand의 게임 내 GUI를 닫을 수 있습니다. — 명령어: backclose [on/off]
+			커서 위로 올릴 시 지연 시간 주기 (켜기/끄기)
+			다시 열 때 커서 유지
+				탭 — "셀프" 와 같은 탭의 커서 위치를 기억합니다. — 명령어: tabskeepcursor [on/off]
+				목록 — "설정" 과 같은 탭의 커서 위치를 기억합니다. — 명령어: listskeepcursor [on/off]
+				목록: 큰 목록에는 효과 줄이기 (켜기/끄기)
+			키 반복 간격 (0 에(서) 10000) — 키를 누른 상태에서 키보드 입력이 반복되는 간격 — 명령어: keyrepeatinterval [0 에(서) 10000]
+			누른 키 반복 간격 (0 에(서) 10000) — 키를 잠시 누른 상태에서 키보드 입력이 반복되는 간격 — 명령어: keylongrepeatinterval [0 에(서) 10000]
+			탭에 대한 키 반복 간격 (0 에(서) 10000) — 명령어: tabrepeatinterval [0 에(서) 10000]
+			핫키 비활성화 — 명령어: disablehotkeys [on/off]
+			키 중복 알림 — Ctrl, Shift 및 Alt 키 처리 방법
+				제한적 — 어떠한 추가적인 수정된 키가 눌리지 않을 것입니다. 그래서, Ctrl+Shift+G를 누르는 것은 G와 Ctrl+G 모두 작동시키지 않을 것입니다.
+				스마트 — 핫키가 수정된 키를 가지고 있으면 강하게, 다른 키들은 약하게 처리합니다. 그래서, Ctrl+Shift+G를 누르는 것은 G를 작동시키지만 Ctrl+G를 작동시키지는 않을 것입니다.
+				느슨함 — 추가적인 수정된 키가 눌릴 것입니다. 그래서, Ctrl+Shift+G를 누르는 것은 G와 Ctrl+G 모두 작동시킬 것입니다.
+		정보 텍스트
+			위치 (좌표) — 명령어: infotextpos
+				X — 명령어: infotextx
+				Y — 명령어: infotexty
+				마우스로 조정 — 명령어: infotextmousemove [on/off]
+			정렬 — 명령어: infoalign
+				왼쪽 위 — 명령어: infoalign topleft
+				위의 중간 — 명령어: infoalign topcentre
+				위의 오른쪽 — 명령어: infoalign topright
+				왼쪽 중간 — 명령어: infoalign centreleft
+				중간 — 명령어: infoalign centre
+				오른쪽 중간 — 명령어: infoalign centreright
+				중간 — 명령어: infoalign bottomleft
+				아래쪽 중간 — 명령어: infoalign bottomcentre
+				아래쪽 오른쪽 — 명령어: infoalign bottomright
+			크기 (0 에(서) 10000) — 명령어: infoscale [0 에(서) 10000]
+		경고
+			자동 경고 진행
+				명령어 상자 — Stand 명령어 상자를 포함하여, 명령어 상자와 채팅 명령어가 웹 인터페이스와 같아집니다. — 명령어: commandsskipwarnings [on/off]
+				핫키 — 명령어: hotkeysskipwarnings [on/off]
+			명령어를 강제로 읽게 만들기 (켜기/끄기)
+			이미 수락한 경고 건너뛰기 — 명령어: skiprepeatwarnings [on/off]
+		정보 숨기기
+			스푸핑되지 않은 닉네임 숨기기 — 플레이어 정보 목록에 표시된 닉네임을 의미하며 "다른 플레이어의 닉네임으로 스푸핑" 기능은 영향을 받지 않습니다.
+				비활성화
+				자신
+				친구 & 자신
+				조직 멤버, 친구 & 자신
+				활성화
+			RID 숨기기
+				비활성화
+				자신
+				친구 & 자신
+				조직 멤버, 친구 & 자신
+				활성화
+			IP 주소 숨기기
+				비활성화
+				자신
+				친구 & 자신
+				조직 멤버, 친구 & 자신
+				활성화
+			GeoIP 숨기기
+				비활성화
+				자신
+				친구 & 자신
+				조직 멤버, 친구 & 자신
+				활성화
+		알림
+			일반적인 응답 줄이기 — "명령어가 성공적으로 실행됨" 과 같이 일반적인 응답을 줄입니다.
+				명령어 상자 — Stand 명령어 상자를 포함하여, 명령어 상자와 채팅 명령어가 웹 인터페이스와 같아집니다. — 명령어: suppressgenericresponses [on/off]
+				핫키 (켜기/끄기)
+		명령어 상자
+			일치하는 명령어 중 최대 표시 수  (1 에(서) 1000) — 명령어: cbmaxshownmatching [1 에(서) 1000]
+			닫기 전 값 유지 — 명령어: cbkeepdraft [on/off]
+		세션 조인
+			자동 목표 모드 변경 (켜기/끄기) — Stand를 통해 세션에 조인할 때만 적용됩니다.
+			세션 연결 추측 (켜기/끄기) — Stand를 이용해 호스트에 추측하여 연결하고 데이터를 캐싱하여 세션 조인을 빠르게 합니다.
+		언어 — Stand 메뉴의 언어를 변경하여 더욱 편리하게 사용하세요. — 명령어: lang
+			Chinese (Simplified) - 简体中文 — 명령어: lang zh
+			Dutch - Nederlands — 명령어: lang nl
+			English (UK) — 명령어: lang enuk
+			English (US) — 명령어: lang enus
+			French - Français — 명령어: lang fr
+			German - Deutsch — 명령어: lang de
+			Korean - 한국어 — 명령어: lang ko
+			Lithuanian - Lietuvių — 명령어: lang lt
+			Polish - Polski — 명령어: lang pl
+			Portuguese - Português — 명령어: lang pt
+			Russian - русский — 명령어: lang ru
+			Spanish - Español — 명령어: lang es
+			Turkish - Türkçe — 명령어: lang tr
+			Horny English — 명령어: lang sex
+			Engwish — 명령어: lang uwu
+			Howny Engwish — 명령어: lang hornyuwu
+		버튼 사용 설명서 표시 — 명령어: showbuttoninstructions
+			활성화
+			스마트
+			비활성화
+		인젝트 후 메뉴 열기 (켜기/끄기)
+		디스코드 게임 상태 표시 (Stand) — 명령어: discordrichpresence [on/off]
+		소리 효과 — 명령어: sfx [on/off]
+		메뉴 탐색 미리 알림 (켜기/끄기)
+		기타 기능
+			프레임 감소 (0 에(서) 200) — 명령어: framedrop [0 에(서) 200]
+	프로필 — 프로필은 모든 명령어의 설정을 저장하고 불러올 수 있게 합니다. — 명령어: profiles
+		프로필 만들기 — 새로운 프로필을 만들어 Stand 설정 값을 저장합니다. — 명령어: newprofile [이름]
+		폴더 열기
+	Lua 스크립트 — Lua 또는 Pluto 프로그래밍 언어로 코딩된 Stand용 스크립트를 실행시킬 수 있도록 해줍니다. — 명령어: luascripts
+		저장소 — 이 저장소는 Lua 스크립트를 쉽게 선택 & 접근할 수 있게 만듭니다.
+		폴더 열기
+		설정
+			설정된 설정값
+				유저
+				개발자
+			위험한 스크립트를 실행할 때 알림 — 명령어: luaconfigwarndangerous [on/off]
+			돈 관련 스크립트를 실행할 때 알림 — 명령어: luaconfigwarnmoney [on/off]
+			조용한 시작 강요
+				아니오
+				예
+				예 + 알림
+			조용한 중단 강요
+				아니오
+				예
+				예 + 알림
+			enable_warnings (켜기/끄기)
+			notify_deprecated (켜기/끄기)
+			notify_bad_practice (켜기/끄기)
+			notify_missed_cleanup_blurrect (켜기/끄기)
+			notify_missed_cleanup_arspinner (켜기/끄기)
+			notify_ref_by_path_upgrade (켜기/끄기)
+			notify_get_value_fail (켜기/끄기) — If menu.get_value does not support a command type, it will silently return 0. With this enabled, you will get a notification in that case.
+	ASI 모드 — Stand의 ScriptHookV와 ASI 모드를 함께 실행합니다. — 명령어: asimods
+		ASI 모드 폴더 열기 — %appdata%/Stand/ASI Mods\ 폴더를 엽니다.
+		GTA V 폴더 열기
+		설정
+			임시 폴더 사용 (켜기/끄기) — 이 기능은 언로드를 지원하지 않는 ASI 모드를 언로드할 수 있게 하지만, 임시 폴더에 ASI 모드가 설정 파일을 읽고 쓰는 경우를 유발할 수 있습니다.
+			온라인 상태임을 속이기 (켜기/끄기) — 온라인에서 ASI 모드를 사용하면 작동이 안될 수도 있는 것을 속여서 작동하게 합니다.
+	명령어 스크립트 상자
+		폴더 열기
+		명령어 상자 목록
+		명령어 목록
+	실험적인 기능
+		Unbrick Account
+		Read All Org Chats (켜기/끄기) — Players in an org will see you under their org in the player list, and if the script host has an org, creating an org of your own will not work flawlessly.
+		Been Playing Since The Game Came Out! — Irreversibly changes various stats related to your onboarding date. This doesn't improve or worsen safety as far as we know. Ideally we'd have a "stats editor".
+		Show Nav Mesh — 명령어: navmesh [on/off]
+		Show Nav Mesh Neighbors (켜기/끄기)
+		Show Ped Tasks — 명령어: showpedtasks [on/off]
+		Show Apartments — Pos. ID -> Apt. ID(s) — 명령어: showapartments [on/off]
+		Show Interior ID — 명령어: showinteriorid [on/off]
+		Log Profanities — Best enjoyed in conjuction with a lapdance at the Vanilla Unicorn. — 명령어: dumpprofanities
+		Export Display Names
+		Abort Transition — 명령어: aborttransition
+		Quick Bail — 명령어: quickbail
+		Command Gallery
+			menu.list — 명령어: gallerylist
+			menu.action — 명령어: galleryaction
+			menu.toggle — 명령어: gallerytoggle [on/off]
+			menu.slider (-2147483648 에(서) 2147483647) — 명령어: galleryslider [-2147483648 에(서) 2147483647]
+			menu.slider_float (-21474836.48 에(서) 21474836.47) — 명령어: gallerysliderfloat [-21474836.48 에(서) 21474836.47]
+			menu.click_slider (-2147483648 에(서) 2147483647) — 명령어: galleryclickslider [-2147483648 에(서) 2147483647]
+			menu.click_slider_float (-21474836.48 에(서) 21474836.47) — 명령어: galleryclicksliderfloat [-21474836.48 에(서) 21474836.47]
+			menu.list_select — 명령어: gallerylistselect
+				Uno — 명령어: gallerylistselect uno
+				Dos — 명령어: gallerylistselect dos
+				Tres — 명령어: gallerylistselect tres
+			menu.list_action — 명령어: gallerylistaction
+				Uno — 명령어: gallerylistaction uno
+				Dos — 명령어: gallerylistaction dos
+				Tres — 명령어: gallerylistaction tres
+			menu.textslider
+			menu.textslider_stateful
+	고마운 사람 — 명령어: credits
+		Pocakking — BigBaseV2를 만듦
+		QuickNET — GTA와 C++에 대한 지식을 공유하고 질문에 답을 함
+		fingaweg — 크로스맵을 공유하며 메뉴의 빠른 업데이트를 도움
+		Maestro-1337 — 크로스맵을 공유하며 메뉴의 빠른 업데이트를 도움
+		alloc8or — 기본 DB 및 유용한 데이터 공유 유지
+		SirMestre — 작은 인젝터를 만들었으며, 런치패드를 만들 때 도움을 준 사람
+		Give-Two — DirectX 렌더링을 지원하는 ScriptHookV을 구현하고 생성
+		gir489 — GTA에 대한 지식을 공유하고 bigbasev2-fix 구축
+		well-in-that-case — Stand가 사용하는 다른 버전의 Lua 프로그래밍 언어인 Pluto를 창작함
+		UPX — Stand의 DLL 파일 크기를 작게 만듦
+		UnknownCheats — 행운의 커뮤니티
+		StackOverflow — 자연스럽게 합류
+		Thimo — Stand 독일어 번역 유지
+		moue — Stand 리투아니아어 번역 유지
+		aeronyx — Stand 포르투갈어 번역 유지
+		zzzz — Stand 중국어 번역 유지
+		IceDoomfist — Stand 한국어 번역 유지
+		99Anvar99 — Stand 러시아어 번역 유지
+		Lancito01 — Stand 스페인어 번역 유지
+		Itreax — Stand 프랑스어 번역 유지
+		Emre — Stand 터키어 번역 유지
+		DumbBird — Stand 폴란드어 번역 유지
+		그리고... 지금 Stand를 사용 중이신 분! — Stand를 사용하는 누구나 이 상을 받습니다. Stand를 지원하며 버그를 알려주고 기능을 제안해주셔서 감사합니다.
+	명령어 검색 — 이름 및 도움말 텍스트에 있는 Stand 명령어를 찾을 수 있습니다. — 명령어: search [관련된 단어]
+	기본 설정 불러오기 — 모든 명령어를 기본값으로 초기화합니다. — 명령어: default
+	기본값이 아닌 명령어
+	Stand 사용 시에 도움이 필요하다면?
+	저장된 명령어 — 컨텍스트 메뉴에서 해당 옵션을 사용하여 저장한 모든 명령어의 목록을 표시합니다.
+	웹 인터페이스 — 웹 인터페이스는 Stand를 웹 브라우저에서 사용할 수 있도록 해주며, 스마트폰에서도 가능합니다.
+		웹 인터페이스 열기 — 명령어: webinterface
+	콘솔 — 명령어: console [on/off]
+	Stand 폴더 열기 — %appdata%/Stand/ 폴더를 엽니다. — 명령어: openstandfolder
+	알림 청소 — Stand의 알림 시스템이 띄운 알림들을 청소합니다. — 명령어: clearstandnotifys
+	Stand 로그 비우기 — %appdata%/Stand/Log.txt 를 비웁니다. — 명령어: emptylog
+	Stand 기능 목록 텍스트 파일 생성 — 사용 가능한 모든 명령어를 포함하여 '%appdata%/Stand/Features (ko).txt' 에 텍스트와 구문에 대한 도움말을 저장합니다. — 명령어: featurelist
+	튜토리얼
+		반복 (다시하기) — 명령어: repeattutorial
+		무시 (건너뛰기) — 명령어: dismisstutorial
+	Stand 언로드 — Stand를 다시 인젝트 할 때까지 Stand를 게임에서 지웁니다. — 명령어: unload
