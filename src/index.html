@@ -68,6 +68,18 @@
         const [rowList, setRowList] = React.useState([]);
         const [nav, setNav] = React.useState([]);
 
+        React.useEffect(() => {
+            const back = (event) => {
+                if(event.keyCode === 8){
+                    setNav([...nav.slice(0,nav.length-1)]);
+                }
+            }
+            document.addEventListener("keydown", back);
+            return () => {
+                document.removeEventListener("keydown", back);
+            }
+        },[nav]);
+
         const goHome = () => {
             setNav([]);
         }
