@@ -104,7 +104,7 @@
         }
 
         React.useEffect( async () => {
-                const data = await (await fetch('https://url.kr/gq7l2z')).json();
+                const data = await (await fetch('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultPro.josn')).json();
                 const oldRowList = data.text.text.split("\n");
                 const rowList = oldRowList.map((rowText, index) => {
                     let depth = 0;
