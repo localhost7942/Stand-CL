@@ -107,6 +107,8 @@
             if(dataList.length > 1){
                 const list = dataList.filter(data => data.index > 0);
                 setDescriptionList(list);
+            }else{
+                setDescriptionList([]);
             }
         }
 
