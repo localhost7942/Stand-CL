@@ -132,6 +132,7 @@
 
         const goHome = () => {
             setNav([]);
+            setDescriptionList([]);
         }
 
         const goNav = (event) => {
@@ -139,11 +140,13 @@
             const depth = Number(event.target.dataset.depth);
             const newNav = nav.slice(0,depth);
             setNav([...newNav,index]);
+            setDescriptionList([]);
         }
 
         const clickMain = (event) => {
             const index = event.target.id;
             setNav([index]);
+            setDescriptionList([]);
         }
 
         const clickSub = (event) => {
