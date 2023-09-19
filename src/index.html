@@ -6,6 +6,9 @@
                 background-color: black;
                 color: white;
             }
+            nav{
+                width: 500px;
+            }
             main div{
                 margin-top: 3px;
             }
@@ -24,12 +27,13 @@
             .nav {
                 cursor: pointer;
             }
-            /* .lang{
-                border: solid 1px white;
+            .lang{
+                float: right;
+                /* border: solid 1px white;
                 padding: 3px;
-                margin-bottom: 10px;
+                margin-bottom: 10px; */
 
-            } */
+            }
             .container > div > div:hover,.nav:hover,.choice {
                 background-color: white;
                 color: black;
@@ -55,15 +59,14 @@
         const contentList = nav.map(row => rowList.filter(listRow => listRow.index === Number(row))[0]);
         return (
         <nav>
-            <select className="lang" onChange={switchLang}>
-                <option className="nav" value="1">한글</option>
-                <option className="nav" value="2">English</option>
-            </select>
-            <br/>
             <span onClick={goHome} className="nav"> STAND </span>
             {contentList.map((data, index) => 
                 <span onClick={goNav} key={data.index} data-index={data.index} data-depth={index} className="nav">/ {data.content.indexOf(' — ') !== -1 ? data.content.substring(0,data.content.indexOf(' — ')) : data.content} </span>
             )}
+            <select className="lang" onChange={switchLang}>
+                <option className="nav" value="1">한글</option>
+                <option className="nav" value="2">English</option>
+            </select>
         </nav>
         );
     }
