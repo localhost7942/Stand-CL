@@ -34,6 +34,9 @@
                 background-color: white;
                 color: black;
             }
+            .description{
+                border: white solid 1px;
+            }
         </style>
     </head>
 <body>
@@ -60,16 +63,19 @@
         );
     }
 
-    const SubList = ({rowList, upDepth, depth, clickSub}) => {
+    const SubList = ({rowList, upDepth, depth, clickSub, onMouseOver, descriptionList}) => {
         const subList = rowList.filter(row => row.depth === Number(depth) && row.upDepth === Number(upDepth));
         const target = rowList.filter(row => row.index === Number(upDepth));
         return (
             <div>
-                {subList.length !== 0 ? subList.map(row => 
-                    <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub}>{row.content}</div>
+                {subList.length !== 0 ? subList.map(row => {
+                    const contentList = row.content.split('—');
+                    return <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub} onMouseOver={() => onMouseOver(contentList)}>{contentList[0]}</div>
+                }
                 ) : upDepth ? (
-                        <div>{target[0].content}</div>
+                        <div>{target[0].content.split('—')[0]}</div>
                     ) : null}
+                <div className="description">{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>
             </div>
             )
     }
@@ -80,7 +86,7 @@
         return(
             <div className="mainList">
                 {mainList.map(row => {
-                    const contentList = row.content.split(" — ");
+                    const contentList = row.content.split("—");
                     return <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{contentList.length === 1 ? row.content : contentList[0] + ` [${contentList[1].substring(contentList[1].indexOf(':')+4,contentList[1].length)}]`}</div>
                     }
                 )}
@@ -91,6 +97,18 @@
     const App = () => {
         const [rowList, setRowList] = React.useState([]);
         const [nav, setNav] = React.useState([]);
+        const [descriptionList, setDescriptionList] = React.useState([]);
+
+        const onMouseOver = (contentList) => {
+            const dataList = contentList.map((content, index) => {
+                const data = {index, content};
+                return data;
+            })
+            if(dataList.length > 1){
+                const list = dataList.filter(data => data.index > 0);
+                setDescriptionList(list);
+            }
+        }
 
         React.useEffect(() => {
             const back = (event) => {
@@ -230,7 +248,7 @@
                         <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : nav.length === 0 ? 
                             <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : null
                 }
-                <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub}/>
+                <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
             </div>
         </main>
         );
