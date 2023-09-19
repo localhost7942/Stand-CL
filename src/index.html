@@ -36,6 +36,8 @@
             }
             .description{
                 border: white solid 1px;
+                height: 100px;
+                width: 500px;
             }
         </style>
     </head>
@@ -75,7 +77,7 @@
                 ) : upDepth ? (
                         <div>{target[0].content.split('—')[0]}</div>
                     ) : null}
-                <div className="description">{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>
+                <div className={descriptionList.lenght === 0 ? null : `description`}>{ descriptionList.lenght === 0 ? null : descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>
             </div>
             )
     }
