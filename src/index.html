@@ -2,6 +2,10 @@
 <html>
     <head>
         <style>
+            body{
+                background-color: black;
+                color: white;
+            }
             .container {
                 display: flex;
                 flex-direction: row;
@@ -14,9 +18,15 @@
             .nav {
                 cursor: pointer;
             }
+            /* .lang{
+                border: solid 1px white;
+                padding: 3px;
+                margin-bottom: 10px;
+
+            } */
             .container > div > div:hover,.nav:hover,.choice {
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: black;
             }
         </style>
     </head>
@@ -27,12 +37,14 @@
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
-    const NavBar = ({nav, goNav, goHome}) => {
+    const NavBar = ({nav, goNav, goHome, rowList, goKorean, goEnglish}) => {
+        const contentList = nav.map(row => rowList.filter(listRow => listRow.index === Number(row))[0]);
         return (
         <nav>
-            <span onClick={goHome} className="nav">/ 0 </span>
-            {nav.map((data, index) => 
-                <span onClick={goNav} key={data} data-index={data} data-depth={index} className="nav">/ {index+1} </span>
+            <div className="lang"><span onClick={goKorean} className="nav">한글</span><span>/</span><span onClick={goEnglish} className="nav">English</span></div>
+            <span onClick={goHome} className="nav"> STAND </span>
+            {contentList.map((data, index) => 
+                <span onClick={goNav} key={data.index} data-index={data.index} data-depth={index} className="nav">/ {data.content.indexOf(' — ') !== -1 ? data.content.substring(0,data.content.indexOf(' — ')) : data.content} </span>
             )}
         </nav>
         );
@@ -114,10 +126,19 @@
             }
             return list;
         }
+        const [url, setUrl] = React.useState("https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt");
+
+        const goKorean = () => {
+            setUrl('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt');
+        }
+
+        const goEnglish = () => {
+            setUrl('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultEN.txt');
+        }
 
         React.useEffect( async () => {
-                const data = await (await fetch('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultPro.josn')).json();
-                const oldRowList = data.text.text.split("\n");
+                const data = await (await fetch(url)).text();
+                const oldRowList = data.split("\n");
                 const rowList = oldRowList.map((rowText, index) => {
                     let depth = 0;
                     if(rowText.includes("\t")){
@@ -184,10 +205,10 @@
                 depth8List = addUpDepth(depth8List, depth7List);
                 depth9List = addUpDepth(depth9List, depth8List);
                 setRowList([...depth0List, ...depth1List, ...depth2List, ...depth3List, ...depth4List, ...depth5List, ...depth6List, ...depth7List, ...depth8List, ...depth9List]);
-            },[]);
+            },[url]);
         return (
         <div>
-        <NavBar nav={nav} goNav={goNav} goHome={goHome} />
+        <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} goKorean={goKorean} goEnglish={goEnglish} />
             <div className="container">
                 <MainList clickMain={clickMain} rowList={rowList} nav={nav}/>
                 <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub}/>
