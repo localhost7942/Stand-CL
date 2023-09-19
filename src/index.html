@@ -31,13 +31,6 @@
             .nav {
                 cursor: pointer;
             }
-            .lang{
-                float: right;
-                /* border: solid 1px white;
-                padding: 3px;
-                margin-bottom: 10px; */
-
-            }
             .container > div > div:hover,.nav:hover,.choice {
                 background-color: white;
                 color: black;
@@ -61,6 +54,13 @@
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
+    const LangSelect = ({switchLang}) => {
+        return (<select onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 30, float: matchMedia("only screen and (min-device-width: 800px)").matches ? "right" : "left"}}>
+                <option className="nav" value="1">한글</option>
+                <option className="nav" value="2">English</option>
+            </select>);
+    }
+
     const NavBar = ({nav, goNav, goHome, rowList, switchLang}) => {
         const contentList = nav.map(row => rowList.filter(listRow => listRow.index === Number(row))[0]);
         return (
@@ -69,10 +69,7 @@
             {contentList.map((data, index) => 
                 <span onClick={goNav} key={data.index} data-index={data.index} data-depth={index} className="nav">/ {data.content.indexOf(' — ') !== -1 ? data.content.substring(0,data.content.indexOf(' — ')) : data.content} </span>
             )}
-            <select className="lang" onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 30}}>
-                <option className="nav" value="1">한글</option>
-                <option className="nav" value="2">English</option>
-            </select>
+            {matchMedia("only screen and (min-device-width: 800px)").matches ? <LangSelect switchLang={switchLang}/> : null}
         </nav>
         );
     }
@@ -276,6 +273,7 @@
                             null : <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
                 }
             </div>
+            {matchMedia("only screen and (min-device-width: 800px)").matches ? null : <LangSelect switchLang={switchLang}/>}
         </main>
         );
     }
