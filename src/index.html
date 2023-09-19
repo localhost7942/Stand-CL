@@ -9,6 +9,7 @@
             nav{
                 width: 710px;
                 border-bottom: solid 1px white;
+                margin: auto;
             }
             main div{
                 margin-top: 3px;
@@ -17,6 +18,8 @@
                 width: 210px;
             }
             .container {
+                width: 710px;
+                margin: auto;
                 display: flex;
                 flex-direction: row;
             }
@@ -79,11 +82,11 @@
         const subList = rowList.filter(row => row.depth === Number(depth) && row.upDepth === Number(upDepth));
         const target = rowList.filter(row => row.index === Number(upDepth));
         return (
-            <div>
+            <div style={{margin: matchMedia("only screen and (min-device-width: 800px)").matches ? null : "auto"}}>
                 {subList.length !== 0 ? subList.map(row => {
                     const contentList = row.content.split('—');
                     const depthCount = rowList.filter(data => data.upDepth === row.index).length
-                    return <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub} onMouseOver={() => onMouseOver(contentList)} className={depthCount > 0 ? `depth` : null}>{contentList[0]}</div>
+                    return <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub} onMouseOver={() => onMouseOver(contentList)} className={depthCount > 0 ? `depth` : null} >{contentList[0]}</div>
                 }
                 ) : upDepth ? (
                         <div>{target[0].content.split('—')[0]}</div>
@@ -97,7 +100,7 @@
         const mainList = rowList.filter(row => row.depth === 0);
         const choice = nav.length > 0 ? nav[0] : -1;
         return(
-            <div className="mainList">
+            <div className="mainList" style={{margin: matchMedia("only screen and (min-device-width: 800px)").matches ? null : "auto"}}>
                 {mainList.map(row => {
                     const contentList = row.content.split("—");
                     return <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{contentList.length === 1 ? row.content : contentList[0] + ` [${contentList[1].substring(contentList[1].indexOf(':')+4,contentList[1].length)}]`}</div>
@@ -260,7 +263,7 @@
                 setRowList([...depth0List, ...depth1List, ...depth2List, ...depth3List, ...depth4List, ...depth5List, ...depth6List, ...depth7List, ...depth8List, ...depth9List]);
             },[url]);
         return (
-        <main>
+        <main style={{textAlign: matchMedia("only screen and (min-device-width: 800px)").matches ? "initial" : "center"}}>
         <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} switchLang={switchLang} />
             <div className="container">
                 {
@@ -268,7 +271,11 @@
                         <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : nav.length === 0 ? 
                             <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : null
                 }
-                <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
+                {
+                    matchMedia("only screen and (min-device-width: 800px)").matches ? 
+                        <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/> : nav.length === 0 ? 
+                            null : <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
+                }
             </div>
         </main>
         );
