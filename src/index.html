@@ -6,6 +6,12 @@
                 background-color: black;
                 color: white;
             }
+            main div{
+                margin-top: 3px;
+            }
+            .mainList {
+                width: 210px;
+            }
             .container {
                 display: flex;
                 flex-direction: row;
@@ -37,11 +43,15 @@
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
-    const NavBar = ({nav, goNav, goHome, rowList, goKorean, goEnglish}) => {
+    const NavBar = ({nav, goNav, goHome, rowList, switchLang}) => {
         const contentList = nav.map(row => rowList.filter(listRow => listRow.index === Number(row))[0]);
         return (
         <nav>
-            <div className="lang"><span onClick={goKorean} className="nav">한글</span><span>/</span><span onClick={goEnglish} className="nav">English</span></div>
+            <select className="lang" onChange={switchLang}>
+                <option className="nav" value="1">한글</option>
+                <option className="nav" value="2">English</option>
+            </select>
+            <br/>
             <span onClick={goHome} className="nav"> STAND </span>
             {contentList.map((data, index) => 
                 <span onClick={goNav} key={data.index} data-index={data.index} data-depth={index} className="nav">/ {data.content.indexOf(' — ') !== -1 ? data.content.substring(0,data.content.indexOf(' — ')) : data.content} </span>
@@ -68,7 +78,7 @@
         const mainList = rowList.filter(row => row.depth === 0);
         const choice = nav.length > 0 ? nav[0] : -1;
         return(
-            <div>
+            <div className="mainList">
                 {mainList.map(row => 
                     <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{row.content}</div>
                 )}
@@ -128,12 +138,15 @@
         }
         const [url, setUrl] = React.useState("https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt");
 
-        const goKorean = () => {
-            setUrl('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt');
-        }
-
-        const goEnglish = () => {
-            setUrl('https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultEN.txt');
+        const switchLang = (event) => {
+            const langNumber = event.target.value;
+            let fileName = 'defaultKR';
+            if(langNumber === "1"){
+                fileName = 'defaultKR';
+            }else if(langNumber === "2"){
+                fileName = 'defaultEN';
+            }
+            setUrl(`https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/${fileName}.txt`);
         }
 
         React.useEffect( async () => {
@@ -207,13 +220,17 @@
                 setRowList([...depth0List, ...depth1List, ...depth2List, ...depth3List, ...depth4List, ...depth5List, ...depth6List, ...depth7List, ...depth8List, ...depth9List]);
             },[url]);
         return (
-        <div>
-        <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} goKorean={goKorean} goEnglish={goEnglish} />
+        <main>
+        <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} switchLang={switchLang} />
             <div className="container">
-                <MainList clickMain={clickMain} rowList={rowList} nav={nav}/>
+                {
+                    matchMedia("only screen and (min-device-width: 800px)").matches ? 
+                        <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : nav.length === 0 ? 
+                            <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : null
+                }
                 <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub}/>
             </div>
-        </div>
+        </main>
         );
     }
     const root = document.getElementById('root');
