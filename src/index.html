@@ -69,7 +69,7 @@
             {contentList.map((data, index) => 
                 <span onClick={goNav} key={data.index} data-index={data.index} data-depth={index} className="nav">/ {data.content.indexOf(' — ') !== -1 ? data.content.substring(0,data.content.indexOf(' — ')) : data.content} </span>
             )}
-            <select className="lang" onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 17 : 40}}>
+            <select className="lang" onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 30}}>
                 <option className="nav" value="1">한글</option>
                 <option className="nav" value="2">English</option>
             </select>
@@ -90,7 +90,7 @@
                 ) : upDepth ? (
                         <div>{target[0].content.split('—')[0]}</div>
                     ) : null}
-                { descriptionList.length === 0 ? null : (<div className="description" style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 30}}>{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>)}
+                { descriptionList.length === 0 ? null : (<div className="description" style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 30, margin: matchMedia("only screen and (min-device-width: 800px)").matches ? null : "auto"}}>{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>)}
             </div>
             )
     }
