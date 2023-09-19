@@ -39,6 +39,9 @@
                 height: 100px;
                 width: 500px;
             }
+            .depth{
+                color: red;
+            }
         </style>
     </head>
 <body>
@@ -72,12 +75,13 @@
             <div>
                 {subList.length !== 0 ? subList.map(row => {
                     const contentList = row.content.split('—');
-                    return <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub} onMouseOver={() => onMouseOver(contentList)}>{contentList[0]}</div>
+                    const depthCount = rowList.filter(data => data.upDepth === row.index).length
+                    return <div key={row.index} id={row.index} data-depth={depth} onClick={clickSub} onMouseOver={() => onMouseOver(contentList)} className={depthCount > 0 ? `depth` : null}>{contentList[0]}</div>
                 }
                 ) : upDepth ? (
                         <div>{target[0].content.split('—')[0]}</div>
                     ) : null}
-                <div className={descriptionList.lenght === 0 ? null : `description`}>{ descriptionList.lenght === 0 ? null : descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>
+                { descriptionList.length === 0 ? null : (<div className="description">{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>)}
             </div>
             )
     }
@@ -146,7 +150,9 @@
             const index = Number(event.target.id);
             const depth = Number(event.target.dataset.depth);
             const newNav = nav.slice(0,depth);
-            setNav([...newNav,index]);
+            if(rowList.filter(row => String(row.upDepth) === String(index)).length>0){
+                setNav([...newNav,index]);
+            }
         }
 
         function addUpDepth(list, upList){
