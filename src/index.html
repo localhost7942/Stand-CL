@@ -79,8 +79,10 @@
         const choice = nav.length > 0 ? nav[0] : -1;
         return(
             <div className="mainList">
-                {mainList.map(row => 
-                    <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{row.content}</div>
+                {mainList.map(row => {
+                    const contentList = row.content.split(" — ");
+                    return <div key={row.index} id={row.index} onClick={clickMain} className={Number(choice) === Number(row.index) ? "choice" : null}>{contentList.length === 1 ? row.content : contentList[0] + ` [${contentList[1].substring(contentList[1].indexOf(':')+4,contentList[1].length)}]`}</div>
+                    }
                 )}
             </div>
         );
