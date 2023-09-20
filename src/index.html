@@ -51,8 +51,11 @@
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
+    const webFontSize = 17;
+    const appFontSize = 45;
+
     const LangSelect = ({switchLang}) => {
-        return (<select onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 35, float: matchMedia("only screen and (min-device-width: 800px)").matches ? "right" : "left"}}>
+        return (<select onChange={switchLang} style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? webFontSize - 3 : appFontSize - 10, float: matchMedia("only screen and (min-device-width: 800px)").matches ? "right" : "left"}}>
                 <option className="nav" value="1">한글</option>
                 <option className="nav" value="2">English</option>
             </select>);
@@ -84,7 +87,7 @@
                 ) : upDepth ? (
                         <div>{target[0].content.split('—')[0]}</div>
                     ) : null}
-                { descriptionList.length === 0 ? null : (<div className="description" style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 14 : 35, margin: matchMedia("only screen and (min-device-width: 800px)").matches ? null : "auto"}}>{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>)}
+                { descriptionList.length === 0 ? null : (<div className="description" style={{fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? webFontSize - 3 : appFontSize - 10, margin: matchMedia("only screen and (min-device-width: 800px)").matches ? null : "auto"}}>{descriptionList.map((data, index) => <div key={index}>{data.content}</div>)}</div>)}
             </div>
             )
     }
@@ -107,6 +110,7 @@
         const [rowList, setRowList] = React.useState([]);
         const [nav, setNav] = React.useState([]);
         const [descriptionList, setDescriptionList] = React.useState([]);
+        const [url, setUrl] = React.useState("https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt");
 
         const onMouseOver = (contentList) => {
             const dataList = contentList.map((content, index) => {
@@ -120,18 +124,6 @@
                 setDescriptionList([]);
             }
         }
-
-        React.useEffect(() => {
-            const back = (event) => {
-                if(event.keyCode === 8){
-                    setNav([...nav.slice(0,nav.length-1)]);
-                }
-            }
-            document.addEventListener("keydown", back);
-            return () => {
-                document.removeEventListener("keydown", back);
-            }
-        },[nav]);
 
         const goHome = () => {
             setNav([]);
@@ -172,7 +164,6 @@
             }
             return list;
         }
-        const [url, setUrl] = React.useState("https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/defaultKR.txt");
 
         const switchLang = (event) => {
             const langNumber = event.target.value;
@@ -184,6 +175,18 @@
             }
             setUrl(`https://raw.githubusercontent.com/localhost7942/Stand-CL/main/src/${fileName}.txt`);
         }
+
+        React.useEffect(() => {
+            const back = (event) => {
+                if(event.keyCode === 8){
+                    setNav([...nav.slice(0,nav.length-1)]);
+                }
+            }
+            document.addEventListener("keydown", back);
+            return () => {
+                document.removeEventListener("keydown", back);
+            }
+        },[nav]);
 
         React.useEffect( async () => {
                 const data = await (await fetch(url)).text();
@@ -255,25 +258,26 @@
                 depth9List = addUpDepth(depth9List, depth8List);
                 setRowList([...depth0List, ...depth1List, ...depth2List, ...depth3List, ...depth4List, ...depth5List, ...depth6List, ...depth7List, ...depth8List, ...depth9List]);
             },[url]);
-        return (
-        <main style={{textAlign: matchMedia("only screen and (min-device-width: 800px)").matches ? "initial" : "center", fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? 17 : 45}}>
-        <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} switchLang={switchLang} />
-            <div className="container">
-                {
-                    matchMedia("only screen and (min-device-width: 800px)").matches ? 
-                        <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : nav.length === 0 ? 
-                            <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : null
-                }
-                {
-                    matchMedia("only screen and (min-device-width: 800px)").matches ? 
-                        <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/> : nav.length === 0 ? 
-                            null : <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
-                }
-            </div>
-            {matchMedia("only screen and (min-device-width: 800px)").matches ? null : <LangSelect switchLang={switchLang}/>}
-        </main>
-        );
-    }
+            
+            return (
+            <main style={{textAlign: matchMedia("only screen and (min-device-width: 800px)").matches ? "initial" : "center", fontSize: matchMedia("only screen and (min-device-width: 800px)").matches ? webFontSize : appFontSize}}>
+            <NavBar nav={nav} goNav={goNav} goHome={goHome} rowList={rowList} switchLang={switchLang} />
+                <div className="container">
+                    {
+                        matchMedia("only screen and (min-device-width: 800px)").matches ? 
+                            <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : nav.length === 0 ? 
+                                <MainList clickMain={clickMain} rowList={rowList} nav={nav}/> : null
+                    }
+                    {
+                        matchMedia("only screen and (min-device-width: 800px)").matches ? 
+                            <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/> : nav.length === 0 ? 
+                                null : <SubList upDepth={nav[nav.length - 1]} rowList={rowList} depth={nav.length} clickSub={clickSub} onMouseOver={onMouseOver} descriptionList={descriptionList}/>
+                    }
+                </div>
+                {matchMedia("only screen and (min-device-width: 800px)").matches ? null : <LangSelect switchLang={switchLang}/>}
+            </main>
+            );
+        }
     const root = document.getElementById('root');
     ReactDOM.render(<App />, root);
 </script>
